@@ -1,0 +1,12 @@
+#+BLOG: infotics
+#+POSTID: 1160
+#+DATE: [2015-02-06 vie 00:05]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil
+#+CATEGORY: org2blog, emacs, evento
+#+TAGS:
+#+DESCRIPTION: Mejor que se queden los artículos en un git que en un disco duro
+#+TITLE: Copia de los artículos del blog en github
+
+
+
+

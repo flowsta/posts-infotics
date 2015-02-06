@@ -1,0 +1,30 @@
+-----------------------
+#+TITLE: Cómo utilizar org2blog con bloques de código
+#+DESCRIPTION:
+#+DATE: 06-02-2015
+#+OPTIONS:
+#+TAGS:
+#+CATEGORY:
+Si utilizas Emacs con org-mode y tu blog es Wordpress, org2blog es la mejor herramienta para publicar directamente desde orgmode a Wordpress. Si no sabes de qué estoy hablando, no dejes de leer por si quieres adaptar esta forma escribir no solo artículos para tu blog sino también todo tipo de textos y documentación.
+
+-----------------------
+
+#+HTML: <!--more-->
+-----------------------
+En este artículo, basado en el de [[http://vxlabs.com/2014/05/25/emacs-24-with-prelude-org2blog-and-wordpress/][vxlabs]] y [[http://blog.binchen.org/posts/how-to-use-org2blog-effectively-as-a-programmer.html][binchen]], pretende animarte a introducir bloques de código en tus artículos de tal forma que resulte útil su identificación como código, facilite su lectura y permita su reutilización.
+
+org2blog tiene una variable =org2blog/wp-sourcecode-langs= que soporta muchos lenguajes de programación... pero no incluye /lisp/.
+
+Por tanto, hay que modificar ese código añadiendo /lisp/, /elisp/ y /lua/:
+
+#+BEGIN_SRC lisp
+
+(setq org2blog/wp-sourcecode-langs
+      '("actionscript3" "bash" "coldfusion" "cpp" "csharp" "css" "delphi"
+        "erlang" "fsharp" "diff" "groovy" "javascript" "java" "javafx" "matlab"
+        "objc" "perl" "php" "text" "powershell" "python" "ruby" "scala" "sql"
+        "vb" "xml"
+        "sh" "elisp" "lisp" "lua"))
+#+END_SRC
+
+

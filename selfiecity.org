@@ -1,0 +1,14 @@
+#+BLOG: infotics
+#+CATEGORY: coop, economía, evento 
+#+TAGS: cooperativas, cooperativismo, coop, fagor, mondragon, arrasate, MCC, cooperativista, coops
+#+DESCRIPTION:
+#+TITLE: 
+#+DATE: [2014-XX-XX mié XX:XX]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+
+#+CAPTION: 
+#+LABEL: 
+http://
+
+

@@ -1,0 +1,25 @@
+#+BLOG: infotics
+#+POSTID: 990
+#+DATE: [2014-01-09 mié 09:30]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: data, cultura, opendata, periodismo, periodismo de datos, web, metadatos, 
+#+TAGS: el país, global editors network, gen, medialab prado, escuela de datos, okfn-es, okfn, hackathon
+#+DESCRIPTION: Hackathon "Live blogging y noticias de última hora", organizado por El País y Global Editors Network, donde participa el grupo de periodismo de datos de Medialab Prado y Escuela de Datos de OKFN-es.
+#+TITLE: El País y Global Editors Network organizan hackathon "Live blogging y noticias de última hora"
+#+LATEX_HEADER: \renewcommand{\rmdefault}{phv} % Freesans
+
+\bibliographystyle{plain}
+\bibliography{Master}
+\end{document}
+
+El diario [[http://www.elpais.com][El País]], junto con [[http://www.globaleditorsnetwork.org/][Global Editors Network]] (GEN), organizará un hackathon el próximo 31 de enero y 1 de febrero que han llamado [[http://www.globaleditorsnetwork.org/programmes/editors-lab/season-2013-2014/editors-lab-madrid/][Rethinking Live blogging & breaking news]] (repensar los blogs en vivo y las noticias de última hora). Han invitado a participar como equipo a "Medialab Prado - Escuela de Datos" y se buscan a los tres mejores representantes (un periodista, un diseñador y un programador) de ambas comunidades ([[http://medialab-prado.es/article/periodismo_de_datos][Medialab]] y [[http://www.okfn.es][OKFN]]-es). Si te quieres presentar no tienes más que [[https://docs.google.com/forms/d/1G4sNsbFck2SId7j4Kfd0DMmhNuvfwSHxaDNM74H7jEA/viewform][rellenar este formulario]]. Habrá más de diez equipos de distintas redacciones -periódicos, revistas o medios digitales.
+
+El programa /Editors Lab/ (laboratorio de editores) desarrolla 20 /hackdays/ en las redacciones más importantes del mundo (The Guardian, NYT, Clarin, VRT, Yahoo! News, India Today, Le Parisien...) donde pretende incidir en la necesidad de mayor colaboración e innovación en las redacciones, especialmente entre periodistas, desarrolladores y diseñadores gráficos.
+
+Cada equipo debe realizar una aplicación/herramienta/pieza de contenido digital en un periodo de tiempo determinado que además puedan utilizarlo en sus respectivas redacciones. Sus producciones se juzgarán en función de la originalidad, la creatividad y la visualización. El equipo ganador participará en la final que se realizará en Barcelona el próximo mes de junio durante la Cumbre GEN con los diecinueve ganadores de sus respectivos /hackdays/ nacionales.
+
+Para [[https://twitter.com/cabralens][Mar Cabra]], se trata de "una muy buena experiencia donde desarrollar una idea durante dos días y escuchar a expertos que vendrán a dar charlas magistrales". El objetivo consiste en "producir la mejor herramienta que promueva el desarrollo de nuevas plataformas, aplicaciones, formatos e ideas para impulsar el desarrollo de un modelo de periodismo adecuado a los tiempos de Internet y de las nuevas plataformas digitales."
+
+La selección de candidatos se hará en función de la experiencia, el interés y la originalidad de la idea propuesta. La fecha última para proponerte como candidatx será el 18 de enero. El día 20 se avisará a lxs seleccionadxs, que una vez confirmadxs, se harán públicos en ambas listas de correo.
+
+Para seguir el encuentro, puedes encontrar información a partir de los mensajes de twitter etiquetados con [[https://twitter.com/search?q%3D%2523EditorsLab&src%3Dhash][#editorslab]] y de lxs usuarixs [[https://twitter.com/guyvidra][@guyvidra]], [[https://twitter.com/aboutaaron][@aboutaaron]], [[https://twitter.com/cmerrill][@cmerrill]], [[https://twitter.com/jessihamel][@jessihamel]], [[https://twitter.com/GENInnovate][@GENInnovate]] y [[https://twitter.com/jessmarmor][@jessmarmor]].

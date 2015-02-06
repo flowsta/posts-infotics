@@ -1,0 +1,21 @@
+#+BLOG: infotics
+#+POSTID: 1004
+#+CATEGORY: coop, copyleft, cultura, data,  R, evento, periodismo de datos, periodismo, social, web, 
+#+TAGS: periodismodatos, ddj, data driven journalism, CAR, R, OKFN, OKFestival, data, analytics, bigdata, LinkedData
+#+DESCRIPTION:  Calendario en Google Calendar para seguir los acontecimientos relacionados con Periodismo Datos
+#+TITLE: Calendario de Periodismo de Datos
+#+DATE: [2014-03-27 jue 09:30]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+Calendario en Google Calendar para seguir los acontecimientos relacionados con #PeriodismoDatos.
+
+Si quieres añadir algún evento, envíame un [[mailto:adolflow@gmail.com][mensaje]].
+
+#+CAPTION: Imagen de calendario para 55 años, de 1970 a 2024
+#+ATTR_HTML: alt="Imagen de calendario para 55 años, de 1970 a 2024"
+http://farm3.staticflickr.com/2272/1992770068_890fe8a64c_b.jpg
+
+#+BEGIN_HTML
+<iframe src="https://www.google.com/calendar/embed?src=pouq3na86cqhjq7dsurteupqm0%40group.calendar.google.com&ctz=Europe/Madrid" style="border: 0" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+#+END_HTML
+

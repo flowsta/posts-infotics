@@ -1,0 +1,82 @@
+#+TITLE: Exportar properties de org-mode
+#+DESCRIPTION: 
+#+CATEGORY: 
+#+TAGS: 
+#+DATE: [2014-03-20 jue 12:00]
+#+AUTHOR:
+#+EMAIL:
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+El uso de Emacs y Org-mode es tremendamente útil en muchos sentidos y escenarios:
+- Gestión de tareas.
+- Agenda
+- Documentos estructurados
+Otras dos funcionalidades muy buenas son las /tags/ y las /properties/: con las primeras etiquetamos y con las segundas otorgamos propiedades. Esto lo podemos hacer en cualquier parte de la estructura del documento, es decir, podemos tener distintas /tags/ y /properties/ para distintos bloques de contenido. Además, la declaración de etiquetas o propiedades es muy fácil. Cada vez que declaramos una etiqueta queda almacenada en el buffer de las posibles etiquetas, y la siguiente vez que queramos declarar una etiqueta podremos tabular y ver esa(s) etiquetas listas para utlizar. Lo mismo ocurre con las propiedades y sus valores.
+
+Las /properties/ además se relacionan con la vista en columnas o /column view/ y permite que veamos en vista de tabla las propiedades que queramos de los distintos [[http://orgmode.org/manual/Column-view.html#Column-view][encabezamientos o secciones]].
+
+Todo parece maravilloso pero sin embargo dado que la vista columna solo es una capa sobre un buffer, no se puede exportar o imprimir directamente. Si quieres utilizar esos datos, puedes utilizar un [[http://orgmode.org/manual/Capturing-column-view.html#Capturing-column-view][bloque dinámico de vista columna]] o /dynamic block column view/:
+#+BEGIN_SRC org-mode
+* The column view
+     #+BEGIN: columnview :hlines 1 :id "label"
+     
+     #+END:
+#+END_SRC
+
+Sin embargo, no resuelve las pretensiones que la potencia de las /properties/ parece apuntar ya que muestra en una tabla las propiedades que queramos y sus valores, pero no resuelve la cuestión de la exportación de esas propiedades tal como están definidas, es decir, con la estructura "id, propiedad, valor", pudiendo un mismo id tener varias propiedades y las propiedades podrían compartirlas distintos ids. Esto se asemeja a la estructura de datos RDF o json y las posibilidades que eso nos daría.
+. Así por ejemplo es* Encabez
+Tal como señalan en el blog de [[http://www.mfasold.net/blog/2009/02/using-emacs-org-mode-to-draft-papers/][Marios Braindump]], se puede utilizar /org-mode/ para gestionar la bibliografía trabajando conjuntamente con el modo /RefTex/. Para ello:
+** Configurar /Emacs/
+Hemos de configurar nuestro /Emacs/ para que desde /orgmode/ invoquemos a /RefTex/. Añadimos a nuestro archivo de configuración, por ejemplo, a =.emacs=
+#+BEGIN_SRC 
+(defun org-mode-reftex-setup ()
+(load-library "reftex")
+(and (buffer-file-name)
+(file-exists-p (buffer-file-name))
+(reftex-parse-all))
+(define-key org-mode-map (kbd "C-c )") 'reftex-citation)
+)
+(add-hook 'org-mode-hook 'org-mode-reftex-setup)
+#+END_SRC
+** Enlazar la bibliografía 
+Luego, enlazamos la bibliografía en el documento /org/, poniendo al final del mismo, pero antes de =\end{document}= las siguientes líneas:
+#+BEGIN_SRC
+\bibliographystyle{plain}
+\bibliography{bibliografia}
+#+END_SRC
+Donde =plain= es el estilo deseado para la bibliografía ([[http://www.reed.edu/cis/help/latex/bibtexstyles.html][hay siete estilos estándar]], multitud de estilos específicos e incluso puedes crear uno a tu medida) y =bibliografia= es la ruta al archivo con la bibliografía en /BibTeX/; en este caso, el archivo =bibliografia.bib=, se encuentra en el mismo directorio que el archivo =org=.
+También podemos incluir bibliografía en el propio documento =org= con el entorno de /LaTeX/ =\thebibliography=.
+** Referencias bibliográficas
+
+Para insertar las citas bibliográficas escribiremos en /Emacs/, tal como hemos configurado en =.emacs=, =C c [= o bien invocando =reftex-citation=. /RefTex/ nos pedirá que introduzcamos una expresión regular -el apellido del autor del libro o una palabra del título, por ejemplo... en definitiva, algo que recordemos de esa referencia- con la que buscará en nuestra bibliografía, bien en el archivo =bib= externo, bien en las referencias embebidas o en la bibliografía externa.
+Se mostrará un /buffer/ con la lista de resultados y podremos seleccionar el que estemos buscando.
+
+
+
+** Imágenes
+#+CAPTION: Dos activistas de Greenpeace intentan parar los vertidos de la empresa Peñarroya en la Bahía de Portmán en 1986
+#+LABEL: 
+#+ATTR_HTML: alt="Dos activistas de Greenpeace intentan parar los vertidos de la empresa Peñarroya en la Bahía de Portmán en 1986"
+http://i50.tinypic.com/ibdmpf.jpg
+
+1** Misc Howpublished
+#+BEGIN_LaTeX
+
+#+END_LaTeX
+En [[http://www.tex.ac.uk/cgi-bin/texfaq2html?label%3DciteURL][esta página]] se propone también la función =@misc= aunque con el atributo =howpublished=, donde quedaría así:
+
+#+BEGIN_LaTeX:
+@misc{ASH:2013:Online,
+author = {Varios Autores},
+title = {Archivo Situacionista Hispano},
+year = {1999},
+howpublished = "\url{http://sindominio.net/ash}",
+urldate = {2013-10-01}
+}
+#+END_LaTeX
+
+
+
+
+
+
+

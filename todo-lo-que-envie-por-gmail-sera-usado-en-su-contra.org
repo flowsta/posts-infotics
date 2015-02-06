@@ -1,0 +1,150 @@
+#+BLOG: infotics
+#+CATEGORY: coop, copyleft, cultura, data,  R, evento, periodismo de datos, periodismo, social, web, 
+#+TAGS: periodismodatos, ddj, data driven journalism, CAR, R, OKFN, OKFestival, data, analytics, bigdata, LinkedData
+#+DESCRIPTION:  Calendario en Google Calendar para seguir los acontecimientos relacionados con Periodismo Datos
+#+TITLE:  Todo lo que envíe por Gmail será usado en tu contra
+#+DATE: [2014-03-27 jue 09:30]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+/por Ignacio Agulló/
+ 
+ La privacidad es un derecho contemplado explícitamente en la
+ Declaración Universal de Derechos Humanos desde 1948, y en la Convención
+ Europea de Derechos Humanos desde 1950.  Y además, en lo que se refiere
+ al correo, las leyes lo protegen desde antes aún.  La violación del
+ correo ajeno está contemplado como delito en todas partes.  A ello hay
+ que añadir que, desde la puesta de servicio de la Interred (Internet) en
+ 1983, en todas partes la protección al correo electrónico se ha ido
+ equiparando a la del correo ordinario.
+ 
+Sin embargo, desde hace tiempo se sabe que todos los correos
+ electrónicos dirigidos a Gmail son inspeccionados automáticamente por
+ los algoritmos de Google.  Según Google, lo hacen para proporcionar
+ anuncios contextuales relacionados con el contexto de los mensajes, y
+ está contemplado en los términos de servicio.  Así que pasamos de
+ "correo inviolable" a "correo inspeccionado por máquinas, pero sólo para
+ añadir anuncios".
+ 
+Ninguna autoridad estadounidense investiga a Google por esta razón,
+ pero finalmente se abre en los tribunales causa contra Google ("civil
+ action") promovida por la gente que sin cuenta de Gmail que se escribe
+ con los usuarios de Gmail.  Esta gente se encuentra con que sus mensajes
+ son inspeccionados como los demás a pesar de que ellos no están ligados
+ por los términos de servicio de Gmail.  Esta causa está en curso.
+ - Lawsuit alleging Gmail ads are "wiretapping" gets judge's OK, de Ars
+ Technica: http://arstechnica.com/tech-policy/2013/09/lawsuit-alleging-gmail-ads-are-wiretapping-gets-judges-ok/
+ - Google's Scanning of Gmail To Deliver Ads May Violate Federal Wiretap
+ Laws, de Slashdot: http://tech.slashdot.org/story/13/09/27/1213218/googles-scanning-of-gmail-to-deliver-ads-may-violate-federal-wiretap-laws
+ 
+La respuesta de Google es toda una plusmarca de caradura y
+ desprecio a sus usuarios: "Igual que un remitente de una carta a un
+ colega de negocios no se puede sorprender de que el asistente del
+ destinatario abra la carta, la gente que use correo electrónico a través
+ de la telaraña de amplitud mundial hoy no puede sorprenderse si sus
+ mensajes son procesados por el [servicio de correo] del receptor de
+ camino a su entrega.  Ciertamente, 'una persona no tiene legítima
+ expectativa de privacidad en información que voluntariamente entrega a
+ terceras partes.'"
+- Google afirma que los usuarios de Gmail "no deben esperar privacidad": http://www.siliconnews.es/2013/08/14/google-usuarios-gmail-privacidad/
+- Google Tells Court You Cannot Expect Privacy When Sending Messages to
+ Gmail -- People Who Care About Privacy Should Not Use Service, Consumer
+ Watchdog Says: http://www.consumerwatchdog.org/newsrelease/google-tells-court-you-cannot-expect-privacy-when-sending-messages-gmail-people-who-care
+ 
+Ésta era una mala situación... hasta ahora, en que se ha convertido
+ en peor.  A fecha 3 de agosto de 2014 el noticiero Business Inside
+ publica una noticia según la cual la policía de Houston informa del
+ arresto de un hombre del cual Google les informa que sus mensajes
+ contienen pornografía infantil.  Así que pasamos de "correo inviolable"
+ a "correo inspeccionado por máquinas, pero sólo para añadir anuncios" en
+ primer lugar y ahora a "correo inspeccionado por máquinas, pero sólo
+ para añadir anuncios y para denunciar al remitente si procede".
+- Police Say A Google Tip About Child Abuse Led To Arrest - Business Insider: http://www.businessinsider.com/police-say-a-google-tip-about-child-abuse-led-to-arrest-2014-8
+ - Google denuncia a uno de sus usuarios al detectar imágenes sospechosas en su e-mail: http://www.genbeta.com/correo/google-denuncia-a-uno-de-sus-usuarios-al-detectar-imagenes-sospechosas-en-su-e-mail
+ 
+Evidentemente, esta situación de inspección automática y masiva del
+ correo electrónico suscita un conflicto jurídico.  En España, violar el
+ correo ajeno es un delito penado en el Código Penal con dos a cuatro
+ años de cárcel, y tres a seis si se es funcionario.
+ 
+Sin embargo, aunque en teoría somos ciudadanos y se nos aplica la
+ ley del país en el que vivimos, en la práctica somos usuarios y la ley
+ que cuenta es la del país desde el que se presta el servicio.  En el
+ caso de Google y el servicio de correo Gmail, ese país es Estados Unidos.
+ 
+Si se diese el caso de que la privacidad de un mensaje enviado por
+ Gmail entre españoles fuese violada, y el empleado de Google responsable
+ de ello viniese de vacaciones a la Unión Europea, se le podría
+ denunciar; y en tal caso se le impediría abandonar la Unión Europea
+ hasta ser juzgado, condenado, y cumplir su pena de cárcel.  Pero lo que
+ sucede nunca se informa de la identidad de los empleados de Google
+ responsables de estas acciones.
+ 
+La persona que mejor define el proceso que estamos viviendo, a mi
+ entender, es el escritor norirlandés Ian McDonald, que lo define como un
+ proceso de "privarnos del control" de nuestras vidas.  La Interred se
+ crea como un espacio de libertad, pero progresivamente se va
+ convirtiendo en una cárcel en la que cada movimiento está vigilado.  Yo,
+ como profesional que trabaja en este sector y contribuye a engrandecer
+ la Interred, me pregunto si lo que creamos no es otra cosa que una
+ ratonera más grande.
+ 
+Por su relación con el caso, cito aquí la última parte de mi
+ conocido artículo "Vivimos espiados a todas horas", artículo que ya no
+ está accesible en la red dado que la bitácora en la que se publica
+ resulta cerrada tras un ataque de denegación de servicio.
+
+ **
+ 
+      ¿Qué puedo hacer para protegerme?
+ 
+      En primer lugar, saber que la privacidad de estos servicios no vale
+ nada:
+ 
+ -Microsoft, incluyendo Hotmail y Skype
+ -Yahoo!
+ -Facebook
+ -Google
+ -Twitter
+ -LinkedIn
+ -DropBox
+ 
+      En segundo lugar, buscar alternativas confiables:
+ 
+ -En vez de Facebook, Tuenti (basado en España)
+ -En vez de LinkedIn, Xing (basado en Alemania)
+ -En vez de Skype, Ekiga (basado en Bélgica)
+ -En vez de DropBox, SpiderOak (sólo el usuario conoce la clave)
+ -(Ampliación) En vez de un servicio de correo como Hotmail, Gmail o
+ Yahoo!, un servicio de correo basado en España, como el que ofrece
+ cualquier proveedor de servicio de acceso a la Interred
+ 
+ ***** Fin cita *****
+ 
+      Actualización a lo anterior: Xing ya no es fiable. Acabo de
+ comprobar todos los servicios, y resulta que actualmente Xing está
+ alojado en Cambridge, Massachusetts, Estados Unidos.
+ 
+      A esto hay que añadir que existen posibilidades de defendernos, y
+ además gratuitas.  Basta con utilizar criptografía de clave asimétrica. 
+ Yo la llevo utilizando 18 años, y una vez instalada me permite enviar
+ mensajes de correo electrónico cifrados sin más molestia que hacer un
+ clic adicional.  El problema es que casi ninguno de mis interlocutores
+ usa criptografía, así que la mayoría de las veces mis mensajes tienen
+ que ir sin cifrar.  Aquí os dejo una guía en español que explica cómo
+ defenderse:
+ 
+ Defensa personal del correo electrónico: una guía para la lucha contra
+ la vigilancia con el cifrado GnuPG
+ https://emailselfdefense.fsf.org/es/
+ 
+ Licencia CC NC-BY-SA
+
+
+#+CAPTION: Imagen de calendario para 55 años, de 1970 a 2024
+#+ATTR_HTML: alt="Imagen de calendario para 55 años, de 1970 a 2024"
+http://farm3.staticflickr.com/2272/1992770068_890fe8a64c_b.jpg
+
+#+BEGIN_HTML
+<iframe src="https://www.google.com/calendar/embed?src=pouq3na86cqhjq7dsurteupqm0%40group.calendar.google.com&ctz=Europe/Madrid" style="border: 0" width="600" height="600" frameborder="0" scrolling="no"></iframe>
+#+END_HTML
+

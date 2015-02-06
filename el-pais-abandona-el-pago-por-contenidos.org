@@ -1,0 +1,26 @@
+#+BLOG: infotics
+#+CATEGORY: coop, economía, evento 
+#+TAGS: cooperativas, cooperativismo, coop, fagor, mondragon, arrasate, MCC, cooperativista, coops
+#+DESCRIPTION:
+#+TITLE: 
+#+DATE: [2014-XX-XX mié XX:XX]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+Esta mañana oía una notica en la <acronym title="Sociedad Española de Radiodifusión">SER</acronym> que me extrañaba, algo así como que visitaras la <a href="http://www.elpais.es">web de El País</a>, que tenías acceso para todos a la información. Estos publicistas, dan donde más nos gusta. <em>Acceso para todos</em> resonaba ya en mi mente, estaba deseando llegar al ordenador y comprobarlo.</p>
+<p>La verdad es que luego se me ha pasado y he comenzado el día como siempre, con <a href="http://www.elmundo.es">El Mundo Digital</a> y <a href="http://www.20minutos.es">20minutos</a> (<a href="http://creativecommons.org/licenses/by/2.1/es/">éste sí que es libre</a>), además de <a href="http://www.barrapunto.com">Barrapunto</a>, <a href="http://madrid.indymedia.org">Indymedia Madrid</a> y <a href="http://liferea.sourceforge.net/" hreflang="en">Liferea</a> para leer los <acronym title="Really Simple Syndication" lang="en">RSS</acronym>.</p>
+<p>De repente he recordado la noticia y me he ido presto (<code>CTRL+T</code> para abrir una <a href="http://www.mozilla-europe.org/es/products/firefox/tabs/">pestaña</a> nueva en <a href="http://www.mozilla.org/products/firefox/">Firefox</a>) a descubrirlo. ¡Efectivamente,  se puede leer la noticia completa! Y sin embargo no me ha sorprendido, se llevaba tiempo oyendo que El País iba a cambiar esta situación por las razones por las que iniciaron el <em>cobro por contenidos</em>:</p>
+<ul>
+<li>Razones económicas: no ha conseguido hacer rentable a El Pais.es, lo que el común de los internautas con el común de los sentidos habría pensado cuando tomaron esa decisión.</li>
+<li>Razones de imagen/lectorado: ha perdido lectores con respecto a El Mundo Digital, hermano digital de El Mundo</li>
+</ul>
+<p>Recordemos que <a href="http://www.elpais.es">El País</a> lanzó su nueva versión digital con cambio de estética y <em>pago por contenidos</em> después de <em>contratar</em> a buena parte del equipo tecnológico de <a href="http://www.elmundo.es">El Mundo</a> para intentar contrarestar el éxito y buen hacer de ese equipo de trabajo.</p>
+<p>Ya hace años el director de <a href="http://www.elmundo.es">El Mundo.es</a>, que había reconstruido su equipo tecnológico casi desde cero, aseguraba que a ellos también les gustaría cobrar por los contenidos, pero que no lo estaban haciendo porque el mercado todavía no parecía rentable y porque viendo cómo evolucionaba <a href="http://www.elpais.es">El País</a>, descendiendo en su número de visitas, veían una oportunidad de adelantarles en lo virtual, consolidándose como los primeros, algo que todavía no han conseguido en lo físico. No sé cómo habrá evolucionado el planteamiento del director, pero sus planteamientos tecnológicos parecen impecables: apuesta por las tecnologías libres -<acronym title="Berkeley Software Distribution" lang="en">BSD</acronym> y <acronym lang="en" title="GNU is Not Unix">GNU</acronym>/Linux- en red y servicios, experimentando con <acronym lang="en" title="Intenet Protocol Version 6">IPv6</acronym>, gestor de contenidos a medida, titulares por <acronym title="Really Simple Syndication" lang="en">RSS</acronym> y <strong>miembro de <acronym title="World Wide Web Consortium" lang="en"><a href="http://www.w3.org" hreflang="en">W3</a></acronym></strong>.</p>
+<p>Aunque con respecto al uso de <acronym title="Really Simple Syndication" lang="en">RSS</acronym> compruebo que es bastante más fácil hacerlo con <a href="http://www.elpais.es/static/rss/index.html">El País</a> que con <a href="http://rss.elmundo.es/rss/">El Mundo</a>.</p>
+<p>Por cierto que <a href="http://www.elpais.es/corporativos/elpais/suscripciones.html?valor=4">El País sigue ofreciendo con la suscripción al diario el acceso gratuito a la edición digital</a>... ¿Doble juego?</p>
+
+#+CAPTION: 
+#+LABEL: 
+#+ATTR_HTML: alt=""
+http://
+
+

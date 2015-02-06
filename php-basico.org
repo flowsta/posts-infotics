@@ -1,0 +1,941 @@
+#+TITLE: PHP básico
+#+DESCRIPTION: 
+#+CATEGORY: 
+#+TAGS: 
+#+DATE: [2015-01-09 vie 12:00]
+#+AUTHOR:
+#+EMAIL:
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+Dentro del lenguaje de la página Web tendremos diferentes etiquetas que pueden delimitar el inicio y el fin del código php.
+
+    1. Forma de delimitación y una de las más utilizadas:
+
+        <?php
+         Instrucciones PHP
+        ?>
+
+    2. Forma de delimitación. Inserción entre etiquetas script
+
+        <script lenguaje=”php”>
+         Instrucciones PHP
+        </script>
+
+    3. Forma de delimitación. Es la más corta pero debe ser configurada en el archivo php.ini para ser aceptada o no por el intérprete con la directiva short_open_tag.
+
+        <?
+
+         Instrucciones PHP
+        ?>
+Los comentarios en PHP siguen el estilo de C, C++, etc.
+
+Se pueden establecer 3 tipos de comentarios:
+
+    • Comentarios de una sola línea de tipo C++
+
+        // Comentario de una sola línea
+
+    • Comentarios de una sola línea de tipo shell
+
+        # Comentario de una sola línea
+
+    • Comentarios de varias líneas
+
+        /*  Varias líneas de comentario entre apertura y cierre */
+
+B) Las variables
+
+Las variables son el sistema de almacenamiento de información de la mayoría de los lenguajes de programación.
+
+Es uno de los elementos principales de la programación porque en función de su valor podemos cambiar el flujo de respuesta del programa.
+
+Con el contenido de las variables podemos realizar comparaciones, operaciones, etc.
+
+En los lenguajes de programación tradicionales las variables se declaraban e inicializaban antes de su utilización.
+
+Es decir, se les daba un nombre y un tipo el cuál tenían durante todo el transcurso del programa.
+
+En el caso de PHP las variables se crean cuando son necesarias y no se les atribuye un tipo determinado de tal manera que estas se pueden utilizar a lo largo del programa con diferentes valores (numéricos, de carácter, etc.)
+
+El tipo de variable no lo marca la variable en sí sino su contenido. Si lo que contiene es un número entero será numérica, si es verdadero o falso, boolenana y así sucesivamente.
+
+Para nombrar variables en PHP debemos utilizar el símbolo de $ más el nombre de la variable.
+
+Ejemplo: $Nombre
+
+El nombre de la variable debe comenzar con una letra de la A a la Z.
+
+Se pueden incluir dentro del nombre:
+
+    • Letras de la A a la Z en mayúsculas o minúsculas
+
+    • Números del 0 al 9
+
+    • Y el guión bajo: “_”.
+
+No se pueden incluir caracteres especiales como: comillas, almohadilla, guión, espacios, etc.
+
+PHP recoge 3 tipos de datos simples:
+
+Números Enteros
+
+El valor de número entero se puede recoger en 3 formatos:
+
+    • Decimal: su base es 10, no debe comenzar por 0 y se pueden combinar los números necesarios, tanto en positivo como en negativo
+
+    • Octal: su base es 8, comienzan por cero y la combinación de números permitida es de 0 a 7
+
+    • Hexadecimal: su base es 16, comienzan por 0x y se combinarán números entre 0-9 y letras de la A a la F
+
+Si utilizamos echo con comillas simples la variable no mostrará su valor sino el texto que indiquemos de manera literal.
+
+Si utilizamos echo y solo la variable muestra su valor.
+Otra forma de unir texto y variable con la instrucción echo es separando el texto entrecomillado de las variable por puntos.
+
+Variable de variable
+
+$variable = saludo
+$$variable = hola
+
+Si digo $variable digo saludo pero si digo $saludo en realidad digo hola :D
+
+Las constantes son variables que no cambian su contenido a lo largo de la programación.
+
+Para definir una constante utilizaremos la siguiente función:
+
+    Define (nombre de la constante, valor);
+
+Por ejemplo, si pongo:
+#+BEGIN_SRC 
+<?php
+
+define ("marron", UNIR); // variable constante
+$nombre="Juantxo";
+echo Tengo un marron. "" de .$nombre;
+?>
+
+#+END_SRC
+
+las variables son las zonas de memoria (cajas) donde podemos almacenar la información.
+
+El nombre variable viene de la posibilidad de cambiar esa información a lo largo de la programación.
+
+La forma de cambiar el contenido de la variable es de manera directa. Adjudicándole un nuevo valor.
+
+O realizando alguna operación que cambie el valor final que tiene la variable.
+
+Para realizar estas operaciones se utilizan los operadores.
+
+Por lo tanto los operadores se pueden definir como los elementos que sirven para conseguir un valor final a partir de uno o más operandos (variables).
+
+Tipos de operadores:
+- Aritméticos, variables numéricas, sirven para realizar operaciones aritméticas.
+- Asignación, numéricas y cadenas, sirven para asignar un valor a la variable.
+- Incremento y decremento, numéricas, aumenta o disminuye en 1 el valor de la variable.
+- Comparación, numéricas y cadenas, se crea una comparación entre variables o variables y un valor dando como resultado verdadero o falso.
+- Lógicos, numéricas y cadenas, se cobinan varias condiciones y se evalúan si son correctas o no.
+- Operadores bit, numéricas y cadenas, permite acceder a la representación binaria de los valores de la variable y trabajar con ellos
+
+Operadores aritméticos
+Para realizar operaciones aritméticas, matemáticas.
+
+- Suma, +, $a + $b
+- Menos, -, $a - $b
+- Multiplicar, *
+- Dividir, /
+- Módulo, %, resto de la división
+
+Operadores de asignación
+Para $a=11 y $b=3
+$a=$b igualan $a a $b por lo que $a=3
+$a+=$b suma, por lo que $a=14
+$a-=$b resta, por lo que $a=8
+$a*=$b multiplica, 33
+$a/=$b divide, 3
+$a%=$b módulo, 2
+
+Operadores de incremento/decremento
+
+$a++ incrementa, primero se lee y luego aumenta en 1
+++$a incrementa, se aumenta 1 y luego se lee
+$a-- decrementa, primero se lee y luego resta 1
+--$a decrementa, se resta 1 y luego se lee
+
+Operadores de comparación
+$a==$b igual que, si el valor es igual que, false
+$a===$b idénticos, si el valor y el tipo es igual, false
+$a>$b mayor que, si el valor d ela izquierda es mayor, true
+$a<$b menor que, si el valor de la derecha es mayor, false
+$a>=$b mayor o igual que, si el valor de la izqda. es mayor o igual, true
+$a<=$b menor o igual que, si el valor de la dcha. es mayor o igual, false
+$a!=$b distintos, si los valores son distintos, true
+$a<>$b distintos, si los valores son distintos, true
+
+Operadores lógicos
+Se utilizan para unir varias comparaciones en una y establecer si esa relación de comparación es verdadera o falsa
+$c=6;
+
+($a>$b)and($b>$c) Y si ambas expresiones son ciertas, false
+($a>$b)or($b>$c) O, si una de las expresiones es cierta, true
+($a>$b)xor($b>$c) O exclusivo, si una expresión es verdadera y la otra falsa
+($a>$b)&&($b>$c) Y, si ambas expresiones son ciertas, false
+($a>$b)||($b>$c) O, si una de las expresiones es cierta, true
+!($a>$b) Negación, si la expresión no es cierta, false
+
+I. Estructuras de control condicionales
+A) Condicional con operadores
+
+Con los condicionales vamos a poder crear una bifurcación de la programación en función de que se cumpla o no una condición.
+
+Es decir, vamos a poder establecer condiciones y si la condición se cumple el programa va a dar una respuesta y seguir una línea de programación y si la condición no se cumple la respuesta va a cambiar y la línea de programación también.
+
+La primera estructura que nos va a permitir crear una condicional es el operador ternario.
+
+El operador ternario va a estar compuesto por 3 partes:
+
+    • La condición
+
+    • La respuesta verdadera si esa condición se cumple
+
+    • La respuesta falsa si esa condición no se cumple
+
+Estas 3 partes van a estar separadas de la siguiente forma:
+
+    • La condición de las respuestas por una “?”
+
+    • Las respuestas entre sí por “:”
+ara establecer la condición se suelen utilizar los operadores de comparación.
+
+
+Veamos un ejemplo:
+
+Si el número asignado a la variable “$n” es mayor que 10, en el navegador veremos la frase.
+
+    El número X es mayor que 10.
+
+Si el número asignado a la variable “$n” es menor que 10, el navegador mostrará:
+
+    El número X es menor que 10
+
+#+BEGIN_SRC PHP
+<?php
+
+$n=3;
+
+$n>10 ? $t="mayor" : $t="menor";
+
+echo "El número ". $n . " es " . $t . " que 10";
+?>
+
+#+END_SRC
+
+Qué pasa si n=10? Que no da el mensaje correcto, por lo que hay que ampliar la condición a =>
+#+BEGIN_SRC PHP
+$n>=10 ? $n==10 ? $t="igual" : $t="mayor" : $t="menor";
+#+END_SRC
+
+#+BEGIN_SRC PHP
+<?php
+
+$n=15
+
+if ($n>10)
+{
+$t="mayor";
+echo "El número ". $n . " es " . $t . " que 10 ";
+}
+
+?>
+
+#+END_SRC
+
+If(confición)
+{
+instrucción 1
+instrucción 2
+...
+}
+else
+{
+instrucción 1
+instrucción 2
+...
+}
+
+#+BEGIN_SRC php
+<?php
+$n=3;
+if ($n>10)
+{
+$t="mayor";
+echo "El número " . $n . " es " . $t . " que 10";
+}
+else
+{
+$t="menor";
+echo "El número " . $n . " es " . $t . " que 10";
+}
+?>
+#+END_SRC
+
+Para afinar si el número también es igual a 10, añadimos otra condición en el segundo else:
+#+BEGIN_SRC php
+<?php
+$n=3;
+if ($n>10)
+{
+$t="mayor";
+echo "El número " . $n . " es " . $t . " que 10";
+}
+else
+{
+if ($n==10)
+{
+$t="igual";
+echo "El número " . $n . " es " . $t . " que 10";
+}
+else
+{
+$t="menor";
+echo "El número " . $n . " es " . $t . " que 10";
+}
+}
+?>
+
+#+END_SRC
+
+Esto es lo que se denomina anidar, y es tan habitual que hay una propia instrucción denominada =elsif=
+
+If(condición)
+{
+instrucción 1
+instrucción 2
+...
+}
+elseif(condición)
+{
+instrucción 1
+instrucción 2
+...
+}
+elseif(condición)
+{
+instrucción 1
+instrucción 2
+...
+}
+else
+{
+instrucción 1
+instrucción 2
+...
+}
+
+Por lo que el ejemplo anterior quedaría como:
+#+BEGIN_SRC php
+<?php
+$n=3;
+if ($n>10)
+{
+$t="mayor";
+echo "El número " . $n . " es " . $t . " que 10";
+}
+elseif ($n==10)
+{
+$t="igual";
+echo "El número " . $n . " es " . $t . " que 10";
+}
+else
+{
+$t="menor";
+echo "El número " . $n . " es " . $t . " que 10";
+}
+
+?>
+
+#+END_SRC
+
+** Switch
+
+Otra estructura de control condicional. No realiza una comparación directa sino que se recoge un valor y se busca entre los casos que se presentan.
+Si existe un caso que recoja ese valor se realizan las instrucción que incluye. Si no, se realiza el caso por defecto.
+
+La formulación sería:
+
+switch(expresión)
+{
+case condición/valor:
+instrucción 1;
+instrucción 2;
+instrucción 3;
+...
+break;
+case condición valor:
+instrucción 1;
+instrucción 2;
+instrucción 3;
+...
+break;
+default:
+instrucción 1;
+instrucción 2;
+instrucción 3;
+...
+break;
+}
+
+Con el ejemplo quedaría:
+#+BEGIN_SRC php
+<?php
+$n=3;
+
+switch ($n)
+{
+case $n==10:
+$t="igual";
+echo "El número " . $n . " es " . $t . " que 10";
+break;
+case $n>10:
+$t="mayor";
+echo "El número " . $n . " es " . $t . " que 10";
+break;
+default:
+$t="menor";
+echo "El número " . $n . " es " . $t . " que 10";
+break;
+}
+
+?>
+
+#+END_SRC
+
+** Bucles
+
+Los bucles son una estructura de código que realizan la repetición de la acción mientras se cumpla la condición establecida.
+PHP nos ofrece cuatro tipos de bucles:
+- For
+- While
+- Do_while
+- Foreach, relacionado con arrays
+*** For
+
+Al tratarse de una repetición en función del cumplimiento o no de una condición vamos a necesitar tres elementos básicos:
+
+1. Variable de inicio, variable que inicia el contador
+2. Condición, es la condición que se debe cumplir para poder entrar en el bucle.
+3. Contador, es la forma de actualizar la variable de inicio para que se produzca repetición.
+
+El esquema sería:
+
+For(variable de inicio; condición; contador)
+
+Si queremos realizar un bucle que empiece en el número 1 y que nos cuente hasta cinco avanzando de 1 en 1, debemos hacer:
+
+#+BEGIN_SRC 
+For($i=1;$i<=5;$i++)
+#+END_SRC
+
+Donde:
+
+- =$i\=1= indica que el contador empieza en 1
+- =$i<\=5= indica que mientras sea menor o igual que cinco entrara en el bucle y que dejará de entrar cuando sea mayor.
+- =$i++=, indica que se le suma 1 a la variable 1 cada vez que comienza el bucle, por lo que =$i= valdrá 2 después de la primera pasada, y luego 3, 4 y 5, cuando dejará de pasar el bucle.
+
+Para establecer las instrucciones dentro del =for= podemos utilizar:
+
+- Llaves
+- Instrucción =endfor=
+
+Si utilizamos llaves, el esquema del código sería:
+
+For(variable de inicio;condición;contador)
+{
+instrucción 1;
+instrucción 2;
+instrucción 3;
+...
+}
+
+Por ejemplo, creamos una tabla que nos muestra los números del 1 al 5:
+
+#+BEGIN_SRC php
+<?php
+echo "
+<table width=30% align='center' border=1 cellspacing=0 bordercolor='blue'>
+<tr>
+<th>Números del 1 al 5</th>
+</tr>
+";
+for ($i=1; $i<=5;  $i++)
+{
+echo "<tr><th>" .$i. "</th></tr>";
+}
+echo "</table>";
+?>
+#+END_SRC
+
+Si utilizamos la sentencia =endfor=, el esquema sería:
+
+For(variable de inicio;condición;contador):
+instrucción 1;
+instrucción 2;
+instrucción 3;
+...
+endfor;
+
+Por lo que el ejemplo anterior, sería:
+
+#+BEGIN_SRC php
+<?php
+echo "
+<table width=30% align='center' border=1 cellspacing=0 bordercolor='blue'>
+<tr>
+<th>Números del 1 al 5</th>
+</tr>
+";
+for ($i=1; $i<=5;  $i++):
+echo "<tr><th>" .$i. "</th></tr>";
+endfor;
+echo "</table>";
+?>
+#+END_SRC
+*** While y do-while
+Al igual que =for=, =while= genera un bucle que ejecuta las instrucciones mientras la condición se cumpla. Los tres elementos básicos son:
+
+1. Variable de inicio, fuera de la instrucción.
+2. Condición, al lado de la instrucción =while=
+3. Contador, como parte de las instrucciones internas del bucle.
+
+#+BEGIN_SRC 
+Variable inicial;
+while (condición)
+{
+contador;
+instrucción 1;
+instrucción 2;
+instrucción 3;
+...;
+}
+
+#+END_SRC
+
+Con el ejemplo de la tabla, haríamos:
+#+BEGIN_SRC php
+<?php
+echo "<table><tr><th>Números del 6 al 10</th></tr>";
+$i=1; // variable inicial
+while ($i<=5) // condición
+{
+echo "<tr><th>" .$i. "</th></tr>"; // instrucción
+$i++; // contador
+}
+echo "</table>";
+?>
+
+
+#+END_SRC
+
+Podemos utilizar la instrucción =endwhile=
+#+BEGIN_SRC 
+Variable inicial;
+while (condición):
+contador;
+instrucción 1;
+instrucción 2;
+instrucción 3;
+...;
+endwhile;
+
+#+END_SRC
+
+Lo que quedaría con el ejemplo:
+
+#+BEGIN_SRC PHP
+<?php
+echo "<table><tr><th>Números del 6 al 10</th></tr>";
+$i=1; // variable inicial
+while ($i<=5): // condición
+
+echo "<tr><th>" .$i. "</th></tr>"; // instrucción
+$i++; // contador
+endwhile;
+echo "</table>";
+?>
+
+
+#+END_SRC
+
+Con =do= =while= la condición a evaluar se encuentra al final del bucle y por tanto las instrucciones del mismo se realizan al menos una vez:
+
+#+BEGIN_SRC 
+Variable inicial
+do
+{
+contador;
+instrucción 1;
+instrucción 2;
+instrucción 3;
+...;
+}
+while(condición);
+
+#+END_SRC
+
+Lo que en el ejemplo quedaría:
+
+#+BEGIN_SRC  PHP
+<?php
+echo "<table><tr><th>Números del 6 al 10</th></tr>";
+$i=1; // variable inicial
+do
+{
+echo "<tr><th>" .$i. "</th></tr>"; // instrucción
+$i++; // contador
+}
+while ($i<=5); // condición
+echo "</table>";
+?>
+#+END_SRC
+
+**** Break
+
+Salir del bucle con =break=
+
+#+BEGIN_SRC PHP
+<?php
+echo "<table><tr><th>Números del 1 al 10</th></tr>";
+while ($i<=10)
+{
+echo"<tr><th>" .$i. "</th></tr>";
+$i++;
+if ($i==5)
+{
+echo "<tr><th style="background-color: pink;">" .$i. "</th></tr>";
+break;
+}
+}
+echo "</table>";
+?>
+
+#+END_SRC
+
+**** Continue
+
+Con la instrucción =continue= continua con el bucle. Veamos el ejemplo:
+
+#+BEGIN_SRC PHP
+<?php
+echo "<table><tr><th>Números del 1 al 10</th></tr>";
+while ($i<=10)
+{
+echo"<tr><th>" .$i. "</th></tr>";
+$i++;
+if ($i==5)
+{
+echo "<tr><th style='background-color: pink;'>" .$i. "</th></tr>";
+$i++;
+continue;
+}
+}
+echo "</table>";
+?>
+
+#+END_SRC
+
+**** Práctica: la tabla de multiplicar
+
+#+BEGIN_SRC PHP
+
+<?php
+echo "<table style='border: 1px solid blue; border-collapse: collapse;">
+<tr><th colspan="11">Tablas de multiplicar del 1 al 10</th></tr>
+<tr><th>Números</th>";
+$i=1; // variable inicial
+$x=1;
+
+for ($i=1; $i<=10; $i++)
+{ echo "<th style='color: red;'>" .$i. "</th>"; }
+
+$z=1;
+
+for ($x=1; $x<=10; $x++)
+{
+echo "</tr>";
+echo "<th>" .$x. "</th>";
+}
+
+while ($z<=10)
+
+{
+$j=$z*$x;
+echo "<th>" .$j. "</th>";
+$z++;
+}
+
+$z=1;
+echo "</tr>";
+}
+echo "</table>";
+?>
+
+#+END_SRC
+** Arrays
+
+Si para almacenar datos hemos utilizado variables, y por cada dato definíamos una variable nueva:
+#+BEGIN_SRC php
+<?php
+$color1 = "rojo";
+$color1 = "azul";
+$color1 = "verde";
+
+echo "Los colores son: ". $color1. ", ".$color2. " y ". $color3;
+?>
+
+#+END_SRC
+
+Para englobar distintas variables podemos utilizar un *array*, que nos va a permitir almacenar múltiples valores asociados bajo el mismo nombre.
+
+El conjunto de valores que encontramos en un array están referenciados por un índice, por lo que para dirigirnos a un dato concreto nos dirigiremos al nombre del array y al índice (número, posición) que lo identifica.
+
+Hay varias formas de crear una array.
+
+** Arrays escalares
+
+#+BEGIN_SRC 
+
+$Nombre [índice] = "valor" ;
+
+#+END_SRC
+
+Transformemos el ejemplo anterior en una array:
+#+BEGIN_SRC php
+
+<?php
+$RGB[0]= "rojo";
+$RGB[1]= "verde";
+$RGB[2]= "azul";
+// Puede no numerarse si esta es la posición que van a tener, como se ve a continuación
+
+echo "Los colores son: " .$RGB[0]. ", " .$RGB[1]. "y " .$RGB[2];
+?>
+
+#+END_SRC
+
+También podemos hacerlo en dos líneas:
+#+BEGIN_SRC php
+
+<?php
+$RGB = array (0=> "rojo", 1=> "verde", 2=> "azul");
+echo "Los colores son: " .$RGB[0]. ", " .$RGB[1]. "y " .$RGB[2];
+
+#+END_SRC
+
+
+En los arrays podemos combinar datos de distinto tipo, es decir, podemos nombrar colores o ponerlos en hexadecimal o en número, eso es transparente pare el array.
+
+También podemos definir y saltarnos índices, por ejemplo:
+#+BEGIN_SRC php
+$RGB = array ("rojo", 3=>"#00ff00", 25);
+
+#+END_SRC
+
+Lo que significa que el índice 0 tendrá valor rojo, el 1 y el 2 no tendrán valor, el 3 "#0ff00" y el cuatro, 25.
+
+Pongamos esto en un caso real:
+
+#+BEGIN_SRC php
+<?php
+
+$RGB = array ("rojo", 3=>"#00ff00", 25);
+
+echo "<table><tr><th>Índice de posición</th><th>0</th><th>1</th><th>2</th><th>3</th><th>4</th></tr>
+<tr><td>Array</td><td>rojo</td><td></td><td></td><td>#00ff00</td><td>25</td></tr>
+</table>"
+?>
+
+#+END_SRC
+
+** Arrays asociativos
+
+Hay arrays escalares, como los anteriores, o asociativos, donde se denominan los arrays por identificadores. Por ejemplo:
+
+#+BEGIN_SRC php
+<?php
+
+$RGB['color'] = "rojo";
+$RGB['valor'] = "red";
+$RGB['hexadecimal'] = "#ff00ff;
+
+echo "El color <b>" .$RGB['color']. "</b> en inglés es <b>" . $RGB['valor'] ."</b> y en hexadecimal sería <b>" .$RGB['hexadecimal']. "</b>";
+
+?>
+
+#+END_SRC
+
+** Recorriendo arrays
+
+En los arrays escalares podemos recorrerlos, lo cual es muy útil con el bucle =for=. Por ejemplo:
+
+#+BEGIN_SRC php
+<?php
+
+$RGB = array ( "rojo", "verde", "azul" );
+
+echo "El modo <b>RGB</b> tiene 3 colores: ";
+
+for ($i=0; $i<3; $i++)
+{
+echo $RGB[$i] . " ";
+}
+
+
+#+END_SRC
+
+Y también podemos recorrer =array= con =while=
+
+#+BEGIN_SRC php
+
+<?php
+$RGB = array ( "rojo", "verde", "azul" );
+
+echo "El modo <b>RGB</b> tiene 3 colores: ";
+$i=0;
+while ($i<3)
+{
+echo $RGB[$i] . " " ;
+$i++;
+}
+
+#+END_SRC
+
+ o =do while=
+
+#+BEGIN_SRC php
+<?php
+$RGB = array ( "rojo", "verde", "azul" );
+
+echo "El modo <b>RGB</b> tiene 3 colores: ";
+$i=0;
+do
+{
+echo $RGB[$i] . " " ;
+$i++;
+}
+while ($i<3);
+?>
+
+#+END_SRC
+
+Vamos a comparar con una condicional los valores del =array=. Si coincide, aparecerá una epresión dada y si no coincide, otra.
+
+#+BEGIN_SRC php
+$color="naranja";
+$RGB = array ("rojo", "verde", "azul");
+
+#+END_SRC
+
+Recorremos el array con un bucle =for= y nos preguntaremos si su valor es igual al del array con el condicional =if=
+Si el valor coincide escribiremos una frase:
+
+#+BEGIN_SRC php
+<?php
+$color="naranja";
+$RGB = array ("rojo", "verde", "azul");
+
+
+for ($i=0; $i<3; $i++)
+{
+if ($color == $RGB[$i])
+{
+echo "El color ". $color . " se encuentra en la posición " . ++$i . " de nuestro array.";
+// hemos sumado 1 al valor del array para que lo leamos como si empezara por 1 y no por 0 como lee el array
+$i=4; // así terminamos el bucle
+}
+}
+if ($i==3)
+{
+echo "El color ". $color . " no se encuentra en nuestra array."; // en caso de que el valor no coincida
+}
+#+END_SRC
+
+** Arrays multidimensionales
+Cuando anidamos un array dentro de otro, es decir, por lo menos uno de los valores del array va a ser otro array.
+
+Creemos un array:
+#+BEGIN_SRC php
+<?php
+
+$entrada [0]=array ("Adolfo" , 39);
+$entrada [1]=array ("Aitana", 1);
+?>
+
+#+END_SRC
+
+Adolfo tendrá índices 00 y 01 mientras que Aitana tendrá 10 y 11.
+
+Para la lectura de estos /arrays multidimensionales/ podemos utilizar dos bucles anidados.
+
+El bucle exterior leería el array externo con el bucle i:
+#+BEGIN_SRC 
+for ($i=0; $i<2; $i++)
+{
+
+#+END_SRC
+
+Y el bucle j leerá el array anidado:
+#+BEGIN_SRC php
+
+<?php
+
+$entrada [0]=array ("Adolfo" , 39);
+$entrada [1]=array ("Aitana", 1);
+?>
+
+<table>
+<tr>
+<td>Usuario</td><td>Años</td>
+</tr>
+
+<?php
+for ($i=0; $i<2; $i++)
+{
+echo "<tr>";
+for ($j=0; $j<2; $j++)
+{
+echo "<td>" . $entrada[$i][$j]."</td>";
+}
+echo "</tr>";
+}
+?>
+</table>
+
+
+#+END_SRC
+
+Otras formas de escribir los arrays multidimensionales son:
+
+Especificando los índices del array externo e interno:
+#+BEGIN_SRC php
+<?php
+$entrada [0][0]= "Adolfo";
+$entrada [0][1]= "39";
+$entrada [1][0]= "Aitana";
+$entrada [1][1]= "1";
+?>
+
+#+END_SRC
+
+O bien sin especificar el índice de los mismos, se utilizan los paréntesis para crear la anidación:
+
+#+BEGIN_SRC php
+<?php
+$entrada = array ( array ("Adolfo", 39) , array ("Aitana", 1));
+?>
+
+#+END_SRC
+
+** Arrays multidimensionales de tipo asociativo
+
+También podemos encontrar arrays multidimensionales de tipo asociativo donde un término sea el que defina la posición del valor.
+
+En este caso no podemos utilizar bucles puesto que no es un número (índice) el que marca la posición sino un término.

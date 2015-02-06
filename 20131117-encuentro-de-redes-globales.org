@@ -1,0 +1,21 @@
+#+BLOG: infotics
+#+POSTID: 950
+#+DATE: [2013-11-17 dom 22:30]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: coop, economía, copyleft, cultura,evento
+#+TAGS: ows, 15m, yosoy132, direngezi, indignadxs, indignados, toni negri, javier toret, tiago pimentel, ruasemrede, revoltas globais
+#+DESCRIPTION:
+#+TITLE: Encuentro de redes globales
+
+[[http://codigoabiertocc.wordpress.com/][Bernardo Gutiérrez]] comenta por la lista P2P-es que durante los días 18 y 19 de noviembre tendrá lugar en Sao Paulo (Brasil) el encuentro de redes globales, una oportunidad para presentarse "el nuevo sujeto político-social" surgido de las asambleas populares, colectivos, redes que llevan funcionando en Brasil desde el mes de junio.
+Pretenden preparar la estrategia para 2014 y contrastar su experiencia con participantes del 15M (España), Occupy Wall Street y Occupy Sandy (EE.UU.), #YoSoy132 (México), #DirenGezi (Turquía) e indignadxs de Perú o Chile.
+El lunes 18 contará con la presencia de Toni Negri, mientras que el Martes 20 Bernardo "Sampa" presenta junto con Javier Toret y Tiago Pimentel (pertenecientes al grupo Interagentes) una lectura tecnopolítica de las revueltas de Brasil conectadas con el mundo.
+#+CAPTION: Cómo construir lo común. Las revueltas sociales en las redes y en las calles, 18 y 19 noviembre 2013.
+#+LABEL: Imagen de Facebook: https://scontent-a-lhr.xx.fbcdn.net/hphotos-prn2/1424387_592074877495457_1782363294_n.jpg
+https://scontent-a-lhr.xx.fbcdn.net/hphotos-prn2/1424387_592074877495457_1782363294_n.jpg
+
+Además, participan Matheus S. Cherem, Paulo Rocha y Francisco Foureaux, de Assembleia Popular Horizontal de Belo Horizonte; Fabricio
+Rocha, para hablar de de Movimento Belém Livre; Bruno Rogens, de Assembleia popular do Maranhão / Passe Livre; Pedro Mendes, de Assembleia Popular do Largo, Jefferson de Souza Vasconcelos y Larissa Bery, de Rio de Janeiro Rebelde; Jaqueline Pontes Dias, de OcupaAles y movimentos de Espírito Santo; Marcelo Branco, de Porto Alegre, y Janaina Spode de CCCD POA; Jul Pagul, de Brasília; Pablo Ortellado, de São Paulo; Claudio Tavares, de Direitos Direitos Urbanos de Recife; Cláudia Cisneros, de Perú; Giovanna Roa Cadin, de Chile; Begum Özden Firat, de Diren Gezi Turquía; Raúl Sánchez Cedillo, de 15M; Sofia Gallisá Muriente, de Occupy y #OccupySandy; y Laura Citali Murillo Cortes, de #YoSOy132, entre otrxs.
+
+Se puede seguir el encuentro por [[http://www.facebook.com/events/1423257257892107/?fref%3Dts][Facebook]] o por twitter en [[https://twitter.com/search?q%3D%2523ruasemrede][#RuasEmRede]].
+

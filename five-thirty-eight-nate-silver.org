@@ -1,0 +1,75 @@
+#+CATEGORY: data journalism
+#+TAGS: data journalism, ddj, journalism, manifesto
+#+DESCRIPTION: Nate Silver acaba de relanzar FiveThirtyEight, un blog de periodismo de datos que ahora, de la mano de /ESPN/ pasa a contar con un equipo de 30 personas. Nate Silver ha contado lo que pretenden en un /Manifiesto/ que ha provocado un amplio y rico debate sobre periodismo.
+#+TITLE: FiveThirtyEight de Nate Silver abre el debate del Periodismo de Datos
+#+DATE: [2014-03-20 jue 12:00]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+El pasado 21 de marzo [[http://www.niemanlab.org/author/mcoddington/][Mark Coddington]] revisaba en [[http://www.niemenlab.org][Niemen Lab]] el lanzamiento del nuevo proyecto de *Nate Silver*, las críticas que había recibido como /periodismo de datos/ y la raíz de diversos problemas que afectan al periodismo.
+
+Todo comenzó con el [[http://fivethirtyeight.com/features/what-the-fox-knows/][manifiesto]] escrito por Silver para anunciar el relanzamiento de [[http://fivethirtyeight.com/][FiveThirtyEight]], su blog de periodismo de datos, bajo el paraguas de /ESPN/, centrado en deportes, política, economía, ciencia y cultura y con una plantilla de 20 personas. En él Silver detallaba su propuesta periodística, un esquema con los cuatro pasos de las noticias de /FiveThirtyEight/: recogida de datos, organización, explicación y difusión. Además, aprovechaba para criticar al periodismo tradicional por su pobre utilización de los datos.
+
+Las críticas no tardaron en aparecer. /Leon Wieseltier/ escribe en [[http://www.newrepublic.com/article/117068/nate-silvers-fivethirtyeight-emptiness-data-journalism][New Republic]] un artículo con un titular demoledor: /El vacío del periodismo de datos. Nate Silver podría aprender mucho de los columnistas de opinión que repugna/ (/The Emptiness of Data Journalism. Nate Silver could learn a lot from those op-ed columnists he maligns/)
+
+** TODO prueba de org
+   DEADLINE: <2014-05-11 dom>
+
+** Enlaces
+- [[http://www.newrepublic.com/article/117068/nate-silvers-fivethirtyeight-emptiness-data-journalism][New Republic: Washington Diarist, The emptiness of Data Journalism. Nate Silver could learn a lot from those op-ed columnists he maligns]], por Leon Wieseltier.
+- [[http://www.newrepublic.com/article/117058/nate-silvers-foxy-espn-fivethirtyeight-site-hedgehoggy-too][Nate Silver's Not As Foxy As He Thinks He is]], por [[https://www.twitter.com/marcatracy][Marc Tracy]]
+- [[http://nymag.com/daily/intelligencer/2014/03/why-do-we-expect-so-much-from-nate-silver.html][New York Mag: Why Do We Expect So Much From Nate Silver?]], por [[http://nymag.com/author/benjamin%2520wallace-wells][Benjamin Wallace-Wells]].
+- [[http://nymag.com/daily/intelligencer/2014/03/nate-silver-interview-fivethirtyeight-espn.html][New York Mag: Nate Silver on the Launch of ESPN's New FiveThirtyEight, Burritos, and Being a Fox]], entrevista de Joe Coscarelli
+** [[http://www.theguardian.com/commentisfree/2014/mar/12/journalism-startups-diversity-ezra-klein-nate-silver][The Guardian: Journalism startups aren't a revolution if they're filled with all these white men]], por [[http://www.theguardian.com/profile/emilybell][Emily Bell]]
+Emily Bell plantea algo que me vino a la cabeza cuando vi la foto de Nate Silver e: /Madmen/, esa gran serie de /AMC/ que narra las historias alrededor de Don Draper, un publicista hecho a sí mismo que trabaja en una agencia de Manhattan rodeado de hombres blancos misóginos, azafatas florero y esposas obedientes. Bell encuentra este patrón en estos tres últimos proyectos periodísticos: /First Look Media/, proyecto del fundador de /eBay/ Pierre Omidyar, con Glenn Greenwald ex /The Guardian/ a la cabeza; /Project X/, con  Ezra Klein, ex /Washington Post/; y el ya citado /FTE/ con Nate silver. 
+#+CAPTION: Nate Silver en nymag.com
+#+ATTR_HTML: alt="Nate Silver en nymag.com"
+http://pixel.nymag.com/imgs/daily/intelligencer/2014/03/13/13-nate-silver.o.jpg/a_560x375.jpg
+Bell reflexiona sobre la oportunidad que para lxs periodistas suponía Internet de cara a reciclarse en su profesión, unido a la retórica de la creatividad, la transformación, etc, mientras que estas experiencias de nuevos medios parecen heredar las señas de identidad que suponían abandonar.
+
+Los tres citados nuevos proyectos no parecen la excepción, también ha ocurrido en [[http://www.poynter.org/latest-news/mediawire/223170/motherlode-blog-creator-megan-liberman-is-yahoo-news-new-editor-in-chief/][Yahoo]], [[http://www.businessinsider.com/the-information-founder-jessica-lessin-will-laugh-last-2013-12][The Information]], [[http://www.vice.com][Vice]], [[http://qz.com][Quartz]], [[http://www.buzzfeed.com][Buzzfeed]], [[http://www.politico.com][Politico]], o [[http://grantland.com/][Grantland]]. Las única mujer (blanca) como editora es *Kara Swisher*, editora de [[http://recode.net/][Re/code]], aunque comparte responsabilidades con *Walt Mossberg*. También destacan *Laura Potras*, acompañando a la aventura de *Greenwald*, y *Melissa Bell*, encargada de la plataforma digital en el /Post/, quien [[http://www.nytimes.com/2014/01/22/business/media/ezra-klein-leaving-washington-post.html][acompañará]] a /Klein/ en su aventura. Bell se pregunta si los tiempos donde *Arianna Huffington* abría una brecha en el periodismo dominado por hombres (blancos) parecen haber pasado, como si las cuestiones de propiedad de los medios y liderazgo de los mismos no importaran, ya que el hecho de ser /periodismo de datos/ lo convierte en algo nuevo y alejado del periodismo tradicional (obsoleto, anticuado, etc.).
+
+Concluye Bell que llamar a este /nuevo/ periodismo una revolución -o una evolución- es más de lo mismo en periodismo, solo que con una nueva envoltura.
+
+** [[https://medium.com/technology-and-society/2f1fe84c5c9b][Medium.com: No, Nate, brogrammers may not be macho, but that's not all there is to it]], How French High Theory and Dr. Seuss can help explain Silicon Valley's Gender Blindspots, por Zeynep Tufekci.
+Nate Silver se defiende de las acusaciones de Bell de grupo selecto reconociéndose como un conjunto de /chicos raros/ - /weird nerds/-, /independientes/ -/outsiders/-, algunos gays, con distintos bagajes.
+Zeynep Tufekci encuentra estas excusas muy familiares, como las que se dan en Sillicon Valley cuando se habla de problemas de género: muchos informáticos -/tech guys/- no entienden estas críticas cuando no han sido quienes tradicionalmente han representado en su vida -colegio, instituto, facultad- el papel de /machito/, sino al contrario, son quienes han sufrido los insultos por ser listos, quienes no eran atractivos para las chicas, quienes se refugiaban en series, cómics o cualquier otro fenómeno cultural /underground/.
+Tufeckci propone dos caminos para explicar(les) lo que no entienden: [[https://es.wikipedia.org/wiki/Pierre_Bourdie][Pierre Bourdieu]] y Dr. Seuss. Me centraré en el primero.
+Bordieu explica que hay distintos tipos de capital. Acuñó la expresión /capital cultural/ para explicar ciertas formas de ser que se valoran en un determinado grupo social más allá del dinero (capital económico) y del círculo de amistades (capital social). Para Bordieu estos capitales se convierten los unos en los otros a largo plazo pero con distintas varas de medir. Es decir, aunque el dinero siempre es dinero, tu conocimiento específico en una materia concreta puede ser muy valorada, o no, dependiendo de otros muchos factores.
+El capital cultural se refiere a las prácticas, conocimientos o formas de ser que se valoran en un círculo social, como por ejemplo leer el periódico en vez de ver los telediarios -o viceversa; o cocinar en casa en vez de comer fuera -o viceversa. Distintas formas de capital cultural operan de distinta manera en distintos hábitos. Un comportanmiento puede ser valorado en un espacio y minusvalorado en otro, porque las personas usamos estas señas para diferenciar entre grupos. El ejercicio del capital cultural nos hace parte de un grupo y estar fuera de otro a la vez. Cualquier grupo crea capital cultural y se comporta simultáneamente creando un sentimiento de pertenencia en su círculo social y de denegación en otros círculos, a menudo a expensas del capital económico.
+Los detalles que normalmente excluyen a una persona de una oferta de trabajo son por todxs conocidxs: vestimenta holgada, pantalones caídos, pendientes, aros, tatuajes, pelo largo o despeinado, no son buenos aliados en una entrevista de trabajo. Estos detalles se convierten en marcas que limitan la pertenencia o no a cierto círculo de relaciones. Los /chicos raros/, a su vez, adoptan las señas que les excluye de ese contexto y convierten a la diferencia en signo de pertenencia a su propio grupo.
+
+Cuando estos grupos ganan poder, como los informáticos, ocurre que sus señas de identidad parecen tan arbitrarias como las del grupo que en algún momento les excluyó, y una camisa y corbata son iguales que una sudadera con capucha o unos vaqueros.
+#+CAPTION:  Espacio social y prácticas sociales según Pierre Bourdieu. https://es.wikipedia.org/wiki/Habitus#cite_note-1
+#+ATTR_HTML: alt="Espacio social y prácticas sociales según Pierre Bourdieu. https://es.wikipedia.org/wiki/Habitus#cite_note-1"
+https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Espace_social_de_Bourdieu-es.svg/1000px-Espace_social_de_Bourdieu-es.svg.png
+
+Volviendo a lo arguído por Silver anteriormente, Tufecki cree que en la mayoría de estos grupos de informáticos hay unas formas de ser excluyentes para las mujeres que van más allá de lo que Silver cree que es machismo. Silver no se siente representado en el machismo más arquetípico, pero a la vez considera su forma de ser como la más natural, donde las personas valen por el mérito que obtienen, lo cual también considera opuesto a la cultura machista. Sin embargo, oponerse a la cultura machista no lo convierte en algo incluyente para las mujeres. Los informáticos -hombres blancos, generalmente- guardan sus propias señas de identidad, señas /distintivas/ que no se trasladan de forma natural a las mujeres. Tufecki enumera algunas cuestiones que ilustran esta falta de inclusión en este ámbito:
+
+- Las mujeres no se representan a ellas mismas sino a las mujeres en general, al igual que las personas afroamericanas no se representan a ellas mismas sino a todos los afroamericanos, algo que no ocurre con los blancos.
+- Han de soportar bromas, chistes o insultos machistas y bien fingir que no se han enterado, aguantarse o convertirse en cómplice y sonreir.
+- Asistir a espacios construidos normalmente para hombres donde no se excluye explícitamente la entrada a las mujeres pero donde pueden sentir la resistencia cultural a que accedan o formen parte de él..
+
+
+** [[http://theweek.com/article/index/258254/nate-silvers-fivethirtyeight-and-the-dangers-of-being-ideologically-neutral][The Week: Nate Silver's /FiveThirtyEight/ and the dangers of being ideologically neutral]], por [[http://theweek.com/author/ryan-cooper][Ryan Cooper]]
+Ryan Cooper advierte que el mayor problema de *FTE* tiene que ver con su ideología: con el mantra de análisis objetivo, Silver ignora que uno de las lecciones más duramente aprendidas por el periodismo durante la pasada década es que no existe el periodismo sin ideologías.
+
+** [[http://krugman.blogs.nytimes.com/2014/03/18/sergeant-friday-was-not-a-fox][NYTimes: Sergeant Friday Was Not a Fox]], por [[http://krugman.blogs.nytimes.com/?module%3DBlogMain&action%3DClick&region%3DHeader&pgtype%3DBlogs&version%3DBlog%2520Post&contentCollection%3DOpinion][Paul Krugman]]
+En su [[http://fivethirtyeight.com/features/what-the-fox-knows/][Manifiesto]], Nate Silver proclama su intención de ser como un zorro que sabe muchas cosas en vez de un puercoespín -una especie de gurú- que solo conoce una - y que proclama en cada columna. A Krugman le parece bien esto, pero con lo que no está nada de acuerdo es en cómo ser un zorro que va a dejar que los datos hablen por sí mismos, porque eso no es así, los datos los utilizas para acompañar a tu análisis, para que te señalen si tus hipótesis iniciales eran erróneas, pero nunca pueden sustituir el análisis crítico, la reflexión, el pensamiento. Porque si crees que los datos hablan por sí mismos, en realidad estás teorizando sobre ello, lo cual no es una buena idea porque no puedes probar tus asunciones si ni siquera sabes lo que estás asumiendo.
+
+Pone como ejemplo una notica sobre la [[http://fivethirtyeight.com/datalab/the-piles-of-cash-that-never-existed/][acumulación de capital de las empresas]]. Se trata del primer artículo de /economía/ de [[http://fivethirtyeight.com/contributors/ben-casselman/][Ben Casselman]], redactor jefe de economía de *FTE*. Casselman rebaja en medio billón de dólares los supuestos dos billones de capital acumulado, pero, señala Krugman, no ofrece la fuente de esos datos, por lo que el argumentario general queda sin sostén.
+
+** [[http://www.theverge.com/2014/1/26/5348212/ezra-klein-vox-is-our-next][The Verge: Vox is our next]], por Ezra Klein
+*Ezra Klein* recuerda una conversación con Melissa Bell y Matt Yglesias sobre periodismo donde se preguntaba por qué Internet no había conseguido aportar más contexto a las noticias junto a nuevas informaciones. Su respuesta se encuentra en /Vox Media/.
+
+En el formato papel, el espacio limitaba la extensión de las noticias y también su número, mientras que en la web no existe esa limitación, se puede decir lo que ha ocurrido y lo que tiene actualidad. Sin embargo, las redacciones de los medios digitales parecen haber incorporado la dinámica de trabajo de los viejos medios. Aunque lo hacemos más rápido, más bonito y más accesible, hemos trasladado las restricciones de las viejas tecnologías a las nuevas.
+
+Hoy más que nunca podemos decir a la gente qué está pasando, pero no solemos dar información contextualizada crucial y necesaria para entender qué es lo que ha pasado. Ponemos el acento en la novedad de la información como una virtud importante en vez de como una dolorosa virtud.
+
+El medio de comunicación debe mantener informada a la audiencia, y eso es lo que prentenden, explicar el mundo tal como es mientras informan de la actualidad. Para reimaginar la forma en la que explican las noticias deben reinventar la tecnología de las redacciones. Para ello, van a utilizar /Chorus/, una plataforma tecnológica que utilizan otros sitios de /Vox/ como /SB Nation/, /The Verge/, /Eater/, /Curbed/, /Racked/ o /Polygon/.
+
+
+
+
+
+
+
+

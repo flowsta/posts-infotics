@@ -1,0 +1,36 @@
+#+DATE: [2013-11-13 mié 16:41]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: coop, economía, copyleft, cultura, publicidad, data, big data, Linked Data, Linked Open Data, Open Data, Open Data Gov, Open Gov, R, Wikileaks, debian, ecología, energía, solar, evento, org2blog, orgmode, emacs
+#+TAGS:
+#+DESCRIPTION:
+#+TITLE: Richard Stallman. El gurú del Software Libre gana con la distancia.
+
+https://web.archive.org/web/20121115033106/http://www.ladinamo.org/ldnm/articulo.php?numero=15&id=393#comments
+
+Richard Stallman. El gurú del software libre gana con la distancia
+Iñigo Martínez
+Fotos: Ilustración: txo!?
+Richard Stallman es, junto a Linus Torvald y Miguel de Icaza, la cabeza visible del movimiento por la difusión del software libre. Hace más de 20 años que puso en marcha el proyecto GNU, pieza crucial del sistema operativo Linux.
+Tras licenciarse en Harvard, trabajó en la investigación de sistemas operativos en el Laboratorio de Inteligencia Artificial del MIT de Boston, época en la que desarrolló el editor de texto Emacs. En los últimos años ha dejado la programación a un lado para dedicarse exclusivamente a recorrer el mundo al frente de la Free Software Foundation.
+A raíz de esta entrevista, añadiría a sus logros el de destruir un mito: el suyo mismo. Su trayectoria académica y profesional, así como sus aportaciones a las comunidades libres, se ven completamente eclipsadas por su dudosa higiene, malas maneras y poco respeto al interlocutor. De todos modos, lo cortés no quita lo valiente y, en su caso, la distancia ayuda a admirar su trabajo.
+
+¿Qué opinión te merece el estado actual de difusión del sistema GNU/Linux?
+No sé quién ganará, si el software libre o el privativo. Está en manos de todos. Hay mucha inercia. Por un lado, la de los propios usuarios, como consecuencia de llevar años utilizando esas aplicaciones. Pero, por otro, Microsoft no se ha quedado de brazos cruzados y ha establecido infinidad de acuerdos con instituciones de distinta índole. En ese marco está donando gratuitamente programas en el ámbito de la educación para que los alumnos se acostumbren a trabajar con su software. Pero esos programas no son gratis fuera de las escuelas. Es como con la droga, que también te regalan la primera dosis.
+
+El grado de desarrollo e implantación de GNU/Linux en algunos ámbitos especializados ha sido mucho mayor que en el resto. Todos los años se habla del salto masivo a los ordenadores de los usuarios no cualificados, pero nunca termina de llegar, a pesar de que el número de usuarios no para de crecer.
+Es cierto que hasta hace unos pocos años el sistema GNU/Linux no ha tenido una interface gráfica en condiciones y esto lo ha relegado mayoritariamente a ámbitos muy técnicos, a pesar de que ésta no haya sido su intención. Sin embargo hoy en día contamos con interfaces tan prácticos y fáciles de usar como los de Windows, por tanto asequibles para cualquier usuario, sin necesidad de que sea experimentado. (Se peina con la mano su barba pensativamente y con los pelos que quedan sueltos hace una bolita que deja encima de la mesa con toda naturalidad). De todas formas, no debemos tratar exclusivamente las ventajas del software libre desde un enfoque técnico, sino más bien desde la libertad del usuario. Todos los programas tienen fallos, normalmente involuntarios, en ocasiones intencionados, pero todos tienen fallos. El software libre da al usuario la libertad de conocer el código, de corregirlo y mejorarlo, así como de distribuirlo con las mismas condiciones. El software privativo siempre limita la libertad del usuario. No importa que no tengamos la capacidad o la intención de leer o modificar el código, es importante tener el derecho de hacerlo. La libertad de prensa no quiere decir que todos tengamos que editar un medio de comunicación.
+
+¿Crees positiva la cada vez mayor popularidad de los programas de código abierto para Windows, como Mozilla Firefox y Open Office?
+Pienso que es mejor utilizar Windows con Open Office que con cualquier otro paquete privativo de ofimática. Probablemente es más sencillo para los usuarios hacer el cambio de Windows a Linux paso a paso, progresivamente. Pero quiero recalcar que no se trata de cambiar esta aplicación por esa otra, sino de dejar a un lado el software privativo y comenzar a trabajar con software libre. (Con un palillo de procedencia desconocida empieza a hurgar entre las teclas de su portátil, de donde saca pelos con los que hace más bolitas). Por tanto, soy favorable al uso de dichas aplicaciones, pues suponen un primer paso en la dirección correcta. He de confesar que no soy la persona más indicada para dar consejos sobre la migración desde Windows a otro sistema, ya que jamás he sido usuario de Windows (se ríe).
+
+¿Cual es tu opinión sobre los intentos en los últimos meses de la Comisión Europea de establecer un sistema de patentes de software similar al de Estados Unidos?
+Éste es un asunto muy grave. Efectivamente, la Comisión Europea está procurando por todos los medios sacar adelante la normativa sobre patentes de software, para lo cual no duda en utilizar cualquier tipo de argucia. Lo más grave es que está desoyendo la opinión del Parlamento Europeo, que se pronunció en contra de dicha normativa. Esto es antidemocrático y por eso defiendo que se debe acabar con la Unión Europea. No es lógico que unos funcionarios puedan imponerse a representante elegidos democráticamente. Por poner un ejemplo, el parlamento holandés se pronunció en contra de las patentes de software. Sin embargo, los representantes de su gobierno están haciendo todo lo contrario. Esto es corrupción. La Unión Europea actual es mala para la democracia y por eso debemos acabar con ella. (Ahora les ha tocado el turno a los mechones de la cabeza...). Me parece atractiva la idea de una Europa políticamente unida, siempre que esa unión sea democrática, cosa que hoy en día se queda en la apariencia. El Parlamento Europeo no tiene capacidad de decisión. En Estados Unidos es distinto, el sistema es democrático, aunque es cierto que tampoco funciona, los legisladores aprueban leyes tiránicas, el poder de los medios de comunicación es incontrolable...
+
+¿Cómo ves la influencia del software libre en el movimiento copyleft, saltando del mundo de la informática a otros sectores creativos?
+El copyleft es una herramienta para publicar una obra y evitar restricciones en su utilización. Pero no lo entiendo como un objetivo en sí mismo, tan solo como un método. Por eso no hablo de movimiento copyleft. De hecho, no creo que en el caso de la música el copyleft deba aplicarse de la misma manera que con el software. En el caso de las obras no prácticas, no considero necesario el derecho a poder modificar. Es positivo brindar esa posibilidad, pero no imprescindible. Lo que sí es imprescindible es el derecho de los usuarios a realizar copias privadas sin ánimo de lucro.
+
+Proyecto GNU:
+Software: www.gnu.org/philosophy/free-sw.html
+Free Software Foundation: www.fsf.org
+Richard Stallman: www.stallman.org
+Licencias: www.fsf.org/licenses/licenses.html

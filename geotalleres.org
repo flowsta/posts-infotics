@@ -1,0 +1,33 @@
+#+DATE: [2013-12-12 jue 09:24]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: coop, economía, copyleft, cultura, publicidad, data, big data, Linked Data, Linked Open Data, Open Data, Open Data Gov, Open Gov, R, Wikileaks, debian, ecología, energía, solar, evento, org2blog, orgmode, emacs
+#+TAGS:
+#+DESCRIPTION:
+#+TITLE: Nacen los geotalleres
+
+Quería compartir un proyecto que se ha creado recientemente[1]. Es un
+proyecto con materiales para la realización de talleres sobre
+tecnologías relacionadas con el ámbito geoespacial. Se puede echar un
+vistazo a la documentación generada aquí[2]. Invito a los interesados
+a leer el wiki[3] donde explica la estructura del proyecto y unas
+guías para reutilizar los materiales y hacer contribuciones.
+
+El proyecto surge de mi etapa en la /Food and Agriculture Organization/
+(/FAO/, /Organización de las Naciones Unidas para la Agricultura y la Alimentación/) en la que he tenido que hacer varios talleres sobre /geoserver/ y /postgis/, entre otros. Dicha documentación, elaborada junto con Óscar
+Fonts, ahora es pública con licencia /Creative Commons/ y se encuentra
+disponible en [1]. Además de los materiales de /FAO/ hay otros
+desarrollados por mí mismo y Micho García hace un par de años, así
+como materiales desarrollados por Micho García y Jorge Arévalo
+recientemente para /PostGIS/. Nuevos contenidos sobre /MapProxy/,
+/pgRouting/, /OSM/ están ya en preparación, gracias a Jorge Sanz y Pedro
+Juan Ferrer.
+
+Espero que os parezca interesante la iniciativa y confío que construir
+una base de materiales de forma colaborativa nos permita centrarnos en
+otros aspectos de los cursos.
+
+Saludos.
+
+[1] https://github.com/geotalleres/geotalleres
+[2] https://geotalleres.readthedocs.org
+[3] https://github.com/geotalleres/geotalleres/wiki

@@ -1,0 +1,69 @@
+#+BLOG: infotics
+#+POSTID: 1044
+#+DATE: [2014-02-22 sáb 12:00]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY:  
+#+TAGS: coltrane, music
+#+DESCRIPTION: Las matemáticas y la improvisación en la música de Coltrane
+#+TITLE: Coltrane, uno de mis favoritos
+#+LATEX_HEADER: \renewcommand{\rmdefault}{phv} % Freesans
+
+Cuenta [[http://www.ethanhein.com][Ethan Hein]] que [[http://www.ethanhein.com/wp/2009/coltrane-was-an-analog-remixer/][Coltrane hacía remezclas analógicas]]. Por supuesto, se refiere a *John Coltrane*, una de las máximas figuras del Jazz y de la música. En los años 1960' los artistas de jazz se dedicaban a interpretar material existente introduciéndole arreglos mas que creando nuevas /canciones/, y por supuesto se retroalimentaban de las interpretaciones que otros colegas, como *Miles Davis* o *Thelonious Monk* habían hecho. Para Hein, "nadie lo hizo más radical y personalmente que Coltrane"
+
+** /My favourite things/
+
+Veamos la versión de /My Favourite Things/ (original de [[http://en.wikipedia.org/wiki/Rodgers_and_Hammerstein][Rodgers y Hammerstein]]), interpretada por *Julie Andrews* para la banda sonora de /The Sound of Music/, traducida en España como /Sonrisas y lágrimas/, y luego la versión de *Coltrane* que da título a su álbum del mismo nombre y que se ha convertido en un clásico del Jazz:
+http://www.youtube.com/watch?v=qWG2dsXV5HI
+http://www.youtube.com/watch?v=qWG2dsXV5HI
+
+Hein explica que Coltrane produce los mismos arreglos, de forma analógica, que después hiciera de forma digital *Jay-Z* con /Hard Knock Life/ de [[http://www.imdb.com/title/tt0083564/][Annie]]:
+http://www.youtube.com/watch?v=-0bOH8ABpco
+http://www.youtube.com/watch?v=zxtn6-XQupM
+
+Es decir, anticipa la música del presente, la digital, el /hip hop/ o la /electrónica/ al darle una importancia crucial a los bucles (/loops/), las secuencias y los muestreados (/sample/) de las líneas de bajo (/basslines/). 
+
+Si en el jazz el bajo suele moverse en una semi improvisación de notas negras, Coltrane pretendía que tocara solo bucles de dos compases. En /My favourite things/, *Jimmy Garrison* toca un patrón con la nota =Mi= casi idéntico en toda la canción. Se cree Coltrane toma esta técnica del trabajo del indio *Ravi Shankar*.
+
+El uso de los bucles de composición abierta de un sólo acorde o la repetición de pocos acordes de una escala son otras de las características de la música de Coltrane que anticipan la música electrónica. Al igual que posteriormente el funky de *James Brown*, utilizó la técnica de /repetir hasta la señal/ (/repeat until cue/). Por ejemplo, en /My favourite things/ las partes en =Mi mayor= y =Mi menor= son bucles de composición abierta que puedes tocar hasta que quieras o hasta que señales su fin cuando vuelvas a tocar la melodía de /raindrops on roses and whiskers on kittens/.
+
+Hein concluye que si el artista más creativo de la historia del jazz se ha dedicado a interpretar lo que otros habían escrito (muestreo o /sampling/), entonces cualquiera podría hacerlo.
+
+Otro buen ejemplo de reinterpretación es el /Whispering/ de *Paul Whiteman* traducido por *Charlie Parker* como /Groovin' High/:
+http://www.youtube.com/watch?v=tOhkc1a-zCo
+http://www.youtube.com/watch?v=ukL3TDV6XRg
+
+En el álbum /My favourite things/ también puedes encontrar otras interpretaciones maravillosas.
+
+** /Every time we say goodbye/
+En /Every time we say goodbye/ Hein señala que introduce un doble tiempo y estira la melodía /como la plastilina/. Veamos a *Ella Fitzgerald* y a Coltrane:
+http://www.youtube.com/watch?v=jqa5kNNaMlc
+http://www.youtube.com/watch?v=F8Jmcynp9d0
+
+** /Summertime/
+/Summertime/, compuesta por *George Gershwin* para la ópera /Porgy and Bess/, suena /rápida, agresiva y crujiente/ fruto de los acordes disonantes.
+
+Escuchamos aquí a la versión clásica de *Ella Fitzgerald* y *Louis Armstrong*, la desgarradora de *Nina Simone*, la /soul/ de *Sam Cooke* y la vibrante de Coltrane.
+http://www.youtube.com/watch?v=MIDOEsQL7lA
+http://www.youtube.com/watch?v=jM_Nb6dpnys
+http://www.youtube.com/watch?v=vWFJLUBwpSY
+http://www.youtube.com/watch?v=Z8yTNZlgxjg
+
+** But not for me
+/But not for me/ fue compuesta por *George Gershwin* con letra de *Ira Gershwin* para el musical /Girl Crazy/ (1930) de *Ginger Rogers*. Las versiones lo dicen todo: *Judy Garland*, *Billy Holliday*, *Red Garland*, *Chet Baker*, *Chucho Valdés* y Coltrane.
+http://www.youtube.com/watch?v=X03uSwM07_A
+http://www.youtube.com/watch?v=uxuHW8cY4iA
+http://www.youtube.com/watch?v=AL3kbBw4dKM
+http://www.youtube.com/watch?v=R_f_mMJAezM
+http://www.youtube.com/watch?v=XKtP5HGGDiU
+http://www.youtube.com/watch?v=1m1AziEQM1w
+
+Las diferencias entre la original y la versión de Coltrane se muestran, por ejemplo, en los primeros cuatro compases. Mientras Gershwin realiza una progresión armónica en =Mi=, Coltrane corre sobre =Mi=, =Si= y =Sol= a través de sus respectivos acordes dominantes. La línea de bajos muestra este descenso por la escala de =Mi= al completo, para lo cual reescribe la melodía.
+
+** Visualización de la música
+
+En el blog [[http://www.brainpickings.org][Brainpickings.org]] enlazan el trabajo de [[http://www.michalevy.com][Michal Levy]], artista y músico de jazz israelí, además de sinestésico, que realizó la película [[http://www.youtube.com/watch?v%3DyV4Iwh6Kl1c][Giant Steps]], basada en su [[http://www.michalevy.com/giant-steps/][experiencia de visualización]] del clásico de *Coltrane*
+
+#+CAPTION: Detalle del guión gráfico de Giant Steps
+#+LABEL: Detalle del guión gráfico de Giant Steps
+http://www.michalevy.com/wp-content/uploads/gs-d_15.jpg
+

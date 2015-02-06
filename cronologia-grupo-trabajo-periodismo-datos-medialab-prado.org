@@ -1,0 +1,37 @@
+#+BLOG: infotics
+#+POSTID: 1101
+#+DATE: [2014-09-19 vie 18:00]
+#+CATEGORY: data, periodismo, periodismo de datos, visualización
+#+TAGS: timeline.js, periodismodatos, medialab-prado, okfn, okf, okfn_spain, schoolofdata, escueladedatos, knightlab
+#+Description: Cronología de las actividades del grupo de trabajo de Periodismo de Datos de Medialab-Prado
+#+TITLE: Cronología del grupo de trabajo de #periodismodatos de Medialab-Prado
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+El 23 de septiembre se realiza en Medialab la [[http://medialab-prado.es/article/periodismodedatosdecimonovenasesion][decimonovena sesión]] del [[http://medialab-prado.es/article/periodismo_de_datos_-_grupo_de_trabajo][grupo de trabajo de periodismo de datos]] dedicada a la *visualización de datos para no programadores*.
+
+En el apartado de taller, tocaremos dos herramientas muy populares de Knight Lab: /Timeline.js/ y /Storymap.js/. Alex de Outliers se ocupará de Timeline.js y yo de Storymap.js. La semana pasada publiqué una de mis pruebas [[http://infotics.es/2014/09/13/jugando-con-storymap-homenajes-a-las-brigadas-internacionales/][más recientes con Storymap.js]], y esta semana toca publicar a /Timeline.js/
+
+#+CAPTION: Imagen de trabajo realizado con Timeline.js, Nelson Mandela ejerciendo como abogado en 1952
+#+LABEL: 
+#+ATTR_HTML: alt="Imagen de trabajo realizado con Timeline.js, Nelson Mandela ejerciendo como abogado en 1952"
+http://www.mysocialagency.com/wp-content/uploads/2014/09/Timeline-JS.jpg
+
+Para el ejemplo he utilizado los datos que había ido recopilando de las actividades realizadas en Medialab-Prado y que se encuentran en la [[http://medialab-prado.es/article/periodismo_de_datos_-_grupo_de_trabajo#agenda][Agenda del grupo]].
+
+He optado por poner sólo imágenes de cada evento, aunque se podría poner vídeo también.
+
+El texto es el de la presentación, por lo que recomiendo pinchar en el enlace si queréis saber más de una actividad concreta.
+
+Puedes verlo en [[http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AmJ5Rgk-HG6wdGViUVZiQmR4UGc0QjZBWFptQXpBNVE&font=Bevan-PotanoSans&maptype=osm&lang=es][pantalla completa]] o incrustada:
+
+#+BEGIN_HTML
+<iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AmJ5Rgk-HG6wdGViUVZiQmR4UGc0QjZBWFptQXpBNVE&font=Bevan-PotanoSans&maptype=osm&lang=es&height=650' width='100%' height='650' frameborder='0'></iframe>
+#+END_HTML
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+#+BLOG: infotics
+#+POSTID: 1115
+#+CATEGORY: evento, periodismodatos, dataviz, data
+#+TAGS: callejero, fascista, madrid, storymap, knightlab, memoria, memoria histórica, garcía morato, millán astray, fanjul, saliquet, garcía escámez, romero basart
+#+DESCRIPTION: 
+#+TITLE: Callejero fascista del barrio Las Águilas de Madrid
+#+DATE: [2014-09-28 dom 23:15]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+El 23 de septiembre se realizó en Medialab la [[http://medialab-prado.es/article/periodismodedatosdecimonovenasesion][decimonovena sesión del grupo de trabajo de periodismo de datos]] dedicada a la visualización de datos para no programadores. [[http://www.antonio-delgado.com][Antonio Delgado]] ([[https://www.twitter.com/adelgado][@adelgado]]) presentó en primicia su magnífico proyecto [[http://www.madridenbici.es][MadridenBici.es]], cuya repercusión ha llegado hasta [[http://www.rtve.es/noticias/20140926/madrid-bici-analiza-los-numeros-tras-mundo-bicicleta-capital/1018422.shtml][RTVE.es]], y esto es solo el principio.
+
+Después, Alejandro Gutiérrez ([[https:/www.twitter.com/nihilistbird][@nihilistbird]]) ofrecía un recorrido sobre teoría y práctica de /Visualización de datos/ y junto conmigo propusimos un par de herramientas para probar con lxs asistentes: [[http://timeline.knightlab.com][Timeline.js]] y [[http://storymap.knightlab.com][Storymap.js]].
+
+Los dos ejemplos que creé para el taller los podéis ver publicados en [[http://www.infotics.es][Infotics.es]], el [[http://s.coop/1v0rq][recorrido por los homenajes a las Brigadas Internacionales]] y la [[http://s.coop/1v0tc][cronología del grupo de trabajo de periodismo de datos de Medialab Prado]].
+
+La experiencia con /Storymap.js/ me gustó, aunque me parece que el efecto del recorrido se pierde cuando los puntos equidistan entre sí, y por eso pensé en probar algo más sencillo, más modesto y que hacía tiempo que rondaba mi cabeza... tanto como que vivo entre esas calles desde que era pequeño, y por eso pensé en el callejero fascista de Las Águilas.
+
+Mi barrio, Las Águilas, pese a ser un barrio de nueva creación en el Madrid en el que se encuentra ahora, tiene una gran y rica historia. Pertenecía a Carabanchel Alto y se han encontrado [[https://es.wikipedia.org/wiki/Carabanchel#Historia][restos carpetanos, romanos, visigodos]], y también los terrenos del distrito al que pertenece, el de [[https://es.wikipedia.org/wiki/Latina_(Madrid)#Historia][Latina, tiene cosas que contar]]... Con esto quiero decir que podría tener entre sus calles parte de ese legado histórico, sin dejar de lado cosas más recientes que no viene al caso contar ahora. Sin embargo, junto con calles de nombres bonitos como los que corresponden a los pueblos de la Vera, en Cáceres, también hay unos cuantos nombres de la herencia fascista que ningún gobierno socialista cambió y que, también hay que decirlo, se nombran sin apenas conexión con su origen.
+
+El año 2007 se aprobó la conocida como [[https://es.wikipedia.org/wiki/Ley_de_Memoria_Hist%25C3%25B3rica_de_Espa%25C3%25B1a][Ley de Memoria Histórica]], y parecía que iba a ser el momento para que estos nombres cambiaran.
+
+#+CAPTION: Calle de Dulce Chacón en Sevilla, antigua calle del general Orgaz 
+#+ATTR_HTML: alt="Calle de Dulce Chacón en Sevilla, antigua calle del general Orgaz"
+https://upload.wikimedia.org/wikipedia/commons/a/ab/Calledulcechacon.jpg
+
+Así ocurrió, por ejemplo, en Sevilla, con la antigua calle del General Orgaz, convertida en calle de Dulce Chacón, pero esto ha sido una excepción
+
+#+BEGIN_QUOTE
+A pesar del tiempo transcurrido desde la aprobación de la Ley 52/2007, de 26 de diciembre, conocida como Ley de la Memoria Histórica, numerosas calles y edificios públicos de Madrid continúan conmemorando, a través de los más siniestros personajes o hechos, "la sublevación militar de la Guerra Civil y de la represión de la Dictadura",[1] habiéndose dado la paradoja que el responsable de tal incumplimiento, el alcalde de Madrid en aquellas fechas, Alberto Ruiz Gallardón, fuera nombrado ministro de Justicia en el primer gobierno de Mariano Rajoy, tal vez como recompensa a tan sólidos principios." Antonio Ortiz Mateos. Historiador. 2013. http://lahistoriaenlamemoria.blogspot.com.es/p/callejero-franquista.html
+#+END_QUOTE
+
+Que Gallardón haya renunciado como ministro ahora debe ser una coincidencia.
+
+En cualquier caso, aquí tenéis el *Callejero fascista del barrio de Las Águilas*. Tal como imaginaba, el recorrido por puntos más cercanos que hace /Storymap.js/ es más acertado, así como el nivel de foco, al no variar. Puedes verlo a pantalla completa en [[http://s.coop/1v0rr][este enlace]].
+#+BEGIN_HTML
+<iframe src="//s3.amazonaws.com/cdn.knightlab.com/libs/storymapjs/latest/embed/index.html?url=https://46090c74b9128e3aa948455d264366288283176b.googledrive.com/host/0B2J5Rgk-HG6wRXhGYkE0Tk95TU0/published.json" frameborder="0" width="100%" height="800"></iframe>
+
+#+END_HTML
+
+
+
+
+
+
+

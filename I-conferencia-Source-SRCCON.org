@@ -1,0 +1,22 @@
+#+BLOG: infotics
+#+POSTID: 1063
+#+DATE: [2014-05-30 vie 13:39]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: copyleft, cultura, data, big data, Linked Data, Linked Open Data, Open Data, Open Data Gov, Open Gov, evento
+#+TAGS: source, mozilla foundation, mozilla
+#+DESCRIPTION: I Conferencia de Source, proyecto de la Fundación Mozilla
+#+TITLE: I Conferencia de Source SRCCON
+
+Acaba de comenzar el periodo de registro para la *SRCCON*, primera conferencia del proyecto [[http://opennews.org/source.html][Source]] de [[http://opennews.org/][OpenNews]] de la Fundación [[http://www.mozilla.org/][Mozilla]] y la [[http://www.knightfoundation.org/][Fundación Knight]]. Tan solo hay 125 entradas a la venta a un coste de 150 $ que incluye participar en todas las sesiones, dos comidas al día, tentempiés y café.
+
+#+CAPTION: Sesión de @opennews con Aron Pilhofer, entre otrxs
+#+ATTR_HTML: alt="Sesión de @opennews con Aron Pilhofer, entre otrxs"
+http://srccon.org/media/img/session.jpg
+
+Ofrecen un pequeño número de becas de 500 $ para gastos de viaje de estudiantes. Conviene apuntarse a la lista de [[https://source.opennews.org/en-US/subscribe/][OpenNews]] o seguirles en [[http://www.twitter.com/srccon][@srccon]]
+
+Tanto si quieres participar como voluntario como si quieres presentarte a la organización, puedes escribir a [[mailto:source@mozillafoundation.org][source]].
+
+
+
+

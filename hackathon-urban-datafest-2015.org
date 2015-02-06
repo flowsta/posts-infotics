@@ -1,0 +1,46 @@
+#+BLOG: infotics
+#+POSTID: 1123
+#+CATEGORY: calendario, evento, periodismodatos 
+#+TAGS: hackathon, datafest, data, opendata
+#+DESCRIPTION: El Global Urban Datafest es un hackathon internacional que se celebrará el 21 y 22 de febrero del 2015.
+#+TITLE: Hackathon Global Urban Datafest
+#+DATE: [2014-10-11 sáb 14:30]
+#+AUTHOR: Adolfo Antón Bravo
+#+EMAIL: adolflow@gmail.com
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+Infotics ([[https://www.twitter.com/infotics][@infotics]]) se va a ver envuelto en la organización en Madrid del [[http://www.global.datafest.net][Global Urban Datafest]], un /hackathon/ internacional que se celebrará los días 21 y 22 de febrero de 2015.
+
+Ciudades de todo el mundo reunirán de manera simultánea a personas expertas en ingeniería, urbanismo, análisis de datos, periodistas, ONGs y entusiastas de la tecnología en general. Crearán equipos multidisciplinares con el objetivo de analizar datos de las ciudades, crear hardware innovador y prototipos de aplicaciones tecnológicas que ayuden a las metrópolis a convertirse en ciudades inteligentes.
+
+#+ATTR_HTML: alt="Global Urban Datafest 21-22 febrero 2015"
+http://www.global.datafest.net/_/rsrc/1406232361364/config/Wrapper.png.1406232361131.png
+
+* El Desafío
+
+El reto responde al desafío que plantea el mayor crecimiento urbano de la historia de la humanidad: unos setenta millones de personas se trasladan cada año a vivir del campo a la ciudad, haciendo que la población que vive en ciudades represente ya el 54% del total y que para 2030 la población de las metrópolis se triplique.
+Los desafíos con los que nos enfrentamos -contaminación, pobreza, salud, cambio climático- nos obliga a contar con gobiernos locales innovadores que desarrollen mejores infraestructuras.
+Las ciuades inteligentes han de contar con servicios municipales eficaces en todos los aspectos de la vida urbana. Con una estructura digital urbana de banda ancha se pueden aprovechar las oportunidades que ofrece el Internet de las Cosas y el Big Data.
+Se esperan 50 millones de cosas conectadas en 2020, muy por debajo de los 6800 millones de teléfonos móviles. La creación de esa infraestructura digital representa la mayor transformación para las metrópolis desde que se diseñó la infraestructura eléctrica, hidráulica y de saneamiento.
+
+* Datafest
+El Global Urban Datafest es un hackathon en múltiples ciudades similar a [[http://www.americas.datafest.net][Americas Datafest]] que se celebró en noviembre de 2013 en 20 ciudades de 11 países. Los mejores proyectos recibieron premios y algunos de ellos participaron en un programa de aceleración para ayudar a los prototipos más prometedores a convertirse en productos. El Global Urban Datafest
+busca:
+- Ayudar a mejorar la vida en ciudades alrededor del mundo!
+- Conectar a gente con intereses similares!
+- Ofrecer un espacio para que los participantes demuestren sus habilidades y ganen premios!
+
+* Participación
+Todo el mundo es bienvenido y hay muchas formas de involucrarse:
+** Antes del 21-22 de febrero del 2015
+Ofreciendo retos a los participantes en el hackathon. Quienes tengan interés
+pueden organizar o patrocinar un hackathon en su ciudad o ayudarnos a difundir el evento y promocionarlo en Facebook, Twitter, Pinterest o cualquier otro canal. Apúntate [[http://www.global.datafest.net/][a través de su página web]].
+** Los días 21-22 de febrero del 2015
+Invitamos a participar en uno de nuestros hackathones en las distintas ciudades o virtualmente. Se puede participar en solitario o como miembro de un equipo. Los mejores equipos son los equipos multidisciplinares. La diversidad es muy valiosa en cualquier equipo. Entre los profesionales y grupos que invitamos a participar están:
+- Desarrolladores de software: Pueden aportar su creatividad y ayudar a crear software que tenga un gran impacto. Esperamos que se diviertan participando en proyectos relacionados con tecnologías emergentes como el internet de las cosas.
+- Expertos en datos: Pueden ayudar a descubrir información valiosa. Esperamos que disfruten de la oportunidad de utilizar sus conocimientos para solucionar problemas reales en un nuevo campo y trabajar con datos interesantes.
+- "Makers": Pueden ayudar a crear hardware inteligente e innovador. Confiamos en que les entusiasme trabajar en proyectos que mejorarán la vida de los habitantes de las ciudades y que requieren Arduino y otras plataformas y herramientas open source.
+
+* Promotores
+El equipo promotor está formado por ocho personas con Teresa Bouza ([[https://www.twitter.com/terebouza][@terebouza]]) a la cabeza. En cada ciudad hay una persona o grupo promotor que se encarga de realizar las actividades.
+

@@ -1,0 +1,36 @@
+#+BLOG: infotics
+#+POSTID: 999
+#+BLOG: infotics
+#+CATEGORY: coop, economía, evento
+#+TAGS: gnu, emacs, orgmode, lacaba, aluche, las águilas, madrid, hacking, 
+#+DESCRIPTION: Encuentro de usuarixs y simpatizantes de GNU/Emacs, de org-mode y de Emacs Lisp en Aluche, Madrid.
+#+TITLE: Encuentro de GNU/Emacs Hispano
+#+DATE: [2014-02-28 vie 20:45]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+(/Original de [[http://www.davidam.com/][davidam]] en [[http://www.atlacaba.net/node/12][La Caba]]/)
+Los próximos 8 y 9 de marzo se celebra en [[http://www.lacaba.net/][La Caba]] un encuentro de usurixs y simpatizantes de [[http://www.emacswiki.org/emacs-es][GNU/Emacs Hispano]]. Quien esté interesado en aprender modos, funcionalidades, programación, o incluso quienes no tengan ningún conocimiento de /Emacs/ deberían asistir a las jornadas.
+
+#+CAPTION: Captura de pantalla de org-mode en Emacs
+#+LABEL: capturaorgmode
+#+ATTR_HTML: Captura de pantalla de org-mode en Emacs
+http://www.atlacaba.net/sites/default/files/styles/large/public/field/image/emacs.png
+
+Según la Wikipedia, Emacs es un editor de texto con una gran cantidad de funciones, muy popular entre programadores y usuarios técnicos. Gnu Emacs es obviamente parte del proyecto [[http://www.gnu.org][GNU]] y la versión más popular de Emacs con una gran actividad en su desarrollo. El manual de GNU Emacs lo describe como "un editor extensible, personalizable, auto-documentado y de tiempo real".
+
+Para quienes nunca lo hayan usado, se puede considerar como un editor de texto que según lo comienzas a usar pasa a ser un conjunto de programas para hacer tantas cosas como necesites con texto, ya sea edición de un texto científico, una página web o llevar la gestión de proyectos.
+
+En *La Caba* han creado una [[http://atlacaba.net/node/11][encuesta]] para realizar talleres que respondan a las necesidades e intereses de las personas que estén interesadas en asistir. Hasta ahora parece que han votado perfiles más técnicos, ya que se pide compartir configuraciones hipanas de emacs y enseñar *emacs lisp*, el lenguaje utiliza.
+
+Espero que haya más votos a favor de [[http://orgmode.org/][org-mode]], uno de los modos más útiles para acercarse a /Emacs/ con toda la potencia un programa de planificación de proyectos, listas de tareas, notas, documentación y cualquier documento que imagines, y todo ello en *texto plano*. Parece que sí tendrá un lugar destacado pues ya lo han anunciado en [[http://orgmode.org/worg/orgcamps.html][OrgCamps]].
+
+- 8 de Marzo, desde las 15 horas.
+- 9 de marzo, desde las 11 hasta reventar...
+- Dónde: La Caba, C./ Tembleque 136, Madrid. Metro Empalme (L5)
+
+Vejeta apuntaba en su blog que no se producía un encuentro de estos ¡desde 2008!, en hacklab Sevilla:
+http://vejeta.com/wp-content/uploads/2014/02/2008-12-16-emacs-es-1024x768.jpg
+
+http://vejeta.com/emacs-meeting-reloaded
+
+Y un día antes se comunicó por Meetup
+http://www.meetup.com/Emacs-Madrid/events/170030012/

@@ -1,0 +1,85 @@
+#+TITLE: Agenda con orgmode en Emacs exportada a ics
+#+DESCRIPTION: Si trabajas con Emacs y orgmode es muy cómodo gestionar la agenda y el calendario, pero ¿cómo llevárnoslo eso a otros programas como Google Calendar?
+#+CATEGORY: emacs, orgmode, calendario, agenda
+#+TAGS: 
+#+DATE: [2015-01-26 lun 12:53]
+#+AUTHOR: Adolfo Antón Bravo
+#+EMAIL: adolflow@gmail.com
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+
+
+* Editar variables de la Agenda
+http://stackoverflow.com/questions/2394689/how-do-i-set-org-mode-agenda-default-formatting-in-emacs
+ou should be able to either achieve what you seek using either M-x customize-apropos org-agenda, and/or by setting the proper org-agenda variables in your emacs config. You might even consider tying a number of functions/actions together in a custom function that you can use to create/modify the agenda buffer, or you might modify the org-agenda-hook to automatically perform the actions that you require. 
+It does sound like you are able to modify the buffer to appear the way you want it, the trick at this point, if I understand you correctly is to figure out how to automate this process.
+
+Additionally, consider the following variables and org-agenda specific configurations I use.
+#+BEGIN_SRC lisp
+
+(global-set-key (kbd "C-c o a a") 'org-agenda)
+(global-set-key (kbd "C-c o a l") 'org-agenda-list)
+(global-set-key (kbd "C-c o a t") 'org-todo-list)
+(setq org-agenda-include-all-todo nil)
+(setq org-agenda-skip-scheduled-if-done t)
+(setq org-agenda-skip-deadline-if-done t)
+(setq org-agenda-include-diary t)
+(setq org-agenda-columns-add-appointments-to-effort-sum t)
+(setq org-agenda-custom-commands nil)
+(setq org-agenda-default-appointment-duration 60)
+(setq org-agenda-mouse-1-follows-link t)
+(setq org-agenda-skip-unavailable-files t)
+(setq org-agenda-use-time-grid nil)
+
+#+END_SRC
+* Características de los eventos
+http://dept.stat.lsa.umich.edu/~jerrick/org_agenda_calendar.html
+
+** Evento que dura más de un día:
+Se separan los días con dos guiones =--= :
+
+#+BEGIN_SRC org
+** Hackatón Global de Ciudades Inteligentes
+   SCHEDULED: <2015-02-21 sáb>--<2015-02-22 dom>
+   #+END_SRC
+
+** Evento que dura unas horas determinadas
+Se añade después del día de la semana, la hora de inicio y la hora de finalización, separado por un guión.
+#+BEGIN_SRC org
+** Hackatón de Datos Abiertos
+   SCHEDULED: <2015-02-21 sáb 10:30-20:30>
+
+
+   #+END_SRC 
+
+** AM PM
+Si queremos especificar si la hora es anterior a mediodía o posterior a mediodía, podemos hacerlo colocando a continuación de la hora =am= o =pm=
+#+BEGIN_SRC org
+** Hackatón Datos Abiertos
+   SCHEDULED: <2015-02-21 sáb 10:00am-08:30pm>
+   #+END_SRC
+** Evento que se repite
+Si un evento se repite todas las semanas el mismo día y a las mismas horas:
+#+BEGIN_SRC org
+** Hangout Periodismo Datos
+   SCHEDULED: <2015-02-21 sáb 10:00-11:00 +1w>
+#+END_SRC
+=+1w= significa que el evento se repite cada semana (=w= = /week/, semana)
+* Atajos de teclado
+Para movernos por el calendario, aunque en el manual siempre tenemos la [[http://orgmode.org/manual/Agenda-commands.html][lista completa]], lo mejor es conocer alungos atajos de teclado, los que nos selecciona jerrick:
+
+- =f= and =b=: Go forward or backwards in time.
+- =v= followed by = m=, y or w: View a month, a year, or a week at a time respectively.
+- =.=: Return to today.
+- =Enter=: While your cursor is on an event, open that event in its original file.
+- =r=: Rebuild the agenda (if you've been editing files).
+
+
+
+
+
+
+
+
+
+

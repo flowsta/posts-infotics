@@ -1,0 +1,36 @@
+#+DATE: [2014-02-13 jue 11:30]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY:  
+#+TAGS: software libre, ilovefs, fsfe, fsf, gnu
+#+DESCRIPTION: FSFE aprovecha la celebración de San Valentín 2014 para sensibilizar sobre la importancia del Software Libre, por lo que propone demostrar nuestro amor por el Software Libre en un día tan señalado
+#+TITLE: San Valentín 2014 Día del Amor por el Software Libre
+#+LATEX_HEADER: \renewcommand{\rmdefault}{phv} % Freesans
+
+\bibliographystyle{plain}
+\bibliography{Master}
+\end{document}
+
+** Banners
+Los puedes encontrar en todos los idiomas disponibles en [[http://download.fsfe.org/advocacy/ilovefs/bannertranslations/][esta página]]. Aquí te ponemos los que están en español/castellano.
+
+- [[http://download.fsfe.org/advocacy/ilovefs/bannertranslations/valentine-80x15-es.png][Icono 80x15]], #YOAMOSL
+#+CAPTION: #YOAMOSL
+#+LABEL: #YOAMOSL
+http://download.fsfe.org/advocacy/ilovefs/bannertranslations/valentine-80x15-es.png
+- [[http://download.fsfe.org/advocacy/ilovefs/bannertranslations/valentine-150x90-es.png][Imagen 150x90]], Día de San Valentín. Demuestra su amor por el Software Libre. FSFE
+#+CAPTION: Día de San Valentín. Demuestra su amor por el Software Libre. FSFE
+#+LABEL: Día de San Valentín. Demuestra su amor por el Software Libre. FSFE
+http://download.fsfe.org/advocacy/ilovefs/bannertranslations/valentine-150x90-es.png
+- [[http://download.fsfe.org/advocacy/ilovefs/bannertranslations/valentine-150x90-es.png][Imagen 150x90]], Yo amo Software Libre. Demuestra su amor
+#+CAPTION: Yo amo Software Libre. Demuestra su amor
+#+LABEL: Yo amo Software Libre. Demuestra su amor
+http://download.fsfe.org/advocacy/ilovefs/bannertranslations/valentine-150x90-es.png
+- [[http://download.fsfe.org/advocacy/ilovefs/bannertranslations/valentine-358x60-es.png][Imagen 350x60]], Día de San Valentín. Demuestra su amor por el Software Libre. Yo Amo Software Libre
+#+CAPTION: Día de San Valentín. Demuestra su amor por el Software Libre. Yo Amo Software Libre
+#+LABEL: Día de San Valentín. Demuestra su amor por el Software Libre. Yo Amo Software Libre
+http://download.fsfe.org/advocacy/ilovefs/bannertranslations/valentine-358x60-es.png
+- [[http://download.fsfe.org/advocacy/ilovefs/bannertranslations/valentine-468x60-es.png][Imagen 468x60]], Día de San Valentín. Demuestra su amor por el Software Libre. FSFE
+#+CAPTION: Día de San Valentín. Demuestra su amor por el Software Libre. FSFE
+#+LABEL: Día de San Valentín. Demuestra su amor por el Software Libre. FSFE
+http://download.fsfe.org/advocacy/ilovefs/bannertranslations/valentine-468x60-es.png
+- Imagen

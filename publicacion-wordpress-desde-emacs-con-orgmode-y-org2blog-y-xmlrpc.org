@@ -1,0 +1,61 @@
+#+DATE: [2013-10-22 mar 10:50]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: org2blog, emacs, orgmode
+#+TAGS: orgmode, emacs, wordpress, org2blog, bzr, git, debian, gnu, gpl, software libre, marcado, html
+#+DESCRIPTION: Cómo escribir con emacs en orgmode y publicar en wordpress con org2blog
+#+TITLE: Publicar con emacs, orgmode y org2blog en wordpress
+
+Hay un montón de información en la web de cómo publicar en wordpress si editas con emacs en modo orgmode gracias a org2blog y xml-rpc. A mí no me funcionó ninguno a la primera, porque todo depende de qué versión de emacs o de programa auxiliar o sistema operativo utilizas, pero al final ha de funcionar. Contaré mi sistema.
+
+** Mark Stoehr y 42kettles.net
+
+[[http://markstoehr.com/2012/07/01/blogging-with-emacs-org-mode/][Mark Stoehr]] utiliza un método en 3 pasos, basado en [[http://42kettles.net/?p%3D29][42kettles.net]]:
+*** Instalar *xml-rpc*
+*xml-rpc* es el método por el que van a publicarse las entradas en Wordpress. Esto me lleva a un paso previo, o posterior, que es tener activada la publicación remota en Wordpress, algo que viene por defecto activado desde la versión 3.5.
+Es decir, que [[https://github.com/punchagan/org2blog][org2blog]] depende de [[https://launchpad.net/xml-rpc-el][xml-rpc-el]], por lo que por eso antes de *org2blog* instalamos *xml-rpc*:
+Primero vas al directorio de configuración de emacs, que por defecto estará en /.emacs.d//
+   $ cd ~/.emacs.d/
+Luego, con el comando /bzr/, copias de launchpad una copia de /xml-rpc-el/:
+   $ bzr branch lp:xml-rpc-el
+*** Instalar *org2blog*
+En el mismo directorio de configuración de emacs, suponiendo que sea /.emacs.d/, copias org2blog:
+   $ git clone https://github.com/punchagan/org2blog.git
+Luego, añades a tu archivo de configuración /.emacs/ el siguiente código:
+
+#+BEGIN_SRC emacs-lisp
+(setq load-path (cons "~/.emacs.d/org2blog/" load-path))
+  (require 'org2blog-autoloads)
+(setq org2blog/wp-blog-alist
+           '(
+        ("unacuenta"
+                :url "http://localhost/wordpress/xmlrpc.php"
+; wordpress en tu localhost
+                :username "usuarix"
+                :default-title "Titular por defecto"
+                :default-categories ("org2blog" "emacs" "orgmode")
+; puedes añadir más, entrecomillándolas
+                :tags-as-categories nil
+; nil, si no quieres convertir las etiquetas en categorías
+                :default-categories "Cambiar"
+; las que quieras. Si solo es una, cambia el texto /Cambiar/; si son más, entrecomíllalas y ponlas entre paréntesis
+                :default-description "Una descripción del artículo, para meta-name description")
+        ("otracuenta"
+                :url "http://www.midominio.net/xmlrpc.php"
+; y a partir de aquí, lo mismo que en la anterior o menos opciones, como queráis.
+         )
+        )
+)
+
+#+END_SRC
+5. Prueba a loguearte en tu wordpress:
+   M-x org2blog/wp-login
+6. Si lo anterior funciona, deberías poder publicar contenidos en wordpress. Tienes varias formas de hacerlo:
+ 1. Escribe una entrada nueva
+    M-x org2blog/wp-new-entry
+ 2. Publica como borrador un subárbol de un archivo /org/. Al ser un borrador, tendrás que entrar a wordpress a confirmar la entrada nueva:
+    M-x org2blog/wp-post-subtree
+ 3. Publica lo que tienes en el /buffer/:
+    M-x org2blog/wp-post-buffer-and-publish
+Una vez que estés logueado, después de escribir =M-x org2blog/=, puedes tabular y ver todas las opciones disponibles.
+
+

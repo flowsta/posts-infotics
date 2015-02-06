@@ -1,0 +1,40 @@
+#+BLOG: infotics
+#+POSTID: 981
+#+DATE: [2013-12-19 jue 20:00]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: coop, economía, copyleft, cultura, ecología, energía, evento
+#+TAGS: consumismo, consumismo tecnológico, igor sádaba, josé bellver, juan josé castillo, daniel lópez, fernando cembranos, fuhem, boletín ecos, huella digital, 
+#+DESCRIPTION:
+#+TITLE: La huella del consumismo tecnológico
+
+El [[http://www.fuhem.es/ecosocial/boletin-ecos/numero.aspx?n%3D25][número 25]] del [[http://www.fuhem.es/ecosocial/Default.aspx?v%3D129][Boletín Ecos]], editado por [[http://www.fuhem.es/][FUHEM]], aborda una temática muy interesante para las fechas en las que nos encontramos, [[http://www.fuhem.es/ecosocial/articulos.aspx?v%3D9378&n%3D0][La huella del consumismo tecnológico]], un dossier monográfico donde podemos reflexionar sobre el consumo navideño que convierte a miles y millones de objetos tecnológicos en objetos inútiles que sirven en muchos casos para cumplir con una tradición cultural, la del regalo como objeto de consumo, perdiendo su utilidad y carentes del proceso productivo que permitió su fabricación:
+
+ (...)Aunque gozan de un inmerecido halo de inmaterialidad, impecabilidad y asepsia, sin posicionarnos en posturas tecnófobas, lo cierto es que conllevan notables costes sociales y ecológicos a lo largo de sus cortas y menguantes vidas. Estas cuestiones, junto a los, a veces, perversos efectos del uso de las TIC, constituyen el hilo conductor de la entrevista a Igor Sádaba y de los cuatro análisis de este boletín, firmados por José Bellver, Juan José Castillo, Daniel López y Fernando Cembranos. El boletín se completa con una selección de recursos y de iniciativas alternativas al derroche.
+
+El boletín incluye además una entrevista de Olga Abasolo a Igor Sádaba (se puede leer en [[http://www.fuhem.es/ecosocial/noticias.aspx?v%3D9470&n%3D0][HTML]] o en [[https://www.fuhem.es/media/cdv/file/biblioteca/Boletin_ECOS/25/Entrevista-Igor-Sadaba_O_ABASOLO.pdf][PDF]]), quien destaca que:
+
+ (...) tanto detractores como propulsores, apocalípticos e integrados, ven la tecnología como una fuerza de la naturaleza que se nos impone o que nos libera sin reparar en las condiciones sociales de producción, apropiación o uso de la misma… Se ha impuesto un modelo de socialización tecnológica tan acelerado que difumina en exceso las dimensiones sociales e históricas en las que se encuadra. Ya lo decía David Noble (La religión de la tecnología, Paidós) que la redención y la salvación en el capitalismo global pasan por algún tipo de fórmula tecnológica.
+
+* Lo pequeño es tan hermoso
+
+José Bellver expone en [[https://www.fuhem.es/media/cdv/file/biblioteca/Boletin_ECOS/25/Lo%2520peque%25C3%25B1o%2520no%2520es%2520tan%2520hermoso_J_BELLVER--.pdf][Lo pequeño no es tan hermoso: Los costes ambientales de los aparatos electrónicos]] la estrecha relación existente entre los productos tecnológicos, a menudo presentados como ecológicos en cuanto que carentes de contaminación, con el modelo industrial tradicional y sus altos costes ecológicos y productivos en todas las fases del producto, desde su extracción por las industrias extractivas hasta su eliminación, pasando por fabricación, transporte, distribución, etc., ocultos bajo la ilusión supuestamente inherente a ellos de ser un medio para participar en la sociedad del conocimiento.
+
+ La informática y la electrónica siguen exigiendo una extracción masiva de sustancias minerales, además de los costes energéticos que su fabricación y uso llevan aparejados, con las consecuentes emisiones de residuos −muchos de ellos tóxicos− en las distintas fases de la cadena productiva, basura electrónica incluida. La fabricación y el uso del equipamiento tecnológico que acompaña esta extensión del sector servicios es, por tanto, una muestra más
+de la ausencia de cualquier atisbo de desmaterialización económica y, por tanto, de que el capitalismo actual sigue expandiendo la producción de bienes y servicios a costa de los recursos naturales procedentes de la corteza terrestre y del deterioro de los ecosistemas globales. Igualmente, de la misma forma en que existen jerarquías sociales en el sistema económico capitalista, estos usos de recursos y sumideros globales están también distribuidos de forma desigual entre unas y otras poblaciones del mundo.
+
+* La basura tecnológica: un crescendo insostenible y ponzoñoso
+
+Daniel López Marijuán aborda en [[https://www.fuhem.es/media/cdv/file/biblioteca/Boletin_ECOS/25/la-basura-tecnologica_D_LOPEZ_MARIJUAN.pdf][La basura tecnológica: Un crescendo insostenible y ponzoñoso]] la cuestión de la basura industrial, los residuos de aparatos eléctricos y electrónicos (RAEE) que acaba en países en desarrollo y con un impacto ambiental y sanitario altísimo, algo que ya abordaron con motivo del pasado Día Mundial del Medio Ambiente RTVE con la emisión de [[http://www.rtve.es/television/documentales/comprar-tirar-comprar/][Comprar, tirar, comprar]], donde aparece el [[http://www.rtve.es/noticias/20120606/portada-ciberbasura-sin-fronteras/533464.shtml][vertedero electrónico de Agbogbloshie]], en Ghana.
+
+* La escapada virtual
+
+Fernando Cembranos señala en [[https://www.fuhem.es/media/cdv/file/biblioteca/Boletin_ECOS/25/la-escapada-virtual_F_CEMBRANOS.pdf][La escapada virtual]] los efectos no deseados de la progresiva preocupación de la vida que ocurre en las pantallas mientras dejamos de lado el territorio físico y geográfico que habitamos, algo que yo mismo me pregunto si no practico mientras escribo estas notas que podría haber reproducido literalmente de la web de FUHEM. En línea con /Sociofobia/ de César Rendueles, alerta de la devastación del territorio que permite la fragmentación, debilitación o desaparición de las relaciones comunitarias.
+
+* Informáticos: del "trabajo creativo" a la división del trabajo de fabricación de software
+
+Juan José Castillo presenta en [[https://www.fuhem.es/media/cdv/file/biblioteca/Boletin_ECOS/25/informaticos_J_J_CASTILLO.pdf][Informáticos: del "trabajo creativo" a la división del trabajo de fabricación de software]] una reflexión teórica sobre el porvenir la evolución del trabajo y sus transformaciones:
+
+ En este texto presentamos una reflexión teórica, fundada en investigaciones directas sobre el terreno, y en discusión con la literatura internacional, sobre el porvenir y la evolución del trabajo y sus transformaciones. Con él se aporta una fundamentación concreta y empírica a los recurrentes debates sobre la llamada "sociedad de la información", tomando como base el trabajador colectivo de la producción de software. Trabajador o trabajadora que se utiliza reiteradamente como muestra de un porvenir dorado de las sociedades centrales que se extenderá, por la deslocalización, a las sociedades "emergentes" o en desarrollo. Porvenir donde el trabajo inmaterial deparará
+un futuro lleno de esperanzas.
+
+

@@ -1,0 +1,18 @@
+#+DATE: [2013-12-20 vie 00:17]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: coop, economía, copyleft, cultura, publicidad, data, big data, Linked Data, Linked Open Data, Open Data, Open Data Gov, Open Gov, R, Wikileaks, debian, ecología, energía, solar, evento, org2blog, orgmode, emacs
+#+TAGS:
+#+DESCRIPTION:
+#+TITLE: Cambia el titular
+
+Educational Picture of the day
+The world's most popular sports
+http://en.wikiversity.org/wiki/Wikiversity:Main_Page
+
+
+
+
+
+This colour-coded map of the world shows the world's most popular sports by country. For example, the red areas are cricket and Australian-rules football, the blue areas are ice hockey and American football, the purple area is table tennis and the green area is soccer/football. Click on the image for a full size version which you can freely re-use and modify. Print it and use it for your lessons, integrate it into your pages on Wikiversity, or use it in other learning resources and websites. Use the links below to find more images like this one.
+
+http://upload.wikimedia.org/wikipedia/commons/8/8e/Popularsports.PNG

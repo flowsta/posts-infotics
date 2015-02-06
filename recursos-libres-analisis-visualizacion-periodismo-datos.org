@@ -1,0 +1,85 @@
+#+DATE: [2014-05-15 jue 08:42]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: coop, economía, copyleft, cultura, publicidad, data, big data, Linked Data, Linked Open Data, Open Data, Open Data Gov, Open Gov, R, Wikileaks, debian, ecología, energía, solar, evento, org2blog, orgmode, emacs
+#+TAGS:
+#+DESCRIPTION:
+#+TITLE: Recursos libres para el análisis, la visualización y el periodismo de datos
+
+* Libros
+- Data Analytics Handbook Pt1 (Data Scientists / Data Analysts): https://s3.amazonaws.com/leada/handbook/Handbook_Pt1.pdf
+- Data Analytics Handbook Pt2 (CEO's / Managers): https://leada.s3.amazonaws.com/handbook/Handbook_Pt2.pdf
+- Data Analytics Handbook Pt3 (Researchers / Academics): https://leada.s3.amazonaws.com/handbook/Handbook_Pt3.pdf
+- http://www.r-statistics.com/2009/10/free-statistics-e-books-for-download/
+- http://manual.linfiniti.com/LinfinitiQGISTrainingManual-en.pdf
+
+
+Training Resources
+
+    The Open Source Data Science Masters http://datasciencemasters.org
+
+    https://developers.google.com/edu/python/
+
+    http://www.freesocialmediacourse.com/
+
+    http://www.tableausoftware.com/public/training
+
+    Machine learning trainging... https://www.coursera.org/course/ml
+
+
+Data Resources
+
+    http://www.kdnuggets.com/datasets/index.html
+    http://www.quandl.com
+    http://www.databib.org
+    http://www.data.gov
+    http://www.linkeddata.org 
+    http://www.reddit.com/r/datasets
+    http://www.datahub.io/
+    http://arcane-coast-3553.herokuapp.com/
+    http://www.quora.com/Data/Where-can-I-find-large-datasets-open-to-the-public
+    http://snap.stanford.edu/data/
+    http://research.stlouisfed.org/fred2/
+
+    Scrape this (http://guide.ethical.org.au/guide/browse/categories/)– contains negative and some positive reporting
+
+    http://www.ethicalconsumer.org/buyersguides.aspx Freeaccess for 30-day trial… 12 month access costs about $35 (may want to scrape)
+
+    http://www.corporatecritic.org/ (Not free - but awesome and can get corporate responsibility data for $25 day-access to do unlimited data dumps)
+
+Website Scrapers
+
+    http://import.io/
+    http://imagequilts.com/
+
+
+Design Elements
+
+    www.freepik.com/
+    http://www.freeimages.com/
+
+
+Tools and Applications
+
+    Open source tool for machine learning: http://scikit-learn.org/stable/      ...   (when applying it for large quantities of data / integrating with Hadoop: https://mahout.apache.org/)
+    NLP Software: http://nlp.stanford.edu/downloads/
+    http://www.datavizcatalogue.com
+    http://complexdiagrams.com
+    http://www.visualisingdata.com/index.php/resources/
+    http://flowingdata.com
+    http://d3js.org
+    https://plot.ly
+    https://gephi.org
+    http://ramnathv.github.io/rCharts
+    http://rmaps.github.io
+    https://github.com/mages/googleVis
+    http://shiny.rstudio.com
+    http://quartz.github.io/Chartbuilder/
+    http://dev.mysql.com/downloads/
+    http://www.qgis.org/en/site/
+    http://www.rstudio.com/
+    http://cartodb.com
+    https://infogr.am/
+    http://www.openheatmap.com/
+    http://vis.stanford.edu/wrangler/
+
+

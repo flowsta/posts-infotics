@@ -1,0 +1,198 @@
+#+CATEGORY: 
+#+TAGS: 
+#+DESCRIPTION: 
+#+TITLE: El amianto
+#+DATE: [2014-09-24 mié 12:00]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+* Uralita
+don
+José Pérez Domene, doña Dolores María Muñoz Sánchez y don Juan Sal-
+vador Pérez, en nombre y representación del Grupo Uralita
+Fuente: https://www.boe.es/boe/dias/2002/01/29/pdfs/A03608-03613.pdf
+
+* Noticias relacionadas
+** Valladolid
+- http://www.tribunavalladolid.com/noticias/el-psoe-avisa-del-problema-de-salud-publica-de-la-antigua-fabrica-de-uralita/1359634578
+** Cataluña
+*** Barcelona
+- Ripollet y Cerdanyola del Vallés   http://www.eleconomista.es/legislacion/noticias/2158202/05/10/Economi-Legal-Uralita-defiende-que-cumplio-la-Ley-frente-a-las-acusaciones-de-emisiones-de-amianto-.html#.Kku8RbsU1Ih03ku
+- http://www.europapress.es/catalunya/noticia-can-vies-quiere-recaudar-70000-euros-internet-reconstruccion-apoyo-legal-20140618141146.html
+http://www.elperiodicodearagon.com/noticias/aragon/empresa-alega-cumplio-la-ley-todo-momento_589139.html
+** Andalucía 
+*** Sevilla
+- http://sevilla.abc.es/provincia-dos-hermanas/20140425/sevi-uralita-recurso-condena-tsja-201404251324.html
+- http://www.europapress.es/economia/noticia-economia-uralita-asegura-siempre-cumplio-fabrica-sevilla-legislacion-vigente-amianto-20130610155510.html
+- http://www.europapress.es/andalucia/sevilla-00357/noticia-extrabajadores-uralita-piden-ejecuten-provisionalmente-dos-sentencias-20140908152903.html
+** Islas Baleares
+- http://www.europapress.es/illes-balears/noticia-conselleria-educacion-cultura-universidades-reune-comite-intercentros-seguridad-salud-laboral-20140923175709.html
+-Gipuzkoa
+http://www.europapress.es/euskadi/noticia-seguridad-social-reconoce-incapacidad-absoluta-extrabajador-caf-beasain-20140916171338.html
+
+** Euskadi
+- http://www.europapress.es/nacional/noticia-economia-tsjpv-reduce-25-indemnizacion-viuda-trabajador-fallecido-amianto-ser-fumador-20140904172257.html
+- http://www.infosalus.com/actualidad/noticia-ccoo-denuncia-muerte-amianto-trabajador-decima-pais-vasco-va-ano-20140707135358.html
+- http://www.infosalus.com/actualidad/noticia-tsjpv-ratifica-condena-tubos-reunidos-falta-medidas-seguridad-amianto-asviamie-20140630103301.html
+
+** Madrid
+- http://www.europapress.es/madrid/noticia-denuncian-johnny-carece-licencia-actividad-2003-20140801151451.html
+* Leyes
+** Ley 1962
+ey que existía era de 1962 y permitía una exposición de 175 fibras por metro cúbico.
+Fuente: http://www.eleconomista.es/legislacion/noticias/2158202/05/10/Economi-Legal-Uralita-defiende-que-cumplio-la-Ley-frente-a-las-acusaciones-de-emisiones-de-amianto-.html#.Kku8RbsU1Ih03ku
+** Ley 1982 Exposición máxima: 2 fibras por centímeto cúbico
+Fuente: http://www.eleconomista.es/legislacion/noticias/2158202/05/10/Economi-Legal-Uralita-defiende-que-cumplio-la-Ley-frente-a-las-acusaciones-de-emisiones-de-amianto-.html#.Kku8RbsU1Ih03ku
+** Ley 1993
+Se baja de 2 figras por cm3 a 0,6
+Fuente: http://www.eleconomista.es/legislacion/noticias/2158202/05/10/Economi-Legal-Uralita-defiende-que-cumplio-la-Ley-frente-a-las-acusaciones-de-emisiones-de-amianto-.html#.Kku8RbsU1Ih03ku
+** Ley 2002
+Se prohibe el amianto
+Fuente: http://www.eleconomista.es/legislacion/noticias/2158202/05/10/Economi-Legal-Uralita-defiende-que-cumplio-la-Ley-frente-a-las-acusaciones-de-emisiones-de-amianto-.html#.Kku8RbsU1Ih03ku
+RESOLUCIÓN de 16 de enero de 2002, de la Dirección General de Trabajo por la que se dispone la inscripción en el registro y publicación del Acuerdo sobre regulación de mejoras voluntarias de Seguridad Social e indemnizaciones por jubilación anticipada del personal de las empresas del Grupo Uralita provenientes de la actividad fibrocemento, alcanzado el 19 de noviembre de 2001 
+http://legislacion.derecho.com/resolucion-16-enero-2002-ministerio-de-trabajo-y-asuntos-sociales-47588
+** Ley 2006
+Fuente: http://gestionintegraldeamianto.com/legislacion-amianto-uralita/
+[[http://www.boe.es/diario_boe/txt.php?id=BOE-A-2006-6474][Real Decreto 396/2006]] ([[http://www.boe.es/boe/dias/2006/04/11/pdfs/A13961-13974.pdf][PDF]]), de 31 de marzo, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto o uralita.
+
+El amianto o comúnmente conocido como “Uralita”, es un componente cancerígeno prohibido en España desde el año 2002. Se trata de un componente muy usado en las construcciones de nuestro país entre los años 60 y 80, ya que se trata de un material con la funcionalidad de aislante a un precio realmente bajo. Por este motivo, en España el amianto se encuentra en una gran cantidad de edificios y construcciones. El problema que supone el amianto o uralita para la salud es realmente alarmante y ha de realizarse la retirada de amianto o uralita con extrema precaución y el equipamiento adecuado. Este componente suele encontrarse presente en las placas de fibrocemento. Aquí vemos reflejado lo que cita la legislación Española acerca de este componente que en nuestro país llegó a ser muy conocido por la marca que lo comercializaba, “La Uralita”.
+
+    El Real Decreto 396/2006, de 31 de marzo, “por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con riesgo de exposición al amianto” deroga la mayor parte de la legislación referida al amianto anterior a su entrada en vigor. La norma establece las pautas a seguir en trabajos de mantenimiento de instalaciones con amianto y en la retirada de materiales con contenido de amianto, detallando los requerimientos necesarios, tales como: la elaboración de un Plan de Trabajo, las necesidades formativas y de salud de los trabajadores y las evaluaciones de riesgo necesarias. Además, señala los pasos que deberá cumplir una empresa que quiera realizar trabajos con riesgo de amianto y los requerimientos necesarios para laboratorios de amianto. La producción de materiales con amianto está prohibida en España desde el año 2002.
+
+Es por los hechos que refleja esta ley, por los que cualquier ciudadano que tenga en su hogar o empresa materiales compuestos por amianto o uralita, debe extremar las precauciones y solicitar servicios especializados en los trabajos de desamiantado. Además, la ley obliga a los ciudadanos a solicitar la gestión de residuos de amianto o uralita en los trabajos basados en demoliciones y derribos, sustitución de cubiertas, reformas, reparación de tejados y techos o cualquier otro tipo de trabajo vertical en el que desmantele uralita.
+
+En G.I.A somos especialistas en este tipo de trabajos a través de grandes profesionales y precios competitivos. Si buscas un equipo rápido y eficáz solicita presupuesto para tu proyecto.
+- See more at: http://gestionintegraldeamianto.com/legislacion-amianto-uralita/#sthash.Fuy1WNZB.dpuf
+  
+** Propuesta CiU 11 agosto 2014
+http://www.europapress.es/catalunya/noticia-ciu-propone-censar-edificios-amianto-plan-retirada-compensaciones-afectados-20140811114759.html
+
+* Consejos para la retirada
+Notapor PROIME » 02 May 2008, 22:03
+Uralita es un nombre comercial del material llamado FIBROCEMENTO, el cual conteniá AMIANTO, que hace unos años ha sido declarado nocivo para la salud, por unas partículas que desprende que se llaman ASVESTOS y se acantonan en los pulmones y el cuerpo no es capaz de eliminarlos.
+
+PARA UNA ACCIÓN EN UNA CUBIERTA DE FIBROCEMENTO, HAY QUE TENER EN CUENTA LAS SIGUIENTES COSAS:
+
+1.- Se puede reparar una cubierta sin retirar el material existente, con chapa trapezoidal colocada encima del fibrocemento
+2.- Se retira el fibrocemento.
+Estos casos requieren de los trabajos de Empresas especializadas, no puede cualquiera actuar sobre una cubierta de FIBROCEMENTO, ESTÁ TERMINANTEMENTE PROHIBIDO y para ello es necesaria la toma de ciertas medidas de seguridad especiales:
+
+a) colocación de redes para evitar caídas a distinto nivel tanto horizontales como peri metrales. - 3 eur/m2.
+b) realización de tomas de muestras del material a quitar - 1.000 eur/muestra.
+c) desplazamiento al tajo de una caseta homologada para ducharse la gente todos los días.
+d) los operarios no podrás trabajar mas de 4 horas seguidas desmontando fibrocemento.
+e) trabajo con trajes especiales de TYBEK, de usar y tirar diariamente.
+f) El material desmontado debe ser eliminado en vertederos homologados, donde lo queman y por supuesto tiene un coste por kg ( 14 kg/m2 cada plancha de fibrocemento ), creo que es 2 eur/kg, pero es mejor preguntar.
+
+Fuente: http://www.soloingenieria.net/foros/viewtopic.php?t=8844
+
+Desamiantado y Retirada de AMIANTO
+Unas cubiertas de una nave industrial compuestas por amianto listas para proceder a la retirada de amianto
+Desamiantado y Retirada de AMIANTO o Uralita
+
+En nuestros servicios de desamiantado y la retirada de amianto o retirada de uralita, realizamos la gestión de residuos tóxicos envolviéndolos, sellándolos y señalizándolos con plásticos especialmente diseñados para minimizar el riesgo del trasladado por el Gestor de Transporte de Residuos. El Dpto. Técnico realizará el Plan de Trabajo, cuya aprobación por la Comunidad Autónoma competente es imprescindible para poder comenzar el desmantelamiento y ejecutar la fase de retirada de amianto, un componente que también es muy conocido como uralita.
+
+Además de en la ejecución del desamiantado y la gestión de residuos, somos especialistas en demoliciones y derribos, instalación de cubiertas y todo tipo de trabajos verticales.
+
+Realizamos al completo el proceso de desamiantado, seguidamente del proceso de retirada de amianto o uralita presente en las cubiertas de fibrocemento.
+
+ Emails
+
+f.garrido@gestionintegraldeamianto.com 
+
+isa_deharo@gestiónintegraldeamianto.com
+
+Teléfonos
+
+958 800 787 // 654 338 982 // 647 846 212
+
+PULSA AQUÍ para conocer más sobre nuestra gestión en Desamiantado y Retirada de AMIANTO
+¿Porqué es necesario el Desamiantado y la Retirada de AMIANTO?
+
+El amianto, o como se ha conocido durante tiempo, la uralita, está considerado como un residuo especialmente peligroso según el Catálogo de Residuos (CER); por lo que necesita de una gestión de residuos especializada por sus problemas de toxicidad y por tanto está prohibida su aplicación en todas las construcciones y es de carácter obligatorio el desamiantado y el proceso especializado de retirada de amianto en todas las reformas de edificaciones que contengan cubiertas compuestas de placas de fibrocemento, las cuales contienen amianto como componente y es comúnmente conocido como uralita.
+
+Se trata de uno de los elementos cancerígenos más potentes que se conocen, por lo que está calificado según la Unión Europea como sustancia cancerígena de primera categoría. Es por ello por lo que el uso, la producción y la comercialización del amianto o uralita están prohibidos desde el año 2002; si bien la rotura o desgaste aumenta las posibilidades de inhalación de sus fibras contaminantes; y por tanto, su peligrosidad. Por este motivo, es esencial proceder al desamiantado y, por consiguiente, proceder meticulosamente a la retirada de amianto en aquellas construciones que aún lo contengan. Tras esto, es esencial la sustitución de cubiertas de fibrocemento. Por este motivo en G.I.A ofrecemos a nuestros clientes el servicio de instalación de cubiertas con materiales no perjudiciales para la salud y de máxima calidad.
+
+La uralita es un residuo peligroso presente en las placas de fibrocemento, por lo que necesita de un proceso de trabajo especializado por sus problemas de toxicidad en las personas. Respirar el polvo que contiene amianto o uralita es muy peligroso para la salud. En países como España, donde sí está prohibido, muchos de los edificios y elementos industriales construidos en la décadas de los 60 a 80 aún contienen elementos de uralita. Debido a ese daño a la salud, es esencial proceder al desamiantado y la retirada de amianto rápidamente a través de profesionales.
+Proceso de Desamiantado y de la Retirada de AMIANTO 
+
+En nuestro proceso de trabajo en cuanto al desamiantado y la posterior retirada de amianto, los residuos derivados de las demoliciones y derribos, los trabajos de sustitución de cubiertas o cualquier tipo de trabajo vertical, son envueltos, sellados y señalizados con plásticos especialmente diseñados para minimizar el riesgo del trasladado por el Gestor de Transporte de Residuos. El propietario y responsable legal del residuo, a través del contratista principal o de forma personal, se pone en contacto con nosotros para iniciar el proceso de desamiantado y gestión en la retirada de amianto.
+
+Tras la aprobación del presupuesto por ambas partes, desde nuestra entidad realizaremos la gestión de residuos tóxicos mediante el riguroso cumplimiento de todas las medidas de seguridad. El Dpto. Técnico realizará el Plan de Trabajo, cuya aprobación por la Comunidad Autónoma competente es imprescindible para poder comenzar el desamiantado, la retirada de amianto o uralita o la reforma de los materiales que contienen amianto a través de la instalación de cubiertas nuevas en una duración máxima de 45 días. Una vez aprobado el proyecto, nuestro personal especializado con sus equipos de protección individuales obligatorios realizarán el desamiantado y la posterior retirada de amianto o uralita de forma rápida y segura.
+
+A continuación, la gestión de residuos derivados de la actividad se realizarán mediante los trasladados por el Gestor de Transporte de Residuos Peligrosos al Vertedero o Gestor Final más cercano; quien emitirá el Certificado de Residuos que garantiza el correcto tratamiento de los mismos. Toda la actividad se realiza mediante un procedimiento metódico que se corresponde con lo especificado en el Real Decreto 396/2006, del 31 de Marzo, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los procesos de desamiantado y el Real Decreto 833/1988 de 20 de julio, por el que se aprueba el Reglamento para la ejecución de la Ley 20/1986, Básica de Residuos Tóxicos y Peligrosos.
+- See more at: http://gestionintegraldeamianto.com/desamiantado-retirada-de-amianto/#sthash.L25W4D7T.dpuf
+
+* Gestor de residuos peligrosos Bafesa, Cartagena
+http://labrujanocturna.blogspot.com.es/2007/10/mallorca-se-retiran-25-toneladas-de.html
+
+* Befesa
+BEFESA GESTION DE RESIDUOS INDUSTRIALES, S.A.
+Datos del centro
+Fax:
+Teléfono: 968167001
+Provincia: Murcia
+Localidad: CARTAGENA
+Código postal: 30350
+Dirección: Ctra N343 Km 9 Valle de Escombreras
+Código de centro: 30-00000268
+Email:
+Clasificaciones
+Tratamiento previo y eliminación mediante deposito en vertedero de residuos peligrosos.
+Peligroso
+* Amianto
+AMIANTO o URALITA: Tipos y aplicaciones
+Amianto no-friable
+
+Sus fibras están mezcladas con otros materiales, habitualmente cemento o cola. Cuando el amianto no-friable está en buen estado existe menos riesgo para la salud. Concretamente, esta variedad tiene sus fibras compuestas por amianto mezcladas con otros materiales, lo que repercute en una menor liberación de fibras, disminuyendo el riesgo de exposición al residuo. La aplicación más conocida son las placas de fibrocemento onduladas (Uralita), aunque existen otros muchos usos.
+Amianto friable
+
+Sus fibras se desprenden con facilidad porque no están unidas a otro material. Por lo tanto, es mucho más peligroso y se ha de proceder a la retirada de amianto con más urgencia. En la mayoría de las obras se ha usado menor poercentaje de “Amianto friable” que de “Amianto no friable”, que concretamente son las placas de fibrocemento onduladas. Esta variedad supone el 95 % del total del material y, por tanto, es el producto con el que quieremos trabajar en un futuro.
+Amianto friable Amianto friable Amianto no friable
+- See more at: http://gestionintegraldeamianto.com/desamiantado-retirada-de-amianto/#sthash.f1tYF6gV.dpuf
+* Tipos de amianto
+AMIANTO o URALITA: Tipos y aplicaciones
+Amianto no-friable
+
+Sus fibras están mezcladas con otros materiales, habitualmente cemento o cola. Cuando el amianto no-friable está en buen estado existe menos riesgo para la salud. Concretamente, esta variedad tiene sus fibras compuestas por amianto mezcladas con otros materiales, lo que repercute en una menor liberación de fibras, disminuyendo el riesgo de exposición al residuo. La aplicación más conocida son las placas de fibrocemento onduladas (Uralita), aunque existen otros muchos usos.
+Amianto friable
+
+Sus fibras se desprenden con facilidad porque no están unidas a otro material. Por lo tanto, es mucho más peligroso y se ha de proceder a la retirada de amianto con más urgencia. En la mayoría de las obras se ha usado menor poercentaje de “Amianto friable” que de “Amianto no friable”, que concretamente son las placas de fibrocemento onduladas. Esta variedad supone el 95 % del total del material y, por tanto, es el producto con el que quieremos trabajar en un futuro.
+Amianto friable Amianto friable Amianto no friable
+- See more at: http://gestionintegraldeamianto.com/desamiantado-retirada-de-amianto/#sthash.f1tYF6gV.dpuf
+* Salud
+
+El AMIANTO o Uralita y la salud
+El amianto integrado en un tejado industrial que se está desmontando 
+¿Por qué es peligroso el AMIANTO?
+
+El amianto se conoce en España como uralita y causa graves problemas de salud debido a la inhalación de sus fibras. Y es que la vía principal de entrada es la respiratoria. El amianto se refleja en fibras presentes en las placas de fibrocemento, las cuales, se han conocido en nuestro país por el nombre de la famosa marca llamada uralita. Estas fibras componen multitud de cubiertas en naves y edificios en España, y debido a sus características aerodinámicas, pequeño tamaño y forma alargada, pueden permanecer en suspensión en el aire el tiempo suficiente para que representen un riesgo respiratorio. Igualmente, pueden adherirse a la ropa y a la piel y desprenderse posteriormente con el consiguiente riesgo de inhalación.
+
+De este modo, si el contacto con el amianto o uralita es reducido, apenas existe riesgo para la salud. En cambio, el peligro surge con un contacto frecuentemente con el componente, pues aumenta el riesgo de que pasen fibras respirables al aire durante los trabajos con materiales que contienen el amianto como son estas placas de fibrocemento. En trabajos de derribos y mantenimiento, los trabajadores siempre deben llevar Equipos de Protección Individual (EPIs) debido a su exposición. El síntoma principal es una dificultad respiratoria que se va agravando a medida que progresa la enfermedad. También puede producir una tos seca y sensación de tirantez en el pecho. De este modo, la exposición con el amianto puede ocasionar tres tipos de enfermedades irreversibles. Por este motivo, es esencial proceder a la gestión de residuos que contengan este material de un modo extremadamente meticuloso.
+Enfermedades causadas por el AMIANTO o URALITA
+Cáncer de pulmon
+
+Es la primera causa de muerte relacionada con el amianto en los pacientes expuestos. Todas las fibras compuestas por amianto pueden causar cáncer, aunque la crocidolita (amianto azul) es la más cancerígena de todas y por tanto, las más dañina en los trabajos con amianto. Se cree que el amianto o uralita actúa como un cocarcinógeno junto al tabaco, cuya inducción de cáncer de pulmón es bien conocida. El cáncer de pulmón es una enfermedad con un período de latencia prolongado. Las manifestaciones clínicas del cáncer de pulmón incluyen la pérdida del apetito y de peso, el cansancio, el dolor torácico, la hemoptisis o expectoración de sangre y la dificultad respiratoria.
+Mesotelioma Maligno
+
+Es el cáncer de la célula mesotelial, y afecta a la pleura y al peritoneo en el 80 y 20% de los casos, respectivamente. Se suele producir en personas que han realizado a trabajos con amianto al menos 30 años antes, aunque en ocasiones se ha desarrollado en personas con exposiciones muy leves.
+Asbestosis
+
+Se trata de una enfermedad pulmonar crónica producida por la inhalación de fibras formadas por amianto. Las fibras penetran en los pulmones e irritan el tejido pulmonar, lo inflaman y provocan, a cabo de unos años, una fibrosis pulmonar (engrosamiento y cicatrización del tejido pulmonar). Puede pasar mucho tiempo (20 años o más) entre la exposición a las fibras compuestas por este componente y el comienzo de la enfermedad.
+Legislación vigente sobre el AMIANTO o URALITA
+
+La normativa por la que se rige el Desamiantado, la Retirada de Amianto y Descontaminación de los materiales que contienen este componente, es el Real Decreto 396/2006, de 31 de marzo, por el que se establecen las disposiciones mínimas de seguridad y salud aplicables a los trabajos con amianto o uralita y su correspondiente riesgo de exposición.
+Materiales compuestos por el AMIANTO
+
+En la mayoría de los casos, se trata de Amianto “No Friable”, de la variedad del amianto: Crisolito n.o 12001-29-5 del registro de sustancias químicas del Cheminal Abstract Service (CAS). Son materiales muy comunes porque son muy buenos aislantes y resistentes ya que fueron mezclados con cemento. Estos son algunos caso donde se instaló la uralita:
+
+    CUBIERTAS O PLACAS DE FIBROCEMENTO (tipo URALITA): Utilizadas en general para la instalación de cubiertas.
+
+    TUBERÍAS Y CANALONES DE FIBROCEMENTO: Bajantes, desagües… de aguas
+
+    AISLANTE EN POLVO: Usados en hornos, centrifugadoras…
+
+- See more at: http://gestionintegraldeamianto.com/el-amianto-y-la-salud/#sthash.bMHQAPOc.dpuf
+
+
+* Asociaciones
+- Asviamie, asociación vasca de víctimas del amianto

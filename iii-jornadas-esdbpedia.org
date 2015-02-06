@@ -1,0 +1,30 @@
+#+BLOG: infotics
+#+POSTID: 1141
+#+TITLE: III Jornadas esDBPedia
+#+DESCRIPTION: III Jornadas esDBpedia el martes 20 de enero de 2015 en la Ecuela Técnica Superior de Ingenieros Informáticos de la UPM
+#+CATEGORY: evento
+#+TAGS: dbpedia, rdf, semantic web, web semántica, linked data, linked open data, lid, sparql, triples, madrid, upm
+#+DATE: [2015-01-16 vie 12:00]
+#+AUTHOR:
+#+EMAIL:
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+Llega por la [[http://listas.medialab-prado.es/cgi-bin/mailman/listinfo/grupoperiodismodatos][lista de correo]] del [[http://medialab-prado.es/article/periodismo_de_datos_-_grupo_de_trabajo][Grupo de Trabajo de Periodismo de Datos de Medialab-Prado]] el anuncio de las [[http://es.dbpedia.org/wiki/Wiki.jsp?page=III%2520Jornadas%2520esDBpedia][III Jornadas de esDBPedia]] el próximo martes 20 d eenero en la [[http://www.fi.upm.es/?id=comollegar][Escuela Técnica Superior de Ingenieros Informáticos de la Universidad Politécnica de Madrid]].
+
+DBPedia en español o [[http://es.dbpedia.org/DBpediaES/][esDBPedia]] es un repositorio web, abierto y gratuito, con información semántica -datos estructurados- de la versión española de [[https://www.wikipedia.org][Wikipedia]] desde junio de 2011. Alberta casi 100 millones de /triples RDF/, datos expresados en RDF que se consideran /Linked Data/ o /Linked Open Data/. En su [[http://es.dbpedia.org/sparql][buscador]] (/SPARQL Enpoint/) están disponibles los más relevantes, alrededor de 70 millones. El proyecto lo lideran Mariano Rico y Óscar Corcho, si bien hay una [[http://es.dbpedia.org/wiki/Wiki.jsp?page=Agradecimientos][comunidad]] colaboradora que participa activamente.
+
+En septiembre de 2014 el proyecto [[http://lod-cloud.net/][Linked Open Data Cloud]] (nube de datos vinculados abiertos) alcanzaba los 570 conjuntos de datos semánticos enlazados, donde DBPedia es una pieza fundamental. Pero DBpedias necesita de la colaboración de personas que doten de semántica a los datos, a la vez que se utilizan herramientas que permiten relacionar elementos usados en los artículos de /Wikipedia/ con elementos de la ontología DBPedia.
+
+Si en las primeras jornadas de 2011 se logró relacionar el 80% de los datos de la Wikipedia en español, lo que propulsó el lanzamiento de DBpedia en español en 2012, y en las segundas jornadas se centraron en mejorar la calidad de los datos, en esta ocasión además de las actividades habituales se va a realizar una sesión introductoria a estas tecnologías, además de talleres prácticos en los qu ese aprenderá a consultar y utilizar los conjuntos de datos.
+
+** Imágenes
+#+CAPTION: Linked Open Data Cloud
+#+ATTR_HTML: alt="Linked Open Data Cloud"
+http://lod-cloud.net/versions/2014-08-30/lod-cloud_colored_1000px.png
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+#+TITLE: Las claves de gnupg
+#+DESCRIPTION: 
+#+CATEGORY: 
+#+TAGS: 
+#+DATE: [2015-01-13 mar 12:00]
+#+AUTHOR:
+#+EMAIL:
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+Para listar las claves -públicas- que tenemos:
+#+BEGIN_SRC 
+$ gpg --list-keys
+
+#+END_SRC
+O bien
+#+BEGIN_SRC 
+$ gpg --list-public-keys
+#+END_SRC
+
+Ahí te aparecerán todas las claves que tengas, públicas. Aparecerá la tuya propia y las que hayas importado.
+
+Si quieres ver las claves privadas, la opción es:
+
+* Encabezamiento
+Tal como señalan en el blog de [[http://www.mfasold.net/blog/2009/02/using-emacs-org-mode-to-draft-papers/][Marios Braindump]], se puede utilizar /org-mode/ para gestionar la bibliografía trabajando conjuntamente con el modo /RefTex/. Para ello:
+** Configurar /Emacs/
+Hemos de configurar nuestro /Emacs/ para que desde /orgmode/ invoquemos a /RefTex/. Añadimos a nuestro archivo de configuración, por ejemplo, a =.emacs=
+#+BEGIN_SRC 
+(defun org-mode-reftex-setup ()
+(load-library "reftex")
+(and (buffer-file-name)
+(file-exists-p (buffer-file-name))
+(reftex-parse-all))
+(define-key org-mode-map (kbd "C-c )") 'reftex-citation)
+)
+(add-hook 'org-mode-hook 'org-mode-reftex-setup)
+#+END_SRC
+** Enlazar la bibliografía 
+Luego, enlazamos la bibliografía en el documento /org/, poniendo al final del mismo, pero antes de =\end{document}= las siguientes líneas:
+#+BEGIN_SRC
+\bibliographystyle{plain}
+\bibliography{bibliografia}
+#+END_SRC
+Donde =plain= es el estilo deseado para la bibliografía ([[http://www.reed.edu/cis/help/latex/bibtexstyles.html][hay siete estilos estándar]], multitud de estilos específicos e incluso puedes crear uno a tu medida) y =bibliografia= es la ruta al archivo con la bibliografía en /BibTeX/; en este caso, el archivo =bibliografia.bib=, se encuentra en el mismo directorio que el archivo =org=.
+También podemos incluir bibliografía en el propio documento =org= con el entorno de /LaTeX/ =\thebibliography=.
+** Referencias bibliográficas
+
+Para insertar las citas bibliográficas escribiremos en /Emacs/, tal como hemos configurado en =.emacs=, =C c [= o bien invocando =reftex-citation=. /RefTex/ nos pedirá que introduzcamos una expresión regular -el apellido del autor del libro o una palabra del título, por ejemplo... en definitiva, algo que recordemos de esa referencia- con la que buscará en nuestra bibliografía, bien en el archivo =bib= externo, bien en las referencias embebidas o en la bibliografía externa.
+Se mostrará un /buffer/ con la lista de resultados y podremos seleccionar el que estemos buscando.
+
+
+
+** Imágenes
+#+CAPTION: Dos activistas de Greenpeace intentan parar los vertidos de la empresa Peñarroya en la Bahía de Portmán en 1986
+#+LABEL: 
+#+ATTR_HTML: alt="Dos activistas de Greenpeace intentan parar los vertidos de la empresa Peñarroya en la Bahía de Portmán en 1986"
+http://i50.tinypic.com/ibdmpf.jpg
+
+1** Misc Howpublished
+#+BEGIN_LaTeX
+
+#+END_LaTeX
+En [[http://www.tex.ac.uk/cgi-bin/texfaq2html?label%3DciteURL][esta página]] se propone también la función =@misc= aunque con el atributo =howpublished=, donde quedaría así:
+
+#+BEGIN_LaTeX:
+@misc{ASH:2013:Online,
+author = {Varios Autores},
+title = {Archivo Situacionista Hispano},
+year = {1999},
+howpublished = "\url{http://sindominio.net/ash}",
+urldate = {2013-10-01}
+}
+#+END_LaTeX
+
+
+
+
+
+
+

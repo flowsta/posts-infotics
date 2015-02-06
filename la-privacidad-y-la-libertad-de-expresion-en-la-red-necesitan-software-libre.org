@@ -1,0 +1,21 @@
+#+BLOG: infotics
+#+POSTID: 915
+#+DATE: [2013-10-22 mar 16:44]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: org2blog, orgmode, emacs
+#+TAGS:
+#+DESCRIPTION:
+#+TITLE: La privacidad y la libertad de expresión en la red necesitan Software Libre
+[[http://blogs.fsfe.org/lucile.falg/][Lucile Falg]] hace una llamada en su [[http://blogs.fsfe.org][Blog de FSFE]] a diseñadorxs, ilustradorxs o artistas gráficos para que le ayuden a culminar un folleto que transmita la idea de que la privacidad y la libertad de expresión en la red necesitan Software Libre([[http://blogs.fsfe.org/lucile.falg/2013/10/15/leaflet/][Privacy and freedom of speech require Free Software]])
+Aunque tanto el texto como el diseño están casi terminados, le falta el remate final en el que espera que participen más personas, ya sean diseñadorxs, ilustradorxs o redactorxs.
+ 	
+#+CAPTION: Imagen de puesto con material de FSFE
+#+LABEL:   Puesto con material de FSFE
+[[http://farm5.staticflickr.com/4100/4780073816_a6feed7bba_z.jpg]]
+
+Con el folleto pretende transmitir la idea de que en la era de Internet, el Software Libre es condición necesaria para asegurar algunos derechos básicos, como la privacidad y la libertad de información, porque el control colectivo garantiza los derechos de lxs usuarixs; también es cierto que solo el Software Libre no es suficiente para asegurarlos.
+
+Quiere dirigirse a una audiencia no técnica, gente que se preocupa por la privacidad en el "mundo real" pero que no establecen la conexión entre esta preocupación y las distintas opciones tecnológicas.
+
+Si quieres participar, escribe a lucile.falg @ fsfe.org
+

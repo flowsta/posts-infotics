@@ -1,0 +1,62 @@
+#+CATEGORY: 
+#+TAGS: 
+#+DESCRIPTION: 
+#+TITLE: La obsesión por las métricas en el Periodismo
+#+DATE: [2014-03-20 jue 12:00]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+*Emily Bell* está harta de la obsesión por la audiencia en el Periodismo. En la reunión de redacción de las mañanas en cualquier medio de comunicación se dedica más tiempo a mirar los índices de audiencia y lectura que a discutir sobre las noticias del día.
+Un caso paradigmático: el [[http://www.nytimes.com/][New York Times]] publicó un interactivo a finales de 2013 que se convirtió en la noticia más vista del año. Se trataba de una [[http://www.nytimes.com/interactive/2013/12/20/sunday-review/dialect-quiz-map.html][encuesta]] sobre el uso de distintas palabras para referirse a lo mismo basada en una [[http://www4.uwm.edu/FLL/linguistics/dialect/maps.html][investigación de la Universidad de Harvard]] que comenzó en 2002 y cuyos resultados se muestran en este [[http://www.tekstlab.uio.no/cambridge_survey/][mapa]]. *Josh Katz*, editor del /Times/, recogió más de 350.000 respuestas para crear mapas de color que representaran la cercanía o lejanía con el uso dialectal en EE.UU.
+
+Tuvo más visitas que el Maratón de Boston, las escuchas de la /NSA/ o cualquier otra noticia deportiva o metereológica. Bell cree que esto solo se puede explicar porque era interactiva y por ende, se podía compartir en las redes sociales.
+
+Al ser la más vista a finales de 2013, se convirtió también en la más vista de todo 2013
+
+** Formato de texto
+Con =CcCxCf= nos sale un diálogo de símbolos cada cual implica que se abre un formato de texto determinado.
+- =/= para itálicas
+- =*= para negritas
+- =\== para código
+- =_= para subrayado
+- =~= para verbatim
+
+** Código
+Para comenzar trozos de código, tecleamos =<= seguido de la letra del código de lenguaje que queramos mostrar más =TAB=
+- =<sTAB=, código fuente, =SRC=
+- =<lTAB=, código /LaTeX/
+- =<aTAB=, código /ASCII/
+- =<hTAB=, código /HTML/
+
+Por ejemplo, si tecleamos =<sTAB= saldrá:
+
+#+BEGIN_SRC 
+
+#+END_SRC
+
+** Imágenes
+#+CAPTION: 
+#+LABEL: 
+#+ATTR_HTML: alt=""
+http://i.stack.imgur.com/lHzR3.png
+
+** Misc Howpublished
+#+BEGIN_LaTeX
+
+#+END_LaTeX
+En [[http://www.tex.ac.uk/cgi-bin/texfaq2html?label%3DciteURL][esta página]] se propone también la función =@misc= aunque con el atributo =howpublished=, donde quedaría así:
+
+#+BEGIN_LaTeX:
+@misc{ASH:2013:Online,
+author = {Varios Autores},
+title = {Archivo Situacionista Hispano},
+year = {1999},
+howpublished = "\url{http://sindominio.net/ash}",
+urldate = {2013-10-01}
+}
+#+END_LaTeX
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+Hackatón en memoria de Aaron Swartz, en conjunto con Hacklabs y Hackerspaces de todo el mundo.
+
+Sitio oficial del Hackatón
+
+En enero, después de casi dos años de persecución y acoso estatal, murió mi hermano Aaron Swartz. Aaron fue ecléctico y prolífico en su activismo. Frente a los hechos recientes, sentimos especialmente la pérdida de su forma única de activismo. No es sólo que perdimos una voz en nuestro coro o que perdimos una voz tan especial. Perdimos un activista incansable, un motivador central, alguien que podía hacernos cuestionar la moralidad de nuestras acciones y mostrarnos cómo ser mejores. Quiero realizar eventos en todo el mundo para acercar a todxs aquellxs que están luchando para cambiar las cosas y tal vez encender a otrxs con una chispa de la llama de Aaron. Pasemos un fin de semana juntxs para ser, como diría Aaron, parte del Equipo Impactante. -- Noah Swartz
+        
+        Espaciotiempo
+El HackLab de Barracas se muda temporalmente al HackLab de Florida para festejar su inauguración!
+
+El HackLab de Florida queda en la Cooperativa Libertad, Libertad 3452, Florida Oeste.
+
+Arrancamos el viernes 8 de noviembre a partir de las 18hs y seguimos hasta el sábado 9 durante los eventos de la Cooperativa Libertad!
+
+
+Dinámica
+Pasamos la noche del viernes hasta el sábado trabajando en conjunto sobre proyectos dentro del ámbito del activismo de Aaron Swartz: Software Libre y Acceso Abierto.
+
+No se necesitan conocimientos específicos, pero sí ganas de participar y/o cebar mate. Trae tu notebook, si estás usando software privativo alguien te puede ayudar a migrar a Software Libre.
+
+
+Proyectos
+Archivo Activo Pirata
+Siguiendo la línea del Manifiesto de la Guerrilla por el Acceso Abierto, liberamos libros escaneados convirtiéndolos a texto plano para poder exportarlos en distintos formatos formatos.
+
+
+Herramientas digitales para activistas
+Existen muchas herramientas para organizarnos y comunicarnos de forma colaborativa y segura. En este taller probamos estas herramientas.
+
+
+Traducción de los textos que escribió Aaron Swartz
+Aaron dejó muchos textos en su blog, mientras otros eventos trabajan en su organización, nosotrxs los traducimos al castellano para difundirlos.
+
+
+Desarrollo de software
+Trabajamos en herramientas nuevas de comunicación segura en las redes y cerramos bugs en las que existen.
+
+
+Organización
+Si querés colaborar en la organización, pasá por nuestro canal de Chat.
+
+
+¿HackLab de Barracas?
+El objetivo del hacklab es ser un espacio donde se subvierte la tecnología y se exploran sus posibilidades liberadoras, experimentando con tecnología, compartiendo conocimiento y buscarles posibles aplicaciones o usos no convencionales.
+
+Este espacio permite reunir gente con diferentes conocimientos, para aprender y enriquecernos entre todos, así como salir del mundo virtual que cada vez ocupa más de nuestro día a día.

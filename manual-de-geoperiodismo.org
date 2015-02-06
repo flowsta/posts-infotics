@@ -1,0 +1,33 @@
+#+DATE: [2014-XX-XX mié XX:XX]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY:  
+#+TAGS: 
+#+DESCRIPTION: 
+#+TITLE: 
+#+LATEX_HEADER: \renewcommand{\rmdefault}{phv} % Freesans
+
+\bibliographystyle{plain}
+\bibliography{Master}
+\end{document}
+
+Hi everyone,
+ 
+I think I might try to break the chain and provide some data journalism information to the listserv. This is why we are affirming allegiance, yes?
+ 
+Today, a handbook on GeoJournalism (the synthesis of spatial data and storytelling) was released by the Brazilian environmental news agency O Eco. The handbook hosts a number of tutorials tailored for environmental topics. They are meant to be an invitation to the environmental journalism community into the great big world of data journalism and its many forms and functions. It is now available in English and Portuguese and was supported by ICFJ, the European Youth Press (Flag It! Program), and Internews’ Earth Journalism Network.
+ 
+Here is a link: http://geojournalism.oeco.org.br/
+ 
+Among the contributions are:
+ 
+Gustavo Faleiros: journalist with O Eco and project leader for InfoAmazonia
+Mariana Santos:  Knight International Journalism Fellow and member of the Guardian Interactive Team
+Mikel Maron and Erica Hagen: the duo behind the Ground Truth Initiative, the MapKiberia project, and many an edit of OpenSteetMap
+Michael Bauer: Data wrangle with the Open Knowledge Foundation & School of Data
+Willie Shubert: Myself, the coordinator of Internews Earth Journalism Network
+Gabriel Gianordoli: A designer and web developer currently pursuing a masters at Parsons The New School of Design
+ 
+And hopefully many more. This set of tutorials is set to grow over time and we welcome thoughts, comments, critiques.
+ 
+Also if we had an email list you could let us know if you do or don’t want to be on it any more. 
+J

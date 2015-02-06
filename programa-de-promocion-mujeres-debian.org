@@ -1,0 +1,31 @@
+#+BLOG: infotics
+#+POSTID: 921
+#+DATE: [2013-10-23 mié 11:22]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: eventos, debian, software libre
+#+TAGS: jobs, trabajos, trabajo, debian, OPW, Gnome, Mozilla, org2blog, orgmode, emacs, github, jitsi, Pocock, Yana, Free Software, Software Libre, Fedora, FSF, FSFE
+#+DESCRIPTION:
+#+TITLE: Séptima edición del programa que pretende aumentar la participación de mujeres en proyectos de Software Libre
+
+Leo en el blog de [[http://danielpocock.com/debian-outreach-program-for-women-2013][Daniel Pocock]] que ya ha comenzado el programa que promueve la participación de mujeres en [[http://www.debian.org][Debian]]. Resulta que se trata de la séptima edición del [[https://wiki.gnome.org/OutreachProgramForWomen][programa Outreach Program for Women (OPW]]), un programa que comenzó en 2006 inspirado en [[https://developers.google.com/open-source/soc/][Google Summer of Code (verano Google del código)]] y que pretende aumentar la participación de las mujeres en distintos proyectos de Software Libre.
+
+#+CAPTION: Octavilla del programa para aumentar la participación de mujeres en proyectos de Software Libre, con licencia CC-BY-SA, por Máirín Duffy, Liansu Yu, Hylke Bons
+#+LABEL:   Puesto con material de FSFE
+#+ATTR_HTML: alt="Octavilla de OPW en proyectos de Software Libre, con licencia CC-BY-SA, por Máirín Duffy, Liansu Yu, Hylke Bons"
+https://wiki.gnome.org/OutreachProgramForWomen/2013/DecemberMarch/SpreadTheWord?action=AttachFile&do=get&target=opw-poster-2013-December-March.png
+
+La presencia de mujeres en los proyectos de Software Libre es minoritaria. Pocock señala que mientras que en las facultades de informática hay más de un veinte por ciento de plazas ocupadas por mujeres -habla de Australia-, en la comunidad de Debian tan solo componen el uno por ciento de lxs desarrolladorxs. Si bien apunta alguna excepción, como el que se conoció cuando [[https://jitsi.org/][Jitsi]] se mudó a [[https://github.com][GitHub]] y se dio a conocer que la principal contribuyente era Yana, con gran diferencia sobre el siguiente. Pocock opina que un "aumento de su participación redundaría en beneficio de todxs".
+
+En su séptima edición participan [[http://wiki.debian.org/OutreachProgramForWomen][Debian]], [[https://fedoraproject.org/wiki/Outreach_Program_For_Women_2012][Fedora]], [[https://wiki.gnome.org/GnomeWomen/OutreachProgram][Gnome]], [[http://kernelnewbies.org/OPWIntro][Linux]], [[https://wiki.mozilla.org/GNOME_Outreach_December2013][Mozilla]], [[https://wiki.openstack.org/wiki/OutreachProgramForWomen][Openstack]], [[https://www.mediawiki.org/wiki/Outreach_Program_for_Women][Wikimedia]] y [[http://wiki.xenproject.org/wiki/OutreachProgramForWomen][Xen]]. El plazo de presentación de solicitudes comenzó el 1 de octubre y finaliza el 11 de noviembre. Las mujeres seleccionadas participarán en sendos proyectos de Software Libre durante tres meses, del 10 de diciembre al 10 de marzo de 2014. Las participantes seleccionadas por Gnome recibirán un total de 5.000 dólares EE.UU. si completan el programa, en tres pagos tal como se detalla en su [[https://wiki.gnome.org/OutreachProgramForWomen/2013/DecemberMarch][propia página]].
+
+La continuidad del programa parece señal de su éxito. Desde el pasado mes de enero, las entradas de todas las participantes aparecen en la web [[http://planeteria.org/wfs/][Women in Free Software]] (Mujeres en Software Libre). Cinco participantes en anteriores ediciones han realizado este cómic:
+#+CAPTION Cómic que explica el proceso de selección de OPW
+#+LABEL Cómic que explica el proceso de selección de OPW
+#+ATTR_HTML: alt="Cómic que explica el proceso de selección de OPW"
+https://wiki.gnome.org/OutreachProgramForWomen?action=AttachFile&do=get&target=opw-cartoon.png
+
+Si has llegado tarde a este anuncio, te recomendamos que visites la página [[https://wiki.gnome.org/OutreachProgramForWomen/Opportunities][oportunidades laborales para mujeres en proyectos de Software Libre]].
+
+** Más información:
+- [[https://wiki.gnome.org/OutreachProgramForWomen/2013/DecemberMarch/SpreadTheWord][Carteles y octavillas en distintos formatos (png, pdf o svg)]]
+- Puedes seguir las novedades del programa en twitter en la cuenta [[https://www.twitter.com/fossopw][@fossopw]]

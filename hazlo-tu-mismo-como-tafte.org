@@ -1,0 +1,71 @@
+#+TITLE: Hazlo tu mismo como Tafte
+#+DESCRIPTION: 
+#+CATEGORY: 
+#+TAGS: 
+#+DATE: [2014-03-20 jue 12:00]
+#+AUTHOR:
+#+EMAIL:
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+La prueba de la convergencia de periodismo, informática,  estadística, latex, R, visualización de datos, maquetación y diseño es Tafte. Leo con agrado esta entrada del genial [[http://www.datanalytics.com/2014/12/05/r-markdown-a-la-tufte/][Carlos J. Gil Bellosta]], quien dio una magistral ponencia en el /Sexto Encuentro Internacional en Información y Comunicación/, que organicé junto con Gonzalo Abril para el departamento de Periodismo III de la Facultad de Ciencias de la Información. Desde entonces, Gil Bellosta es uno de mis autores favoritos:
+
+ El Sr. Tufte escribe libros. Los escribe, los edita, los publica y creo que hasta los vende él solo. No puede ser de otra manera. Mensaje, texto, tipografía, maquetación, gráficos, los elementos todos de sus libros, en cada una de sus páginas, están combinados y medidos hasta el menor de los detalles. Defiende que los elementos gráficos forman parte consustancial del mensaje. Nada de referirse a la figura 7.18 que puede estar dos páginas más allá. Los gráficos tienen que estar cocolocados a la discusión. Etc.
+
+ Los márgenes de los libros y otros impresos de Tufte tiene un estilo muy particular. Destacan sus amplios márgenes y sus abundantes notas en ellos. Nada de pies de página, nada de notas al final del capítulo. Cocolocación. No hay mejor sitio para las digresiones, los abundamientos y las referencias al texto principal que el adyacente
+
+* Encabezamiento
+Tal como señalan en el blog de [[http://www.mfasold.net/blog/2009/02/using-emacs-org-mode-to-draft-papers/][Marios Braindump]], se puede utilizar /org-mode/ para gestionar la bibliografía trabajando conjuntamente con el modo /RefTex/. Para ello:
+** Configurar /Emacs/
+Hemos de configurar nuestro /Emacs/ para que desde /orgmode/ invoquemos a /RefTex/. Añadimos a nuestro archivo de configuración, por ejemplo, a =.emacs=
+#+BEGIN_SRC 
+(defun org-mode-reftex-setup ()
+(load-library "reftex")
+(and (buffer-file-name)
+(file-exists-p (buffer-file-name))
+(reftex-parse-all))
+(define-key org-mode-map (kbd "C-c )") 'reftex-citation)
+)
+(add-hook 'org-mode-hook 'org-mode-reftex-setup)
+#+END_SRC
+** Enlazar la bibliografía 
+Luego, enlazamos la bibliografía en el documento /org/, poniendo al final del mismo, pero antes de =\end{document}= las siguientes líneas:
+#+BEGIN_SRC
+\bibliographystyle{plain}
+\bibliography{bibliografia}
+#+END_SRC
+Donde =plain= es el estilo deseado para la bibliografía ([[http://www.reed.edu/cis/help/latex/bibtexstyles.html][hay siete estilos estándar]], multitud de estilos específicos e incluso puedes crear uno a tu medida) y =bibliografia= es la ruta al archivo con la bibliografía en /BibTeX/; en este caso, el archivo =bibliografia.bib=, se encuentra en el mismo directorio que el archivo =org=.
+También podemos incluir bibliografía en el propio documento =org= con el entorno de /LaTeX/ =\thebibliography=.
+** Referencias bibliográficas
+
+Para insertar las citas bibliográficas escribiremos en /Emacs/, tal como hemos configurado en =.emacs=, =C c [= o bien invocando =reftex-citation=. /RefTex/ nos pedirá que introduzcamos una expresión regular -el apellido del autor del libro o una palabra del título, por ejemplo... en definitiva, algo que recordemos de esa referencia- con la que buscará en nuestra bibliografía, bien en el archivo =bib= externo, bien en las referencias embebidas o en la bibliografía externa.
+Se mostrará un /buffer/ con la lista de resultados y podremos seleccionar el que estemos buscando.
+
+
+
+** Imágenes
+#+CAPTION: Dos activistas de Greenpeace intentan parar los vertidos de la empresa Peñarroya en la Bahía de Portmán en 1986
+#+LABEL: 
+#+ATTR_HTML: alt="Dos activistas de Greenpeace intentan parar los vertidos de la empresa Peñarroya en la Bahía de Portmán en 1986"
+http://i50.tinypic.com/ibdmpf.jpg
+
+1** Misc Howpublished
+#+BEGIN_LaTeX
+
+#+END_LaTeX
+En [[http://www.tex.ac.uk/cgi-bin/texfaq2html?label%3DciteURL][esta página]] se propone también la función =@misc= aunque con el atributo =howpublished=, donde quedaría así:
+
+#+BEGIN_LaTeX:
+@misc{ASH:2013:Online,
+author = {Varios Autores},
+title = {Archivo Situacionista Hispano},
+year = {1999},
+howpublished = "\url{http://sindominio.net/ash}",
+urldate = {2013-10-01}
+}
+#+END_LaTeX
+
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+#+BLOG: infotics
+#+CATEGORY: coop, economía, evento 
+#+TAGS: cooperativas, cooperativismo, coop, fagor, mondragon, arrasate, MCC, cooperativista, coops
+#+DESCRIPTION:
+#+TITLE: 
+#+DATE: [2014-XX-XX mié XX:XX]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+http://rebelion.org/noticia.php?id=181719
+
+Tecnologías libres: el legado del Comandante Chávez
+
+José Joaquín Contreras
+conocimientolibre.cenditel.gob.ve
+
+
+Vídeo La Técnica no es Neutra  
+
+Hace algunos días algunos miembros de la así llamada “comunidad de software libre” en Venezuela publicaron, en inglés y español, un manifiesto intitulado “Comunicado a favor de la libertad y neutralidad de la red”. No voy a entrar en el detalle de la argumentación que es bastante pobre. Lo que me llama la atención es que en Venezuela, en 2014, gente de la así llamada “comunidad de software libre” hablen sin vergüenza de la “neutralidad” de la red. Tema que fue en varias oportunidades tópico de reflexión para nuestro Comandante Supremo Hugo Chávez.
+
+La Revolución Bolivariana creó un centro de investigación y desarrollo en Tecnologías Libres (Cenditel) en 2006 basado en la premisa de que “la tecnología no es neutra”. Dado que “la red” -la internet-, es una tecnología, debemos concluir necesariamente que si la tecnología no es neutra “la red” no puede ser neutra. Y no es que “la internet debería ser neutra” -como dirían incluso algunos cenditelitas actuales- “lo que pasa es que en la vida real no lo es”. No, no, “lo que pasa” es que la tecnología no es neutra y punto.
+
+¿Qué significa que una tecnología sea “neutra”?
+
+Cuando decimos que una “tecnología es neutra” lo que queremos decir es que ella no está cargada por sí misma de “valores”. Se supone que una tecnología es “neutra” porque ella, en sí misma, es un “objeto”. Todo objeto tecnológico simplemente está allí “listo para ser usado”. El objeto tecnológico neutro, llamémoslo “dispositivo”, no debe ser “contaminado” con intereses y valores personales porque al ser así pierde “objetividad”. Desde esta perspectiva una “tecnología” es libre si es “neutra”. Es a partir de aquí que ciertos movimientos de activistas del software libre propugnan por la “neutralidad” de la red.
+
+¿En qué se basa esta posibilidad? Me refiero a la posibilidad de que las cosas sean “objetos”, es decir entes en sí mismos libres de cualquier valoración.
+
+Esta posibilidad se basa en un dualismo aparecido desde los principios de Occidente pero que toma fuerza y predominio en la época moderna. Me refiero al dualismo “sujeto-objeto”. Cuando creemos que un “objeto” es una cosa en sí despojada de toda valoración, es porque creemos que eso que hoy día llamamos “valores” son “subjetividades” propias del observador, también conocido como “sujeto”. Para que una propuesta sea verdadera, esta debe ser “objetiva” y esto significa que ella debe hablar del objeto en sí, despojado de las subjetividades del observador. La época moderna se monta de esta manera sobre la base de un discurso soportado en la búsqueda por dar cuenta de un mundo en el que los seres son “objetos neutrales” y los sujetos deben dar cuenta de ese mundo sin contaminarlo con sus valoraciones particulares. Es por eso que la matemática cobra un papel fundamental. Una ciencia seria debe ser tan rigurosa como la matemática. Es a eso lo que todavía hoy día algunos se atreven a llamar “ciencia pura”, una ciencia despojada de toda valoración subjetiva.
+
+Pues hagámonos la pregunta trivial ¿Tiene asidero eso de la ciencia “objetiva”?, o preguntado de otro modo, ¿tiene asidero eso de la “ciencia neutra”?
+
+Hace ya casi noventa años que el físico Werner Heisenberg publicaba su famoso “Principio de Incertidumbre”. Allí, el famoso científico se percataba de un asunto deslumbrante y era que cualquier medición que se hiciera, ésta siempre estaría perturbada por el “sistema de medición”. El “observador” modifica los datos en cierta manera, o mejor dicho, toda “medición” está mediada por el observador.
+
+El “Principio de Incertidumbre de Heisenberg” dio al traste con la supuesta objetividad de la ciencia hace ya ochenta y nueve años y esto ocurrió desde la ciencia misma.
+
+Si la tecnología se entiende como la aplicación de los principios científicos y la ciencia no puede ser neutra, entonces a la tecnología tampoco puede ser “neutra”. Por eso era queFeenberg nos hablaba de la “razón impura“. Se esperaba contar con una “razón pura” que diese sentido a una “ciencia pura”. Al ser la razón y la ciencia, en principio, impuras, la red y la tecnología son -por añadidura- también impuras.
+
+Nuestra posición se afianzaría aún más si viésemos que todo el edificio conceptual de la fulana “objetividad” de la ciencia está basado en el “Principio de No Contradicción” enarbolado por Parménides al inicio de Occidente y que este principio tiene una serie de contradicciones intrínsecas y reveladas desde los tiempos de Heráclito… Pero creo que no nos hace falta ir tan allá. Nos es suficiente con Heisenberg y quizá con Nietzsche:
+
+    “En algún apartado rincón del universo vertido centelleantemente en innumerables sistemas solares, hubo una vez una estrella en la que unos animales inteligentes descubrieron el conocimiento. Fue el minuto más arrogante y más falaz de la ‘historia universal’ 1: de todos modos sólo fue un minuto.”
+
+1873, “Sobre verdad y mentira en sentido extramoral”
+
+Para usar un término macinteryano, la creencia en una tecnología “neutra” se basa en una de esas tantas “profecías” modernas. “Profecías” que prometían que algún día se lograría la famosa neutralidad, pero el asunto es que eso nunca se pudo lograr porque no se puede, así como nunca se logró tampoco fundamentar racionalmente la moral que es lo que intenta mostrar MacIntyre por su parte. Sin embargo, nuestra civilización se montó sobre la base de esta creencia. Montamos todo nuestro edificio tecnológico sobre la creencia de que ella, la tecnología, era neutra.
+
+Hace ya bastante tiempo que el imperio se percató de este asunto. Lander (2005) muestra en un excelente y bien documentado artículo intitulado “La Ciencia Neoliberal” cómo a partir de la década de los ochenta se empiezan a dar una cantidad de movimientos en países como Estados Unidos y Canadá que tenían por objetivo mercantilizar la ciencia. Se cambió completamente la legislación de propiedad intelectual borrando distinciones claves como “descubrimiento” e “invención” lo cual llevó a la posibilidad incluso de patentar formas de vida… La universidad deja de ser el espacio para la investigación “pura” que busca el crecimiento del conocimiento como un fín en sí mismo. Se potencia así el capitalismo académico y las universidades se convierten en centros de I+D arrendados por las corporaciones multinacionales. La regulación finalmente termina permitiendo que la investigación subsidiada por los impuestos públicos pueda ser apropiada por intereses privados. En fin, el imperio hace ya más de tres décadas se percató de que la ciencia y la tecnología no son neutras y que sí son medios sin igual para la dominación y la explotación capitalista.
+
+El adjetivo de “libres” que califica al sustantivo “tecnologías” en el nombre de Cenditel no refiere a la libertad de ser “neutrales”. Refiere más bien a la libertad de una ciencia y una tecnología para el bien común y no para el beneficio de unos pocos en desmedro de las mayorías.
+
+Aunque a veces pareciese haber cierta comunidad de intereses entre nuestra actitud cenditelita y el quehacer de los grupos activistas europeos que propugnan por la “neutralidad” de la red, esta común-unidad no va mucho más allá de compartir un enemigo común. Aunque ya esto es bastante.
+
+Los compatriotas que están ahora propugnando por la “neutralidad” de la red, no están haciendo más que “seguir” a los activistas europeos. No hace falta explicar en detalle que tras este “seguidismo” hay una relación de dependencia neocolonial que nos profundiza en nuestra definición histórica y esencial de “colonia”. Es contra esto, en la intención de redefinirnos para cambiar las relaciones de dependencia que aparece éste nuestro centro.
+
+Cenditel nace en el contexto de la revolución bolivariana y por eso decía Chávez:
+
+    “…Así como Bolívar tenía cañones y caballos, hombres y mujeres armados para derrotar al imperio español, ahí están nuestros cañones y nuestros hombres y mujeres armados con las armas de la inteligencia y el saber para lograr la independencia científico-tecnológica ”
+
+Esto lo decía, justo después de exclamar:
+
+    “¡Es la independencia lo que estamos buscando!”
+
+2006, “La Sociedad del Talento”.
+
+Para Chávez, la tecnología no era “neutra”, ella era una herramienta para cuidar, fortalecer y cultivar el bien más preciado: la independencia. Pero ¿independencia para qué? Simón Rodríguez nos lo decía claramente en una cita muy famosa:
+
+    “Los hombres de estos últimos tiempos… quieren vivir
+
+    SIN REYES Y SIN CONGRESOS,
+    no quieren tener
+    AMOS ni TURORES
+    quieren ser dueños
+    de sus personas, de sus bienes y de su voluntad;
+    sin que por eso entiendan
+    vivir como ANIMALES FEROCES,
+    (que es lo que suponen los defensores del absolutismo manifiesto o paliado)
+    Quieren gobernarse por la RAZON
+    que es la autoridad de la naturaleza.
+
+    RAZON es figura abstracta de la FACULTAD DE PENSAR”
+
+1828, “Sociedades Americanas”
+
+Pero, ¡caramba!, todo este edificio moderno de la razón como fundamento procura precisamente la “objetividad”. Es decir, la búsqueda ilustrada, la búsqueda de la independencia por la que luchaba Bolívar, precisamente lo que tenía por objetivo era la libertad de actuar de manera racional, de manera objetiva… Eso que nosotros hemos dicho acá que -ya hace algún tiempo- se viene mostrando como una profecía sin posibilidad de ser cumplida.
+
+¿Entonces qué? ¿Es toda esta “revolución” una expresión más de la arrogancia y la falacia de la “historia universal” de la que nos hablaba Nietzsche? ¿Es Cenditel un sin sentido, un estertor de una época feneciente?
+
+Seguramente sí… seguramente seremos una especie de Quijotes intentando vivir según la cosmovisión de un mundo ya inexistente. Sí, posiblemente…
+
+Sin embargo, es también posible que Bolívar, Rodríguez y demás pensadores ilustrados aunque veían con claridad muchas cosas no les era dado ver otras en su momento. Algo interesante que nos fue ocurriendo, desde la ciencia misma por cierto, fue que pudimos caer en cuenta que la razón no era única, ni universal. Pudimos percatarnos que las culturas contaban con racionalidades distintas y hasta inconmensurables. Pudimos percatarnos que a la unidad la subyace la diversidad.
+
+Hace algunas semanas cuando celebrábamos aquí el bicentenario de la “Batalla de LaVictoria” recordábamos aquel famoso libro intitulado “Declaración de los derechos del hombre y del ciudadano” y veíamos que todos, todos, los derechos derivaban de la posibilidad de tener patria. Pues bien, cuando en 1810 Bolívar hace aquel famoso viaje diplomático a Londres acompañado por Andrés Bello y Luis López Méndez, y en el que conoce a Francisco de Miranda, se hizo un retrato poco conocido pintado por Charles Gill. En este retrato, al joven Bolívar puede vérsele una medalla prendada del tricolor mirandino. En la medalla, una inscripción que decía “Sin Libertad no hay Patria”.
+
+La patria es posible sobre la base de la libertad para razonar. Pero la razón no es única, ella es unidad de la diversidad, es una uni-diversidad. La patria se soporta en la libertad para el despliegue de nuestra racionalidad desde su uni-diversidad desde la cual hemos sido, somos y seremos.
+
+La técnica juega aquí un papel fundamental como el modo de producción de nuestra racionalidad uni-diversa. Una tecnología libre, una tecnología verdaderamente libre, es una que busca aportar allí en el cuidado, despliegue y cultivo de esa racionalidad a partir de la cual somos una patria. Por ello, una tecnología libre es la que abona al bien común, puesto que la patria (el pueblo desde el que somos) es el bien que nos es más común.
+
+¿Neutro esto?…
+¿Toche?
+
+Decía Chávez:
+
+    “Vamos a inventar nuestro propio modelo, no se trata de copiar ninguno, de ninguna parte, de ninguna época, por eso les digo y les insisto trabajando y avanzando en todo el frente en lo social, en lo político, en lo económico, en lo científico y tecnológico .”
+
+por eso decía más adelante:
+
+    “Yo pido colaboración a todos, todas las empresas del estado, es muy importante esto, la creación del software, nuestro software, Software Libre .”
+
+2006, “La Sociedad del Talento”
+
+El software libre en nuestro contexto es aquel que aporta en el cultivo de nuestra venezolanidad, de nuestro ser suramericano y, desde allí, a nuestra universalidad. Ese es, desde mi humilde perspectiva, el legado de Chávez en torno a la tecnología. La tecnología bolivariana, la tecnología chavista, es una tecnología libre y fundamentadora.
+
+Al inicio de este post hay un vídeo con un corto discurso del Comandante Chávez… Si no lo ha visto aún, véalo, allí está mucho mejor explicado que en este espacio.
+
+José Joaquín Contreras
+
+P.D. Un detalle curioso, el retrato de Simón Bolívar de Charles Gill se quemó en un incendio ocurrido el 9 de abril de 1948 en la Biblioteca Nacional de Colombia, Bogotá. Ocurría en ese momento el “bogotazo” que daría pie -hace más de sesenta años- a esa guerra civil colombiana que aún no ha terminado…
+
+
+Fuente: http://conocimientolibre.cenditel.gob.ve/2014/03/05/tecnologias-libres-el-legado-del-comandante-chavez/
+
+#+CAPTION: 
+#+LABEL: 
+#+ATTR_HTML: alt=""
+http://
+
+

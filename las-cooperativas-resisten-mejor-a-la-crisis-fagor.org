@@ -1,0 +1,44 @@
+#+BLOG: infotics
+#+POSTID: 939
+#+DATE: [2013-10-31 jue 09:40]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: coop, economía, evento 
+#+TAGS: cooperativas, cooperativismo, coop, fagor, mondragon, arrasate, MCC, cooperativista, coops
+#+DESCRIPTION:
+#+TITLE: Las cooperativas resisten mejor a la crisis ¿Fagor?
+
+2012 fue el [[http://social.un.org/coopsyear/][Año Mundial de las Cooperativas]] para la ONU. En España, me atrevería a decir que poco supimos de este hecho ni de las actividades que a nivel mundial, internacional, europeo, nacional o local se realizaron. En algunos sitios más que en otros, se produjeron algunos signos positivos, entre los que destaco la [[http://www.firaesc.org/][Feria de Economía Solidaria de Cataluña]], la consolidación de la [[http://www.somenergia.coop][Cooperativa de Energía Verde Som Energia]] y las distintas versiones del [[http://www.economiasolidaria.org/mercado_social][Mercado Social]], si bien en el ámbito de las asambleas del 15M se ha dado un importante impulso a multitud de iniciativas cooperativas a pequeña escala, algunas de las cuales nutren las anteriores.
+
+#+CAPTION: Taller Fagor Aspes http://www.flickr.com/photos/castanias/3161577202/sizes/z/
+#+LABEL: Taller Fagor Aspes http://www.flickr.com/photos/castanias/3161577202/sizes/z/
+http://farm4.staticflickr.com/3122/3161577202_0fe3c7dda4_z.jpg
+
+En el ámbito europeo, [[http://www.cecop.coop/][CECEP]] (Confederación Europea de Cooperativas de Industria y Servicios) realizaron un documental donde el hilo argumental gira en torno a la idea de cómo las cooperativas resisten mejor a la crisis. [[http://www.together-thedocumentary.coop/][Together]] (Juntxs) muestra los testimonios de cuatro cooperativas de Francia, Polonia, Italia y España:
+- Muszynianka (Polonia), embotelladora de agua mineral fundada hace más de 60 años.
+- Fonderie de l'Aisne (Francia), empresa adquirida por sus trabajadores.
+- Consorzio SIS (Italia), que favorece la inclusuión laboral a personas en situación de riesgo y serivios sociales a miles de ciudadanxs en Milán.
+- Mondragon Corporación Cooperativa (España), uno de los principales grupos empresariales de España.
+
+El documental ha sido traducido al inglés, francés, castellano/español, italiano, polaco, japonés, griego y coreano y lo podéis ver desde la página web.
+http://vimeo.com/52848907
+
+Un año después, MCC, una de las banderas del cooperativismo internacional, probablemente poco valorado a nivel estatal en términos cooperativistas, en términos de empresa nacional e incluso víctima de [[http://www.minutodigital.com/2012/10/28/boicot-listado-de-empresas/][absurdos boicots a productos catalanes y vascos]], acaba de anunciar -con cuentagotas- que 
+[[http://noticias.lainformacion.com/economia-negocios-y-finanzas/empresas/la-corporacion-mondragon-no-rescatara-a-fagor-al-ver-inviable-su-proyecto_akZ8T6ebArlztGF5DfoQ8/][deja caer a uno de sus buques insignias: Fagor]], empresa de electrodomésticos con más de 50 años de antigüedad, porque "[[http://www.tulankide.com/es/acuerdo-unanime-del-consejo-general-de-mondragon-sobre-el-proyecto-fagor-electrodomesticos][el proyecto no responde a las necesidades del mercado]]".
+A principios de octubre, MCC anunciaba que [[http://www.tulankide.com/es/fagor-industrial-estrena-marca-e-imagen-corporativa-onnera-group-2][Grupo Fagor Industrial paso a denominarse Onnera Group]], donde se integran Fagor, Asber, Edesa, Danube, Domus, Primer y Efficold para ofrecer soluciones de equipamiento para restauración, lavandería y aplicaciones de frío. Por su parte, la corriente crítica /Ahots Kooperatibista/ vaticinaba que la cooperativa [[http://www.naiz.info/eu/actualidad/noticia/20131018/atribuyen-el-cierre-a-errores-estrategicos-y-a-una-gestion-oscura][se adscribiría al concurso de acreedores.]]
+
+** ¿Qué ha pasado en este último año?
+
+La continuación de la crisis ha puesto al descubierto algunas prácticas empresariales que ponen han puesto en duda la política llevada a cabo por este grupo cooperativo, Mondragon, que demuestra que jugar de tú a tú en las grandes ligas, además de poner en cuestión los principios del cooperativismo que supuestamente practica, se vuelve contra el proyecto -las personas que participan- cuando no puedes competir en los mismos términos y actúas como una empresa capitalista más. Algunos ejemplos:
+
+- *Preferentes*. Eroski y Fagor financiaron su crecimiento con un producto financiero perpetuo, sin vencimiento, que comercializó sobre todo a través de Caja Laboral -también del grupo MCC. Sus 40.000 afectadxs, participantes en su mayoría del tejido social del cooperativismo en Euskadi, han perdido el 60% de su valor y no pueden deshacerse de él. Sus afectadxs han iniciado sendas movilizaciones que ponen el tablero de juego político vasco, ya que PNV y EH-Bildu les han dado la espalda.
+- *Modificación [[http://www.parlamento.euskadi.net/pdfdocs/leyes/ley20000001_f_cas.html][Ley de Cooperativas del País Vasco]] en 2000*. MCC necesitaba un cambio en la ley de cooperativas para financiar su expansión internacional. El gobierno de Ibarretxe (PNV) accedió y fruto de aquello han sido las preferentes, por ejemplo.
+- *Expansión internacional*, con externalización y producción en China o Polonia para atender a los mercados emergentes, asiático y de Europa del Este, respectivamente y con prácticas de empresa multinacional [[http://zsp.net.pl/fagormastercook_workcamp][respondidas en algunas ocasiones por sus trabajadores]].
+- *Compra de Caprabo* por Eroski en 2007, el 75% por más de 1.300 millones de euros, luego adquirió el resto en distintas operaciones. La [[http://www.eleconomista.es/noticias/noticias/4531753/01/13/Eroski-logra-aplazar-la-deuda-por-la-compra-de-Caprabo-a-2017.html][deuda total de la operación supera a comienzos de 2013 los 1.800 millones de euros]]. La deuda 
+total de Eroski a finales de julio superaba los 2.600 millones de euros.
+- *Gestión empresarial*. Si la [[http://www.periodistadigital.com/economia/empresas/2013/10/17/la-gigantesca-cooperativa-fagor-entra-en-preconcurso-de-acreedores.shtml][deuda de Fagor se estima en más de 800 millones de euros]], ¿por qué se deja caer a Fagor mientras se mantiene Eroski, con una deuda tres veces superior? Porque, como decían al principio, no lo ven viable. MCC mientras tanto [[http://www.tulankide.com/es/mondragon-reafirma-su-confianza-plena-en-el-modelo-cooperativo][reafirma su confianza en el modelo cooperativo]] (sic).
+
+Creo que merecería la pena una reflexión colectiva sobre esta noticia desde ámbitos del cooperativismo de base. [[http://www.naiz.info/eu/actualidad/noticia/20131021/fagor-electrodomesticos-retos-para-la-accion-politica][Ekai Group apunta algunos retos en Naiz]], y el editorial de [[http://www.naiz.info/iritzia/editorial/fagor-ha-muerto-viva-el-cooperativismo][Naiz "Fagor ha muerto, ¡viva el cooperativismo!"]] apunta que "al gigante de Arrasate se le ha atragantado su estrategia de crecimiento demostrando que ser más grande no es sinónimo de adaptarse mejor ni de tener más fuerza de supervivencia". También, al hilo del comienzo de este artículo, apunta que "ni su estructura societaria ni el cooperativismo están al margen de las inclemencias del mercado ni garantizan por definición un empleo para toda la vida". Y sentencia que "sobra la idealización y creer que el modelo protege por sí mismo frente a la contundencia de la crisis".
+
+En *Juntxs*, el presidente de MCC José María Aldecoa cuenta que desde 2008 el grupo toma medidas en común, y la primera es la actitud con la que iban a actuar en la crisis ya que si tomaban una buena actitud iban a salir de la crisis mejor que sus competidores. Parece que la actitud que tomaron no ha sido la mejor, que las lavadoras Fagor que acompañan las imágenes del documental, no volverán a salir de esas fábricas y [[http://www.rtve.es/noticias/20131018/corporacion-mondragon-se-esforzara-para-intentar-salvar-1000-empleos/768481.shtml][más de mil personas]] no saben que va a ocurrir con su futuro.
+
+

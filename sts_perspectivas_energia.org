@@ -1,0 +1,13 @@
+* Conferencia STS Perspectivas sobre energía
+** TODO traducir el artículo
+
+Lisbon, 4 -5 November 2013
+
+Energy issues are both a pressing matter in contemporary societies and the subject of a rising body of academic work, none the least in the field of science and technology studies. On the one hand, the incessant need to find new and improved energy sources (cleaner and more sustainable) to fuel the ever growing demands of consumer societies is a strong drive for scientific research, supported by national and international funding agencies and policies. From local laboratories and networks to big science projects, like nuclear fusion, from the processes of scientific “discovery” to the path into industrial application of innovations, there is much to be gleaned for STS scholars.
+
+On the other hand, technologies for energy generation are far from controversy-free. Risks and impacts over the environment and human health have given rise to a number of technology-oriented social movements, advocating either for (e.g. wind, solar) or against (e.g. nuclear, fracking) certain forms of energy, often coming into conflict over diverging interests with the industry, the government and the scientific establishment. The wide breadth of emerging energy technologies, whose risks are still unknown and uncertain, has the potential to unleash many more controversies worth studying.
+
+Additionally, energy-related technological objects have also invaded the home. From electric vehicles to smart meters, from solar panels on the roof to wind turbines on the backyard, the way consumers/citizens deal with these new devices has become a fertile ground for research, at the intersection between STS and practice theory and consumption studies.
+
+This conference aims to discuss these and other issues pertaining STS approaches on energy.
+

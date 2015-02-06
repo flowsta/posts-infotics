@@ -1,0 +1,57 @@
+#+BLOG: infotics
+#+POSTID: 1079
+#+CATEGORY: latex, emacs, reftex, orgmode, bibtex
+#+TAGS: edición, bibliografía, emacs, latex, orgmode, bibtex
+#+DESCRIPTION: Cómo utilizar RefTex en Emacs con orgmode
+#+TITLE: El uso de RefTeX en Emacs con orgmode
+#+DATE: [2014-09-03 mié 20:00]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+* El uso de RefTeX en Emacs con orgmode
+Hace unos meses me preguntaba [[http://infotics.es/2014/04/15/como-citar-una-url-con-bibtex/][cómo citar una URL con BibTex]], una pregunta que me intenté responder y que no considero cerrada, ya que lo que me gustaría es contar con una /solución/ estándar, consensuada o al menos ampliamente utilizada.
+
+En esta ocasión, una vez que contamos con la bibliografía en /BibTeX/ y estamos trabajando con /Emacs/ en /orgmode/, como es mi caso, podemos utilizar /RefTeX/ para gestionar la bibliografía. Me baso e el blog de [[http://www.mfasold.net/blog/2009/02/using-emacs-org-mode-to-draft-papers/][Marios Braindump]] y en la experiencia propia. Hemos de realizar tres pasos:
+
+1. Configurar /Emacs/
+2. Enlazar la bibliografía
+3. Realizar las referencias bibliográficas.
+
+** Configurar /Emacs/
+Hemos de configurar nuestro /Emacs/ para que desde /orgmode/ invoquemos a /RefTex/. Añadimos a nuestro archivo de configuración, por ejemplo, a =.emacs=
+#+BEGIN_SRC 
+(defun org-mode-reftex-setup ()
+(load-library "reftex")
+(and (buffer-file-name)
+(file-exists-p (buffer-file-name))
+(reftex-parse-all))
+(define-key org-mode-map (kbd "C-c )") 'reftex-citation)
+)
+(add-hook 'org-mode-hook 'org-mode-reftex-setup)
+#+END_SRC
+** Enlazar la bibliografía 
+Luego, enlazamos la bibliografía en el documento /org/, poniendo al final del mismo, pero antes de =\end{document}= las siguientes líneas:
+#+BEGIN_SRC
+\bibliographystyle{plain}
+\bibliography{bibliografia}
+#+END_SRC
+Donde =plain= es el estilo deseado para la bibliografía ([[http://www.reed.edu/cis/help/latex/bibtexstyles.html][hay siete estilos estándar]], multitud de estilos específicos e incluso puedes crear uno a tu medida) y =bibliografia= es la ruta al archivo con la bibliografía en /BibTeX/; en este caso, el archivo =bibliografia.bib=, se encuentra en el mismo directorio que el archivo =org=.
+También podemos incluir bibliografía en el propio documento =org= con el entorno de /LaTeX/ =\thebibliography=.
+** Referencias bibliográficas
+
+Para insertar las citas bibliográficas escribiremos en /Emacs/, tal como hemos configurado en =.emacs=, =C c [= o bien invocando =reftex-citation=. /RefTex/ nos pedirá que introduzcamos una expresión regular -el apellido del autor del libro o una palabra del título, por ejemplo... en definitiva, algo que recordemos de esa referencia- con la que buscará en nuestra bibliografía, bien en el archivo =bib= externo, bien en las referencias embebidas o en la bibliografía externa.
+Se mostrará un /buffer/ con la lista de resultados y podremos seleccionar el que estemos buscando.
+
+
+
+** Imágenes
+#+CAPTION: Detalle de Emacs con un buffer un documento .tex y otro buffer con la selección de RefTeX 
+#+LABEL: reftex
+#+ATTR_HTML: alt="Detalle de Emacs con un buffer un documento .tex y otro buffer con la selección de RefTeX"
+http://phd.ie.lehigh.edu/~zhh210/wp-content/uploads/2012/08/ref.png
+
+
+
+
+
+
+
+

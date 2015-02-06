@@ -1,0 +1,123 @@
+#+BLOG: infotics
+#+POSTID: 1027
+#+DATE: [2014-05-06 mar 00:15]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: copyleft, cultura, data, big data, Linked Data, Linked Open Data, Open Data, Open Data Gov, Open Gov, debian, evento
+#+TAGS: jpd14, localidata, medialab, medialab prado, Óscar Corcho, command line, línea de comandos, linux, macos.
+#+DESCRIPTION: Algunas notas al taller sobre línea de comandos realizado por Óscar Corcho para #jpd14
+#+TITLE: El periodista y la línea de comandos
+
+*Óscar Corcho* ([[https://www.twitter.com/ocorcho][@ocorcho]]) realizó un taller sobre la /línea de comandos/ para periodistas -es decir, para personas con un perfil técnico básico, pero perfil al fin y al cabo- en las últimas [[http://periodismodatos.okfn.es][II Jornadas de Periodismo de Datos y Open Data]] celebradas en [[http://www.medialab-prado.es][Medialab Prado]] entre el 22 y el 27 de abril.
+
+Para el taller escribió este [[http://blog.localidata.com/2014/04/puede-un-periodista-usar-la-linea-de.html][artículo en el blog]] de [[http://www.localidata.com][LocaliData]], empresa de la que es socio, de tal forma que pudiéramos tener una guía de referencia según nos iba contando. Os recomiendo seguirlo. Yo me he puesto con ello, a lxs periodistas nos viene muy bien manejar la línea de comandos.
+
+Pero antes, unos consejos que repetí a lxs asistentes mientras les ayudaba por las terminales:
+
+- Cuando se escribe el comando con algo parecido a =$ ls -la=, nótese que el símbolo del dólar solo indica el comienzo de la ejecución de órdenes, no hay que copiarla en tu línea de comandos, ya está ahí en tu propia terminal, si te fijas.
+- La terminal autocompleta los comandos con tabulación. Si escribimos =cu= y le damos al tabulador, nos aparecerá en pantalla el listado de comandos que empiezan por /cu/
+- Para echar un vistazo a los ficheros, tenemos el comando =more= y también =less=. Para salir de ellos hay que pinchar en la tecla =q=
+- Como cuenta Óscar, las órdenes que damos van quedando almacenadas en un fichero al que podemos acceder viendo su listado completo tecleando el comando =history=.
+- También nos puede resultar muy útil ejecutar algo que antes ya hemos ejecutado, pero cambiando una letra o una palabra porque no es exactamente igual lo que queremos hacer. Entonces le damos al cursor para arriba y nos saldrán las últimas órdenes que hemos escrito. Con el cursor hacia la izqda. o hacia la dcha. podemos posicionarnos sobre la palabra que queremos cambiar.
+- Si hemos escrito mal un comando puede que no cante error y se quede esperando que escribas más o cualquier otra cosa, o puede que estés haciendo algo que lleva mucho tiempo y no se lo puedes dedicar. Para salir de ahí, teclea /CTRL + C/.
+
+* Retos
+
+En el taller planteaba algunos retos, que comentaré por aquí:
+
+** ¿Cómo dividirías el fichero de comercios que hemos utilizado anteriormente para que los nombres de los ficheros que se generen comiencen como ComerciosMadrid_?
+
+Se trata de una funcionalidad del comando =split=. Tal como Óscar sugiere, a través de =split --help= o de =man split= vemos que la forma de añadir un prefijo a los archivos generados es añadir ese prefijo al final de la línea de opciones del comando. Es decir, si antes utilizamos:
+#+BEGIN_SRC 
+$ split -l 2000 ComerciosMadrid.csv
+#+END_SRC
+donde dividíamos el fichero [[https://dl.dropboxusercontent.com/u/1406775/ComerciosMadrid.csv][ComerciosMadrid.csv]] en archivos de 2000 líneas con la estructura de nombres que ofrece /split/ por defecto, en esta ocasión tendremos que poner:
+#+BEGIN_SRC 
+$ split -l 2000 ComerciosMadrid.csv ComerciosMadrid_
+#+END_SRC
+Hecho! 
+
+
+** El comando cut también se puede utilizar para dividir un fichero en campos si tienen un tamaño predefinido (por ejemplo, los ficheros de Catastro o algunos ficheros de microdatos del INE). ¿Cuál sería el comando a utilizar para obtener del fichero de comercios de Madrid todos los códigos de los locales, que se encuentran en cada línea entre las posiciones 2 y 10? ¿Cuál es el tamaño final del fichero obtenido?
+
+Para los códigos entre las posiciones 2 y 10:
+#+BEGIN_SRC 
+$ cut -f 2-10 -d ';' ComerciosMadrid.csv > ComerciosMadridCodigosLocales.csv
+#+END_SRC
+
+Tamaño del fichero, lo haremos con el comando /du/ con la opción =-h= para que la salida del tamaño sea legible por humanos :)
+#+BEGIN_SRC 
+$ du -h ComerciosMadridCodigosLocales.csv 
+14M	ComerciosMadridCodigosLocales.csv
+#+END_SRC
+
+** Cómo buscarías los ficheros que contengan 100 MONTADITOS o 100 Montaditos? Es decir, ¿cómo harías las búsquedas independientes de si se utilizan mayúscula o minúsculas? ¿Cómo guardarías en un fichero todas las líneas que contienen 100 MONTADITOS?
+
+Enlazo estos dos retos para ponerlos en una sola línea, pasando la salida de la búsqueda al fichero deseado.
+
+Para la búsqueda con /grep/ la opción =i= que ignora si son mayúsculas o minúsculas:
+#+BEGIN_SRC 
+$ grep '100 MONTADITOS' -ri ComerciosMadrid.csv > 100montaditos.csv
+#+END_SRC
+
+Con =100 MONTADITOS= no he visto diferencias pero si buscas por ejemplo =peluqueria= verás los resultados con mayúsculas y minúsculas.
+
+** ¿Cómo reemplazarías cadenas como 100 MONTADITOS, y en general cualquier número seguido de un conjunto de caracteres, por la cadena de caracteres seguida del número (es decir, MONTADITOS 100)?
+
+Óscar ha puesto el ejemplo de =sed= de reemplazar la cadena =100 MONTADITOS= por =CIEN MONTADITOS=. Ojo que en el ejemplo que pone si queremos guardar el resultado, debemos enviarlo a un fichero. Es decir, si ponemos:
+#+BEGIN_SRC 
+$ sed s/100\ MONTADITOS/CIEN\ MONTADITOS/ 100montaditos.csv
+#+END_SRC
+
+Yo tengo el archivo /100montaditos.csv/ de antes. Si escribo eso, la salida me aparecerá por la terminal. El fichero /100montaditos.csv/ sigue tal cual estaba y no podemos hacer nada con el resultado del comando. Para hacer algo, para comprobarlo, para lo que sea, lo enviamos a otro fichero así:
+#+BEGIN_SRC 
+$ sed s/100\ MONTADITOS/CIEN\ MONTADITOS/ 100montaditos.csv > cienMontaditos.csv
+#+END_SRC
+
+Si queremos, como plantea Óscar, cambiar el orden de las palabras, pues así lo escribimos al reves y lo enviamos al fichero =montaditosCien.csv= para luego comprobar el cambio con =more= (o =less=, como prefiráis).
+#+BEGIN_SRC 
+$ sed s/100\ MONTADITOS/MONTADITOS\ CIEN/ 100montaditos.csv > montaditosCien.csv
+$ more montaditosCien.csv
+#+END_SRC
+
+Para paginar en =more= utilizamos la barra espaciadora y para salir sin llegar al final, la tecla =q=
+
+El funcionamiento de =sed=, en esta orden, es muy fácil: cambia una cosa por otra, como si después quieres poner un soneto de Góngora. Eso sí, tienes que estar pendiente de que en la orden de sustitución, los espacios se /escapan/, son caracteres especiales, y por eso antes del espacio hay una barra invertida /\/ que indica que va a escapar ese caracter. Si no pusiéramos la barra, el comando daría error, comprobadlo si queréis:
+#+BEGIN_SRC 
+$ sed s/100 MONTADITOS/MONTADITOS CIEN/ 100montaditos.csv 
+sed: -e expresión #1, carácter 5: orden `s' sin termina
+#+END_SRC
+
+** ¿Podéis acceder a la descripción de la API de datos abiertos de Zaragoza e intentar determinar cuántos restaurantes hay en Zaragoza, según esta API?
+
+Lo he hecho enviando el resultado de =curl= a un fichero =restaurantesZaragoza.csv= y luego aplicando otra de las enseñanzas de Óscar, contar las líneas del fichero con =wc -l=, suponiendo que cada resultado esté en una línea, da como resultado *87*
+#+BEGIN_SRC 
+$ curl -H "Accept:text/csv" http://www.zaragoza.es/api/recurso/turismo/restaurante > restaurantesZaragoza.csv
+$ wc -l restaurantesZaragoza.csv
+87 restaurantesZaragoza.csv
+#+END_SRC
+
+** ¿Cómo creéis que se podría obtener información de la provincia de Huesca en la API de datos de Open Data Aragón?
+
+Siguiendo el ejemplo que puso Óscar para la petición a [[http://opendata.aragon.es/][AragoDBpedia]] del municipio de Jaca:
+#+BEGIN_SRC 
+$ curl -H "Accept:text/csv" http://opendata.aragon.es/recurso/territorio/Municipio/Jaca.csv?api_key=e103dc13eb276ad734e680f5855f20c6\&_view=ampliada
+#+END_SRC
+
+Y siguiendo la [[http://opendata.aragon.es/portal/desarrolladores/api-aragodbpedia][lógica expuesta en la web]] de la /API/ de AragoDBpedia
+
+#+BEGIN_SRC 
+$ curl -H "Accept:text/csv" http://opendata.aragon.es/recurso/territorio/Provincia/Huesca.csv?api_key=e103dc13eb276ad734e680f5855f20c6\&_view=ampliada > huesca.csv
+#+END_SRC
+
+** ¿Cómo podemos obtener en un único fichero los datos completos de todos los restaurantes de Zaragoza, utilizando su API y algún script para tratar los datos adecuadamente?
+
+En un ejemplo anterior me bajaba los datos a un fichero =csv=, cuando en realidad no se trata de un fichero =csv=. En cualquier caso, por ahí podríamos empezar a tratarlos, aunque no se me ocurro cómo.
+
+** ¿Cuál sería el script a utilizar para que, dado el listado de todos los municipios de la provincia de Huesca, podamos hacer llamadas a la API de AragoDBpedia y obtener todos sus datos?
+
+Esto se lo preguntaré a Óscar :)
+
+* Enlaces
+
+- [[https://en.wikibooks.org/wiki/Linux_For_Newbies/Command_Line][Linux para principiantes]]
+- 

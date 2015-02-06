@@ -1,0 +1,81 @@
+#+BLOG: infotics
+#+POSTID: 1110
+#+CATEGORY: calendario, evento, periodismodatos 
+#+TAGS: boletín, periodismodatos, tinyletter, 
+#+DESCRIPTION: Presentación del boletín de Periodismo de Datos para estar al tanto sobre todo de eventos relacionados de periodismo de datos, pero también de presentaciones, enlaces, webs, ponencias, libros o cualquier otra producción cultural relacionada
+#+TITLE: Boletín de Periodismo de Datos
+#+DATE: [2014-09-28 dom 01:30]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+En la pasada primavera creé un calendario en Google Calendar titulado [[pouq3na86cqhjq7dsurteupqm0@group.calendar.google.com][PeriodismoDatos]] para apuntarme todos los eventos interesantes relacionados con el Periodismo de Datos, y lo publiqué en [[http://s.coop/1v0jc][Infotics]].
+
+Podéis incrustar el calendario copiando este código:
+#+BEGIN_SRC HTML
+<iframe src="https://www.google.com/calendar/embed?src=pouq3na86cqhjq7dsurteupqm0%40group.calendar.google.com&ctz=Europe/Madrid" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+#+END_SRC 
+
+En otoño ha llegado el momento de publicar un listado de los eventos del mes en curso o del mes que viene, periódicamente en Infotics.es también, y lanzar un boletín de noticias de Periodismo de Datos en [[https://tinyletter.com/adolflow][tinyletter.com]]
+
+Os podéis apuntar aquí mismo, en [[https://tinyletter.com/adolflow][tinyletter.com/adolflow]] o bien en el formulario colocado en el blog.
+#+BEGIN_HTML
+ <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/adolflow" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/adolflow', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form><br /><br /> 
+#+END_HTML
+
+
+A continuación os dejo el texto del primer boletín correspondiente al mes de septiembre:
+
+* Boletín de PeriodismoDatos Septiembre 2014
+#+CAPTION: Momento del taller de producción periodismo de datos de 2013 con Aron Pilhofer. Medialab-Prado 
+#+ATTR_HTML: alt="Momento del taller de producción periodismo de datos de 2013 con Aron Pilhofer. Medialab-Prado"
+https://farm6.staticflickr.com/5546/11403568355_1551a212d8_b.jpg
+
+** Jacathon Hack_the_Pyrenees
+Tras organizar un curso de verano en Jaca, varios eventos sobre open data, talleres de formación para gestores de datos y participar en muchas jornadas sobre datos abiertos, en Aragón Open Data, en colaboración con el Proyecto Europeo Homer; Programa MED, hemos pensado que ha llegado el momento de hacer un evento para desarrolladores y reutilizadores de datos. Creemos que la mejor forma de hacer participar en nuestro proyecto de apertura de datos al colectivo de desarrolladores es la celebración de un Hackathon en el que podamos conocernos y colaborar. Para esto estamos preparando un evento en Jaca los próximos 25 al 28 de septiembre de 2014 en el que os esperamos
+
+Jaca + Hackathon = Jacathon
+
+Twittea con el hashtag #jacathon
+
+http://opendata.aragon.es/portal/jacathon
+ 
+
+** MadData Competición de Datos Abiertos
+everis y MadridEmprende organizan el primer Open Datathon de Madrid, la mayor competición de datos abiertos, en un tiempo determinado y en un espacio común.
+
+La competición consiste en crear soluciones innovadoras a partir del uso de datos abiertos. MADdata pondrá a disposición de cada participante datos de la ciudad de Madrid, procedentes del portal de datos abiertos del Ayuntamiento, de servicios públicos, de transporte y movilidad y de redes sociales. Estos datos estarán disponibles para todos los participantes y van a ser enriquecidos a través de capacidades analíticas y Big Data.
+
+http://medialab-prado.es/article/maddata
+
+** Convocatoria de colaboradores para Laboratorio Iberoamericano de Innovación Ciudadana #LabICMX
+Entre el 24 de noviembre y el 5 de diciembre de 2014 estaremos en Veracruz, México, como promotores de uno de los 10 proyectos seleccionados para llevar a cabo un taller intensivo de producción de dos semanas en el Laboratorio Iberoamericano de Innovación Ciudadana #LabICMX. Allí trabajaremos, prototiparemos y desarrollaremos visualizaciones de redes de poder e influencia con Onodo, la plataforma abierta que estamos desarrollando y en la que se basa nuestro proyecto Quién Manda.  Este laboratorio, que se inspira en la metodología de de Medialab-Prado de Madrid y cuenta con su apoyo, está organizado por la Secretaría General Iberoamericana (SEGIB) en el marco de la XXIV Cumbre Iberoamericana de Jefes de Estado y de Gobierno.
+
+La inscripción es gratuita y estará disponible hasta el domingo 28 de septiembre de 2014. Se asignarán 80 plazas de colaboradores para dividir entre 10 proyectos. 40 estarán destinadas a residentes en México y 40 a personas de otros países de Iberoamérica, incluyendo España. La organización se hará cargo de la estancia para no residentes en Veracruz, de una comida diaria y del transporte entre el hotel y el laboratorio. Para más detalles, consulta las bases.
+
+http://www.civio.es/2014/09/dos-semanas-intensivas-de-visualizacion-de-redes-de-poder-en-el-labicmx-de-mexico-te-apuntas/
+
+** Wikipedia:Encuentros/Editatón BNE Madrid 2014
+
+El sábado 27 de septiembre de 2014 tendrá lugar una editatón de Wikipedia en la sede de la Biblioteca Nacional de España en Madrid. El acto será gratuito y abierto al público.
+
+Una editatón es una cita donde los participantes se reúnen para editar Wikipedia, tanto de forma presencial como virtual (o una mezcla de ambas). Cada editatón suele estar dedicada a un tema concreto; en esta ocasión se centrará en los artículos relacionados con la literatura en español y la lengua española.
+
+El acto lo promueven tres instituciones culturales comprometidas con el estudio, la custodia y la difusión de la lengua y la literatura españolas: el Instituto Cervantes, la Real Academia Española y la Biblioteca Nacional de España, con la colaboración de Wikimedia España.
+
+https://es.wikipedia.org/wiki/Wikipedia:Encuentros/Editat%C3%B3n_BNE_Madrid_2014
+
+** Taller Visualización Datos
+http://www.apptivismo.org/taller-visualizacion-de-datos/
+30 de Septiembre al 18 de Noviembre de 2014
+Martes 30 septiembre, de 17:00 a 20:00
+1.- Introducción a la visualización de datos
+http://www.apptivismo.org/taller-visualizacion-de-datos/sesion1
+
+
+
+
+
+
+
+
+
+

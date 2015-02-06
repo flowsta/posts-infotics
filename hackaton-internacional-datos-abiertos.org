@@ -1,0 +1,132 @@
+#+BLOG: infotics
+#+POSTID: 1153
+#+TITLE: Hackatón Internacional Datos Abiertos
+#+DESCRIPTION: La Open Knowledge Foundation ha lanzado la convocatoria de un hackatón internacional de datos abiertos para el próximo 21 de febrero, día mundial de los datos abiertos. Lo celebraremos en Medialab-Prado.
+#+CATEGORY: evento, okfn, hackathon, periodismodatos, opendata
+#+TAGS: hackatón, hackathon, open data, open data day, odd, datos abiertos, okfn, okf, okf-es, medialab-prado
+#+DATE: [2015-01-27 mar 00:01]
+#+AUTHOR: Adolfo Antón Bravo
+#+EMAIL: adolflow@gmail.com
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+La [[http://www.okfn.org][Open Knowledge Foundation (OKF)]] ha lanzado la convocatoria de un [[http://opendataday.org][Hackatón Internacional de Datos Abiertos]] para el próximo 21 de febrero, /Día Mundial de los Datos Abiertos/ (/Open Data Day ODD)/
+
+La [[http://www.okfn.es][Asociación Conocimiento Abierto España]]  (capítulo español de la /OKF/), ha organizado para ese día en Madrid la [[http://premios.okfn.es][entrega de premios del conocimiento abierto, los datos abiertos y la transparencia]] en [[http://www.medialab-prado.es][Medialab-Prado]].
+
+* Hackatón de Datos Abiertos
+
+Y en este mismo espacio celebraremos durante todo el día 21 un *Hackatón de datos abiertos*, un encuentro abierto a todo tipo de perfiles -ciudadanxs, desarrolladorxs, periodistas, diseñadorxs, urbanistas, sociólogxs, arquitectxs, bibliotecarixs, etc.- para hacer aplicaciones, liberar datos, crear visualizaciones y publicar análisis usando datos abiertos públicos con el fin de mostrar apoyo y motivar la adopción de políticas de datos abiertos por parte de gobiernos locales, regionales y nacionales.
+
+Si tienes una idea para usar datos abiertos, quieres encontrar un proyecto interesante para colaborar, aprender más sobre cómo visualizar o analizar datos, o simplemente quieres ver qué está pasando, ¡entonces definitivamente ven a participar! Si aprendes ayudas a que la comunidad global de datos abiertos crezca.
+
+http://in.okfn.org/files/2014/02/OpenDataHackathonDay.png
+#+ATTR_HTML: alt="International Open Data Hackathon"
+
+* Para quién
+
+** Desarrolladorxs
+
+Necesitamos programadorxs que sepan trasladar las ideas de los proyectos en atractivas y útiles aplicaciones. Puedes estar enfocado en uno o varios lenguajes, en la visualización o el análisis, lo importante es comenzar a escribir código!
+
+** Diseñadorxs
+
+Si las aplicaciones son muy buenas pero carecen de atractivo, no lograremos nuestros propósitos, nadie lo usará. Diseñadorxs gráficxs, expertos en experiencia de usuarix, desarrollo web responsivo... no dudéis en venir.
+
+** Bibliotecarixs
+Nadie mejor para explorar catálogos de datos interesantes que nos ayuden a crear los mejores proyectos. Puedes ser experto en tecnologías semánticas, en datos abiertos, en HTML, en indexación... os necesitamos.
+
+** Estadísticxs
+
+Una vez que tenemos todos esos datos en bruto hemos de buscarles la utilidad, con cálculos precisos, jugando con números y convirtiéndo los significantes en significados.
+
+** Periodistas
+
+Periodistas, comunicadorxs, publicistas... detectan como nadie las deficiencias en la información, los datos que son necesarios y cómo convertir textos desordenados en atractivas historias. No podéis faltar.
+
+** Ciudadanxs
+
+Peatones, biciclistas, /runners/, prosumidorxs, activistas, artivistas, hacktivistas, trabajadorxs, desempleadxs, migrantes, precarixs... Todxs participan de la ciudad y detectan anomalías en la información que podemos corregir. no faltéis.
+
+
+* Funcionamiento
+
+El /Hackatón/ cumplirá los *5 principios básicos* marcados por la organización:
+
+** Día
+
+Será el sábado 21 de febrero, desde las 10:30 hasta las 20:30.
+
+** Abierto
+
+Como no podía ser de otra manera, tratándose de /datos abiertos/, organizado por /OKF España/ y /Medialab-Prado/. El acceso es libre, abierto y gratuito.
+
+** Sobre Datos Abiertos
+Puedes hackear cualquier cosa que involucre datos abiertos, ya sea una /app/ local o global, una visualización, una propuesta de estándar para conjuntos  de datos comunes, escrapear datos de un sitio gubernamental para ponerlos a disposición pública, crear tu propio catálogo de datos de información pública, crear una /news app/, desarrollar una herramienta que permita escrapear datos...
+
+** En Red
+Pretendemos compartir ideas entre ciudades a lo largo del día a través del wiki propuesto por la organización, del streaming de vídeo, del hangout, de pads, de canal de chat... Es importante que sepamos qué están haciendo otras ciudades y que compartamos los trabajos, los saberes y las prácticas, que el hacking sea global. Hagamos que esto funcione por encima de zonas horarias, idiomas, culturas, tecnologías o infraestructuras.
+
+* Qué puedes esperar
+- Aprender más sobre datos abiertos
+- Descubrir que más podrían hacer tus gobiernos local y nacional para liberar los datos.
+- Involucrar a organizaciones sin ánimo de lucro y empresas en el uso de datos abiertos para sus productos y servicios.
+- Trabajar en red de forma cooperativa con otras personas de tu ciudad de distintos perfiles en un entorno agradable.
+- Dar a conocer tu opinión con otras personas y medios de comunicación a través de redes sociales o de canales oficiales.
+- Conocer el estado del arte de los datos abiertos.
+- Participar de los proyectos probando los trabajos realizados.
+- Ayudar en las etapas de conceptualización, creación, diseño, publicidad y pruebas de las aplicaciones.
+- Reproducir el modelo del hackatón en otro momento.
+- Mapear los datos de distintas entidades.
+- Divertirnos mucho.
+
+* Qué llevar
+- Portátil
+- Ideas
+- Ganas de trabajar y de divertirse
+- Ilusión
+
+* Empecemos
+
+** Ideas para proyectos
+
+En actividades del Grupo de Trabajo de Periodismo de Datos hemos dado cuentas de algunos proyectos relacionados:
+
+*** Puntos negros urbanos 
+La reducción de la cifra de accidentes de tráfico y atropellos en ciudad ha sido menor que la registrada en las carreteras. La peligrosidad del vehículo en la ciudad no es un factor que se tenga en cuenta en el diseño urbano ni se dispone de un mapa de "puntos negros urbanos" aquellos que por mala visibilidad, cruces o trazado son peligrosos para los peatones.
+
+A partir de los datos estadísticos y de la información disponible la propuesta para el taller visualización plantea la realización de una aplicación interactiva, un mapeo que ponga punto y situación a los puntos negros de nuestras ciudades.
+
+http://comunidad.medialab-prado.es/es/proyectos/puntos-negros-urbanos
+
+*** Madrid en Bici
+#MadridEnBici es un proyecto independiente de periodismo de datos para trazar una radiografía del uso real de la bicicleta en Madrid. Este proyecto no pretende ser una foto fija sino que está en permanente desarrollo y actualización. Por ese motivo, está abierto a la colaboración de asociaciones, entidades, empresas y ciudadanos interesados en mejorar el conocimiento sobre el uso de la bicicleta.
+http://www.madridenbici.es
+
+*** Escribe tus propuestas
+Si quieres realizar algo parecido o si tienes una idea innovadora Hay un wiki para que añadas tu propuesta. Cuando hayáis conformado un equipo multidisciplinar de cinco personas, podrás crear un proyecto en la Comunidad de Medialab-Prado.
+
+*** Conjuntos de datos
+Si cuentas con un conjunto de datos que puede apoyar tu proyecto o si crees que puede ser útil para algún otro, enlázalo [[http://wiki.opendataday.org/2015/Data][desde el wiki de ODD]].
+
+* Contacto
+
+Si necesitas contactar con la organización del /ODD/, puedes escribir a [[open-data-day@googlegroups.com][open-data-day]] o si prefieres contactar con la organización de Madrid escribe a [[mailto:adolflow@gmail.com][adolflow]] o por twitter [[https://www.twitter.com/adolflow][@adolflow]]
+
+* Cómo empezar
+
+** Si quieres participar en el hackatón en algún proyecto:
+
+1. Consulta el [[https://pad.okfn.org/p/hackaton-datos-abiertos-madrid][PAD]] 
+2. Mira si hay algún proyecto que te interesa.
+3. Si lo hay, apúntate con tu nombre, usuario de twitter o algo.
+4. Si tiene proyecto en la [[http://comunidad.medialab-prado.es/es/node/1249][comunidad]] de Medialab-Prado, créate un usuarix y apúntate al proyecto.
+5. Difunde la idea por redes sociales con el hashtag #madhack, #odd2015 y/o #opendataday
+
+** Si quieres proponer un proyecto
+
+1. Consulta el [[https://pad.okfn.org/p/hackaton-datos-abiertos-madrid][PAD]] por si hubiera un proyecto similar.
+2. Si no existe, créalo. Pon tu nombre, url, usuarix de twitter o algo.
+3. Difunde por redes sociales tu proyecto para que más gente se apunte. Puedes utilizar el hashtag #oddmad, específico de Madrid, o bien #odd2015 y/o #opendataday, genéricos.
+4. Si ya tienes un equipo de participantes, apuntad nombres y usuarixs.
+5. Cread el proyecto en la [[http://comunidad.medialab-prado.es/es/node/1249][comunidad]] de Medialab-Prado, cread lxs usuarixs que seais y apuntaros al proyecto.
+

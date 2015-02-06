@@ -1,0 +1,41 @@
+#+BLOG: infotics
+#+POSTID: 1087
+#+DATE: [2014-09-13 sáb 01:46]
+#+CATEGORY: data, periodismo, periodismo de datos, visualización
+#+TAGS: storymap.js, aabi, brigadasinternacionales, bbii, homenaje
+#+DESCRIPTION: Recorrido por algunos homenajes realizados en España a las Brigadas Internacionales
+#+TITLE: Jugando con Storymap: homenajes a las Brigadas Internacionales
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+El 23 de septiembre se realiza en Medialab la decimonovena sesión del grupo de trabajo de periodismo de datos dedicada a la visualización de datos para no programadores.
+
+En el apartado de taller, tocaremos dos herramientas muy populares de Knight Lab: /Timeline.js/ y /Storymap.js/. Alex de Outliers se ocupará de Timeline.js y yo de Storymap.js.
+
+#+CAPTION: Imagen de trabajo realizado con Storymap.js
+#+LABEL: 
+#+ATTR_HTML: alt="Imagen de trabajo realizado con Storymap.js"
+http://media.directionsmedia.net/directionsmag/channels/articles/biogeo_sca.jpg
+
+Para el ejemplo he utilizado los datos y el mapeo que había realizado la Asociación de Amigxs de las Brigadas Internacionales para mostrar [[https://maps.google.es/maps/ms?msa=0&msid=208250142227296582158.0004ceb7c3d1108fd1ec3&hl=es&ie=UTF8&t=m&source=embed&ll=40.262761,-3.361816&spn=8.381412,12.084961&z=6&dg=feature][los memoriales de homenaje a las Brigadas Internacionales en España]].
+
+Los lugares y los textos son casi todos de ese mapa, pero las imágenes las he buscado para acompañar al texto.
+
+He propuesto una lectura que comienza en Alcoi, en el hospital Sueco-Noruego, y termina en Albacete, sede de las Brigadas Internacionales.
+
+No están todos los puntos del mapa original ni tampoco todos los memoriales que existen, pero sirva para ejemplificar la potencia de Storymap.js
+
+Por cierto, he elegido un mapa de OpenStreetMap por ser un mapa libre.
+
+Se ve mucho mejor a [[http://cdn.knightlab.com/libs/storymapjs/latest/embed/?url=https://206e1131c945c373ef4b70408c2109383dac3b5a.googledrive.com/host/0B2J5Rgk-HG6waldYUzh3eVFNbHc/published.json][pantalla completa en este enlace]]
+
+#+BEGIN_HTML
+ <iframe src="//s3.amazonaws.com/cdn.knightlab.com/libs/storymapjs/latest/embed/index.html?url=https://206e1131c945c373ef4b70408c2109383dac3b5a.googledrive.com/host/0B2J5Rgk-HG6waldYUzh3eVFNbHc/published.json" frameborder="0" width="100%" height="800"></iframe>
+#+END_HTML
+
+
+
+
+
+
+
+
+

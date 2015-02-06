@@ -1,0 +1,39 @@
+#+CATEGORY: periodismo, periodismo de datos, web, opendata, data 
+#+TAGS: twitter, graph, socialgraph, python, matlibpot
+#+DESCRIPTION: Twitter para el periodismo de datos 
+#+TITLE: Twitter para el periodismo de datos
+#+DATE: [2014-09-10 mié 12:00]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+A raíz de una pregunta en la lista de periodismodatosbarcelona, me puse a investigar una vieja duda que había dejado sin resolver: cómo visualizar la red social de Twitter.
+** Twitter Social Graph Network
+https://github.com/ianozsvald/twitter-social-graph-networkx
+Descarga, resume y visualiza los seguidores de Twitter usando NetworkX
+
+** Imágenes
+#+CAPTION: 
+#+LABEL: 
+#+ATTR_HTML: alt=""
+http://i.stack.imgur.com/lHzR3.png
+
+1** Misc Howpublished
+#+BEGIN_LaTeX
+
+#+END_LaTeX
+En [[http://www.tex.ac.uk/cgi-bin/texfaq2html?label%3DciteURL][esta página]] se propone también la función =@misc= aunque con el atributo =howpublished=, donde quedaría así:
+
+#+BEGIN_LaTeX:
+@misc{ASH:2013:Online,
+author = {Varios Autores},
+title = {Archivo Situacionista Hispano},
+year = {1999},
+howpublished = "\url{http://sindominio.net/ash}",
+urldate = {2013-10-01}
+}
+#+END_LaTeX
+
+
+
+
+
+
+

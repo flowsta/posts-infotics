@@ -1,0 +1,76 @@
+#+DATE: [2013-10-21 lun 20:57]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: genero, web
+#+TAGS: género, tecnología, web semántica, ontologías, corinna bathsoftware libre, emacs, orgmode, org2blog, gnu, gpl, política
+#+DESCRIPTION: Razones políticas detrás de Emacs
+#+TITLE: ¿Tiene género la Web Semántica?
+
+Will The Semantic Web Have a Gender?
+
+One academic warns that it might and says we need to pay attention to it. As machines learn to understand what the web means, what perspective will they understand it from? Who is teaching them? "Objective" descriptions of the world and the relationships in it can cause real problems, particularly for people with little power in those…
+Marshall Kirkpatrick August 06, 2008 Web
+Read Next ?
+
+    0
+
+One academic warns that it might and says we need to pay attention to it.
+
+As machines learn to understand what the web means, what perspective will they understand it from? Who is teaching them? "Objective" descriptions of the world and the relationships in it can cause real problems, particularly for people with little power in those relationships. How will the emerging Semantic Web understand relationships and what will that mean for us as human users?
+
+Austrian researcher Corinna Bath argues that there is a real risk that the semantic web of the future will be built with the perspectives and assumptions of male computer scientists baked-in unconsciously - at the expense of everyone else.
+Background
+
+Corinna Bath is currently research fellow at the "Institute for Advanced Studies on Science, Technology and Society" in Graz, Austria. She's now working on engaging the several decades old study of gender and technology with the emerging world of the semantic web.
+
+What is the semantic web? We define it as a paradigm that makes the meaning of particular web pages understandable by machines - not just in full text searches or keyword categories, but in terms of which concepts are central to a given page and the relationships between them.
+
+The semantic web is hot. World Wide Web founding father and W3C Director Tim Berners-Lee says all the pieces are now in place for a semantic web to emerge.
+
+So is it a boy or a girl?
+When You Assume, You Make an...
+
+Corinna Bath did an interview last week for the Austrian Semantic Web Company where she articulates her concerns about gender and the semantic web. Unfortunately, the interview is extremely academic in language and tone - so we'll try to explain her arguments here.
+
+Her first argument is that the architects of the semantic web need to be very careful about the assumptions they carry into the creation of categories of relationships. Bath draws a historical parallel with the first phone books, where listings were organized by the names of the husband in each household. That appeared to the authors to be the logical way to do it at the time. It wasn't until after years of feminist political organizing led to general cultural change that the phone books changed. Why is this important? Because systems like the phone book help color our view of the world we live in and are the building blocks of basic inequalities.
+
+Too often, Bath argues, "binary assumptions about women and men are not reflected [upon] or the (gender) politics of [a particular] domain is ignored. Thus, the existing structural-symbolic gender order is inscribed into computational artifacts and will be reproduced by [their] use."
+
+Right: The Semantic Web made me grow this beard. Semantic web t-shirt via SpreadShirt.
+
+For example, the Dublin Core ontology concerns Documents. It consists of a list of elements that can be used to describe a document, including "creator," "contributor," and "isReferencedBy." Are there types of relationships that aren't included on the list but are important to an accurate understanding of a document? There probably are, and different perspectives could help articulate what those relationships might be.
+
+For example, some feminist critics argue that the Western cannon of almost every type of literature is full of work that men didn't give women appropriate credit for. Some argue that Albert Einstein's wife deserves substantial credit for his theory of relativity - should that be included in semantic markup wherever the book is cataloged? How should that relationship be described? Calling her a contributor would be controversial and wouldn't really capture the history - a new category may be needed.
+
+There are no shortage of ways to describe documents, events, people or concepts. The roster of people who will participate in the creation of a standard way to describe them will become increasingly important as machine learning becomes more important in our every day lives. Failing to take this seriously, Bath argues, could lead to the silencing of "minority views, quieter voices, and allows the dominant voice to speak for everyone, which seems highly problematic."
+Is Categorization Itself The Right Solution?
+
+The semantic web today is based largely on what are called "triples" - sets of subject, predicate and object. For example Marshall Kirkpatrick [subject], loves [predicate] Punkin' the Tabby Kitten [object]. (Hypothetical, I don't have any kittens and please don't send me any.)
+
+This way of describing things isn't beyond question, however. As Bath argues:
+
+    Even the modeling concepts themselves should be questioned as Cecile Crutzen suggest, since e.g. the class concept and the inheritance concept lack to represent social processes, because of limited formal expressiveness for conflict, change and fluidity. Such an ontology abstracts from human sociality, situated action and real meaning construction processes.
+
+In other words life aint so simple: people change, conflicts and context matter and things in this world don't just get their meaning by one object bumping into another, one event leading to another, child inheriting traits from a parent, etc.
+
+Computer logic may necessitate simplification of some of life's richness - but this is nothing to take lightly. We're talking about helping computers understand meaning and that is not a simple or trivial matter.
+
+Is Knowledge Only The Absence of Doubt?
+
+Bath calls into question "computer science modeling that rests on the Cartesian epistemology," or the belief that way we know that we really "know" something is by having no doubt about it.
+
+If our semantic markup reading robot finds markup asserting that a certain relationship exists and does not find any markup asserting that it does not exist - ought we conclude that we've determined the truth of the matter? Particularly if not all perspectives on the matter have been taken into consideration in even formulating how the situation is described, then an assertion that a particular object has a certain property or two subjects have a particular relationship may be woefully inaccurate in describing reality. There are a lot of things people disagree about and there's a lot of knowledge that people deny for political convenience. The absence of doubt is not sufficient basis for determination of truth. Repeated attempts to disprove a theory make a much better basis for working knowledge.
+
+Or, as political blogger Karoli Kuns said to NPR's Andy Carvin this morning when Carvin asserted otherwise, "I'd argue that tag dissent balances folksonomies, not undermines."
+
+Let's talk about "working knowledge" and stop whispering about "truth", before the robot children hear us.
+Philosophy Aside, What Does This Mean?
+
+It means that as the language we use to communicate meaning to machines develops, we'd better watch out who is building it and what perspectives they take into consideration. Unconsidered assumptions could lead to a real disconnect between the meaning that machines know of the world and they way that millions of other people experience it.
+
+Bath isn't suggesting that the semantic web should be rejected, quite the opposite in fact. "I am convinced," she says, "that the perspectives I tried to sketch here can contribute to build better semantic systems or even prevent them from failure in function or on the marketplace."
+
+She has her own explanation why this is important: "With the use of the Internet we are already witnessing a radical change in practices of how knowledge is represented, stored and spread. In the future most of our work and life will involve the manipulation and use of information. It will crucially depend on the epistemologies, concepts and leading metaphors of the Semantic Web, which direction the semantic "human-machine reconfigurations" (Lucy Suchman) will take."
+
+That's a nice way to say that we need to work hard to avoid creating fascist robots that exercise a homogenizing influence on diverse human experiences. There are people who are doing semantic web work in directions that take this into account, but it's something worth considering for all of us.
+
+Disclosure: The author has consulting relationships with a number of pre-launched semantic web companies.

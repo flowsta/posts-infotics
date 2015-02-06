@@ -1,0 +1,192 @@
+#+OPTIONS: toc:nil        (no TOC at all)
+#+OPTIONS: num:nil
+
+
+* Programa Congreso ESCTS
+** 19 Junio
+*** 9:00 – 9:30	
+Recepción / Reception
+*** 9:30 – 9:45	
+Presentación del encuentro a cargo del grupo organizador / Meeting presentation by the organizing team
+Sala A, 7ª planta MediaTIC (UOC)
+*** 10:00 – 11:30
+**** Sala A, 7ª planta, MediaTIC (UOC)
+1. Mariola Norte Navarro (Universidad de Salamanca)
+ /Del Protocolo de Kioto a la Cumbre de Copenhague: Cobertura del Cambio Global en la Prensa Española e Internacional/
+2. *Juan Bautista Bengoetxea*, Oliver Todt y José Luis Luján (Universidad de las Islas Baleares)
+ /Controversias metodológicas e información mecanística en la evaluación de riesgos/
+3. Santiago Álvarez Garrote (Universidad de Valladolid)
+ /El almacén temporal centralizado de residuos radiactivos (ATC): El caso español/
+4. Pierre Delvenne, Nathan Charlier, Benedikt Rosskamp & Michiel Van Oudheusden (University of Liège)
+ Variegated Technology Assessment (TA): Mapping the Interplay of Policy Paradigms and TA in Flanders and Wallonia
+5. Elvira Santiago Gómez (CSIC)
+ Mapeando la Controversia sobre la Ubicación de los Puertos de Refugio en España
+****  Sala B, 6ª planta, MediaTIC (UOC)
+1. Ana Delicado, Luís Silva, Ana Horta, Luís Junqueira & Mónica Truninger (Universidade de Lisboa)
+ Tecnologia e identidade local
+2. Liliana Oliveira (Universidade do Minho & Universidad de Salamanca)
+ Comunidade científica e cidadãos: dialogar para envolver. Os casos de Portugal e Espanha.
+3. Nuno de Almeida Alves (ISCTE-IUL), Ana Delicado & Ana Nunes de Almeida (Universidade de Lisboa)
+ As crianças na casa tecnológica
+4. Camilo Cleves (Independent researcher)
+ Building a railroad in a tropical country
+5. José A. (Tony) Torralba (University of Hawaii at Manoa)
+ Displacement in Scientific Practice as a way to Conceptualize Disciplinary Learning & Development
+*** 11:30 – 12:00
+Pausa-Café / Coffee-Break
+*** 12:00 – 13:30
+**** Sala A, 7ª planta, MediaTIC (UOC)
+1. Blanca Callén (Lancaster University)
+ Ontologías desechas: redefiniendo los regimenes de la basura (electrónica) en la ciudad de Barcelona
+2. Daniel Fernández Pascual (Goldsmiths, University of London)
+ Salt, Water, Sugar: Exploring the Particles of Speculative Urbanism in Spain
+3. Felipe Raglianti (Lancaster University)
+ Pensando con cajeros automáticos: la cortesía de los cyborgs en ciudades sociotécnicas
+4. Alicia Serrano Vidal (Universidad Autónoma de Madrid)
+ Nuevos proyectos culturales en Madrid: ¿una alternativa a la crisis?
+5. Nizaiá Cassián (Universitat Autònoma de Barcelona)
+ Una clínica de la ciudad: Diagramas para pensar los modelos de capital cultural y ciudad creativa
+**** Sala B, 6ª planta, MediaTIC (UOC)
+1. Simone Belli (Universidad Carlos III)
+ What is #occupymainstream?
+2. Anna Vitores (Lancaster University)
+ El dispositivo de investigación “mujeres en informática”
+3. Sesión especial – /Wikipedia: una enciclopedia libre y colaborativa… ¿y si no me lo creo?/: Intersectional Storming Wikipedia Session
+ Coord: Grupo esCTS de Estudios  Feministas de la Ciencia & FemTechNet Collective
+*** 13:30 – 15:30
+Comida / Lunch
+*** 15:30 – 17:30
+**** Sala A, 7ª planta, MediaTIC (UOC)
+1. Jorge Chávez (Universidad de la República)
+ Sobre el gobierno de las personas en situación de calle en Uruguay. Un enfoque desde los estudios CTS
+2. Nicolás Sanhueza Rodríguez (Universidad Alberto Hurtado)
+ El boletín chileno de drogas del Senda: (re)elaborando un objeto limítrofe
+3. Arthur Arruda Leal Ferreira, Natalia Barbosa Pereira, Marcus Vinicius Barbosa Verly Miguel, Karoline Ruthes Sodré & Bruno Foureaux (Universidade Federal de Rio de Janeiro)
+ A composição coletiva de modos de subjetivação em uma divisão de psicologia aplicada
+4. Paloma García Díaz (Universidad de Granada)
+ Enfoques en investigación bioética sobre aspectos de mejora humana
+5. Vincenzo Pavone y Elvira Santiago (CSIC)
+ Tecnologías de vigilancia y seguridad preventiva: implicaciones sociales y políticas de la nueva estrategia europea de seguridad interior
+**** Sala B, 6ª planta, MediaTIC (UOC)
+1. Volha Parfenchyk (Università di Torino)
+ How healthy is healthy enough? Making sense of pre-implantation genetic testing through reframing the concept of health: the case of co-production
+2. Poonam Pandey (IAS-STS, Graz &  Centre for Studies in Science Policy, New Delhi)
+ What did we learn from the Pandemonium: Bt Brinjal consultation and public engagement in India?
+3. Niels van Dijk (Vrije Universiteit Brussel)
+ Immaterial Matters of Dispute.
+4. Anup Sam Ninan (IAS-STS, Graz)
+ What Do We Buy When We Buy Carbon Credits Or How Crises Are Dealt?
+5. Ismael Rafols (Universitat Politècnica de València & University of Sussex), Tommaso Ciarli, Patrick van Zwanenberg & Andy Stirling (University of Sussex)
+ Towards indicators for ‘opening up’ science and technology policy maxigas (Independent researcher): Only a committee can save us now
+*** 17:30 – 18:00
+    Pausa-Café / Coffee-Break
+*** 18:00 – 18:45
+*Conferencia plenaria / Keynote speech*
+ Sala A, 7ª planta, MediaTIC (UOC)
+ David Pontille (Centre de Sociologie de l’Innovation, ENSMP) & Didier Torny (INRA): /Academic Performance and Bibliometrics Tools/
+*** 18:45 – 19:30
+*Sesión especial / Special session*
+¿ISI no nos lo creemos?/ What if we don’t buy ISI?
+Sala A, 7ª planta, MediaTIC (UOC)
+Discussants: David Saurí Pujol (Catedrático de Geografía, UAB) y LluísRovira i Pato (Director, I-CERCA, Generalitat de Catalunya)
+** 20 Jun
+*** 10:00 – 11:30	
+Simposio: /Biomedicina, Normatividad y Riesgo/
+Coord: Francisco Tirado & Andrés G. Seguel (Universitat Autònoma de Barcelona)
+Sala A, 7ª planta, MediaTIC (UOC)
+1. Francisco Tirado: ¿Qué es un régimen de vitalidad?
+2. Alejandro Zaballos Samper: Biomedicina y VIH. nueva materialidad, nuevos regímenes de vida
+3. Diego Buttigliero: Biociencia y corporalización. Esperanzas y verdades de las afectadas de cáncer de mama de la asociación Gamis
+4. Verónica Boero, Claudia Calquín, Rayen Rovira: Biopolítica del cuidado y bioequidad. Reflexiones en torno al sistema de protección a la infancia “Chile crece contigo”
+5. Carolina Geneyro: La nueva materialidad de la biopsiquiatría. Los psicofármacos como objeto frontera
+6. María José Agüero: Lo mental como  estrategia  sanitaria.  Una  lectura  crítica al  proyecto de  la  OMS  en  sus políticas de salud mental
+7. Andrés G. Seguel & Mariana Gavris: La proposición del espacio biociudadano en las narrativas alternativas de la AH1N1
+*** 11:30 – 12:00	
+Pausa-Café / Coffee-Break
+*** 12:00 – 13:30	
+*Taller de posgrado*
+Coord: Vincenzo Pavone (IPP-CSIC)
+Sala A, 7ª planta, MediaTIC (UOC)
+1. Marcos Cereceda (Universitat Autónoma de Barcelona)
+ La accesibilidad en espacios urbanos. Controversias en torno a la accesibilidad en los espacios urbanos (públicos o privados), en las tecnologías arquitectónicas y de movilidad en el Área Metropolitana de Barcelona.
+2. Joan Moyà (Universitat Autónoma de Barcelona)
+ La figura del experto en la comprensión y construcción del mundo común
+3. Adolfo Antón Bravo (Universidad Complutense de Madrid)
+ Periodismo de datos
+4. Guillem Palà (Universitat Autónoma de Barcelona)
+ La configuración de recomendaciones políticas en una experiencia de democracia dialógica. La referencia circulante como herramienta de exploración
+5. Sara Lafuente (IPP-CSIC)
+ ¿Partenogénesis? Imaginarios en torno a un proceso inasible
+
+*Discussants*: Carmen Romero Bachiller (Universidad Complutense de Madrid, Spain); Sara Degli Esposti (Open University Business School, UK); Adolfo Estalella (University of Manchester, UK)
+*** 13:30 – 15:30	
+Comida / Lunch
+*** 15:30 – 17:30	
+**** Sala A, 7ª planta, MediaTIC (UOC)
+1. Esther Ortega Arjonilla (IAS-STS, Graz) y Carmen Romero Bachiller (Universidad Complutense de Madrid)
+ Deshaciendo y rehaciendo la /lógica del cuidado/: El caso de la /Campaña Internacional por la Despatologización Trans/
+2. Verónica Boero (Universitat Autònoma de Barcelona)
+ La cajanegrización del amamantamiento
+3. Tomás Sánchez Criado (Universitat Autònoma de Barcelona)
+ Usuarixs 2.0: Figuraciones de agentes económicos colaborativos en el diseño de servicios y tecnologías para la vida independiente
+4. Vincenzo Pavone (CSIC) y Sara Lafuente (Universidad Complutense de Madrid)
+ Pacientes, consumidoras o ninguna de las dos: narrativas y posicionamientos de mujeres en el caso de diagnóstico pre-implantacional en el Estado español
+5. Daniel López (Universitat Oberta de Catalunya)
+ Formas de vida recalcitrantes
+6. Lorena Ruiz Marcos (Universidad Complutense de Madrid)
+ Continuidades rotas, historias que viajan: sobre memoria, cuidados y alzhéimer
+**** Sala B, 6ª planta, MediaTIC (UOC)
+1. Ignasi Medà Calvet (Universitat Autònoma de Barcelona)
+ El consumo colaborativo como nuevo modelo productivo
+2. Patricia Homs Ramírez de la Piscina (Universidad de Barcelona)
+ Cooperativas de consumo agroecológico: prácticas ecológicas en tiempos ecocapitalistas
+3. Martin Savransky (Goldsmiths, University of London)
+ /Our Culture Abhors The World/: A Cry for a Worldly Social Science
+4. Xavier Castelló Llobet (Universitat Autònoma de Barcelona)
+ Discourses on the commons
+5. Azucena Klett y Zoe Mediero (Intermediae, Matadero, Madrid)
+ Lo común en tensión. La construcción de una institucionalidad otra desde la producción cultural
+6. Nerea Calvillo (Independent researcher)
+ Aerial devices as instruments to explicate the air of the crisis
+*** 17:30 – 18:00	
+Pausa-Café / Coffee-Break
+*** 18:00 – 19:30	
+Asamblea de la red esCTS
+Sala A, 7ª planta, MediaTIC (UOC)
+** 21 Jun
+*** 10:00 – 11:30	
+Simposio: /Participación ciudadana en asuntos tecnocientíficos/
+Coord: Grup d’Estudis Socials de la Ciència i la Tecnologia, GESCIT (Universitat Autònoma de Barcelona), junto con el Panel ciudadano de la Conferència Ciutadana de la Gent Gran de Barcelona sobre la Digitalització de la Societat
+Sala A, 7ª planta, MediaTIC (UOC)
+*** 11:30 – 12:00	
+Pausa-Café / Coffee-Break
+*** 12:00 – 13:30	
+Simposio: /El giro materialista de la historia del arte (y las posibles aportaciones de los estudios CTS)/
+Coord: Pau Alsina (Universitat Oberta de Catalunya)
+Sala A, 7ª planta, MediaTIC (UOC)
+Participantes: Pau Alsina (UOC), Daniel López del Rincón (UB), Vanina Hoffman (UOC), Valentina Montero (UB), Marisa Gómez (UB), Ana Rodríguez (UOC) y Lara G. Pórtoles (UOC).
+*** 13:30 – 15:00	
+Seminario Comida  / Brown Bag Seminar
+What if you do buy it? Putting STS sensibilities to work in the design of an ethical surveillance system
+Presentación a cargo de Daniel Neyland y Patrick Murphy (Goldsmiths, University of London)
+Catering incluido, cortesía de EU FP7 project ADDPRIV
+Sala A, 7ª planta, MediaTIC (UOC)
+*** 15:00 – 15:30	
+Pausa-Café / Coffee-Break
+*** 15:30 – 17:00	
+Simposio: /“Prácticas de protesta: acerca de la política y sus objetos”
+Coord: Isaac Marrero-Guillamón (Birkbeck, University of London) e Israel Rodríguez-Giralt (Universitat Oberta de Catalunya)
+Sala A, 7ª planta, MediaTIC (UOC)
+Adolfo Estalella (University of Manchester) y Alberto Corsín Jiménez (CSIC) 15-M: asambleas al aire y atmósferas de la política
+Brais Vilarinho (Universitat Autònoma de Barcelona) Plaça Lesseps: reforma urbana, irritación arquitectónica y afectos binarios
+Israel Rodríguez-Giralt (Universitat Oberta de Catalunya) ‘The simpler, the wider’: el activismo de Disability People Against the Cuts
+Isaac Marrero-Guillamón (Birkbeck, University of London) La política del acontecimiento: London 2012 y el activismo relacional
+17:00 – 17:30	
+Pausa-Café / Coffee-Break
+17:30 – 19:30	
+Sesión especial
+/Para-academia & Co-investigación/
+Sala A, 7ª planta, MediaTIC (UOC)
+Invitados especiales por confirmar
+
+

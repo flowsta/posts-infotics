@@ -1,0 +1,17 @@
+#+BLOG: infotics
+#+CATEGORY: coop, evento, gnu, softwarelibre
+#+TAGS: gnu, org, org-mode, worg
+#+DESCRIPTION: Cómo empezar a trabajar en worg
+#+TITLE: Trabajar en worg
+#+DATE: [2014-03-01 mié XX:XX]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+Para comprobar la huella de la clave que hemos quedado, lanzamos =ssh-keygen -l=:
+
+
+#+CAPTION: 
+#+LABEL: 
+#+ATTR_HTML:
+http://
+
+

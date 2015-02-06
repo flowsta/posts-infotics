@@ -1,0 +1,206 @@
+#+BLOG: infotics
+#+POSTID: 1011
+#+CATEGORY: latex, orgmode, emacs, bibtex
+#+TAGS: tesis, bibtex, url, enlace, natbib, howpublished, misc, note
+#+DESCRIPTION: BibTeX no ofrece una solución nativa para la cita de una URL, hay muchas formas de hacerlo.
+#+TITLE: Cómo citar una URL con BibTeX
+#+DATE: [2014-04-15 mar 23:00]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+Al plantear esta pregunta he de suponer que conocemos qué es una /URL/ y qué es /BibTeX/.
+
+Lo primero probablemente lo sabremos, pero por si acaso lo recordamos: [[https://es.wikipedia.org/wiki/Url][URL]] es el acrónimo para /Uniform Resource Locator/ o /localizador uniforme de recursos/, y nos referimos a él como /dirección/ de un documento web, normalmente de una página web, pero también de un archivo /PDF/, cualquier otro archivo de texto, una imagen, un vídeo, una presentación, etc. Por ejemplo, son /urls/:
+- http://www.sindominio.net, que en realidad apunta al documento /HTML/ o página web http://www.sindominio.net/index.html
+- http://www.sindominio.net/ayuda/netiquette.pdf, la dirección de un archivo /PDF/
+
+Para lo segundo tendremos que saber antes -o conviene saber antes- qué es /LaTeX/, y entonces esta introducción va a quedar más larga de lo que pretendía. Tal como dicen en su web, [[http://www.latex-project.org/][LaTeX]] es un sistema de composición de textos de alta calidad cuyas características lo hacen idóneo para la producción de documentación técnica y científica, motivos por los que se ha convertido en un estándar de facto para la comunicación y publicación de documentos científicos. Además, es [[http://latex-project.org/lppl/][Software Libre]]. Debo decir con pesar que su utilización es amplia en el mundo de las /ciencias puras/ pero no es apenas conocido en el mundo de las /ciencias sociales/. Artículos como éste pretenden cambiar esa situación.
+
+** Qué es BibTeX
+
+/BibTeX/ permite gestionar bibliografías muy fácilmente con /LaTeX/. Para ello, comenzaremos por un archivo de texto simple que guardaremos con extensión =bib=. Éste va a contener todas las referencias bibliográficas que utilizaremos en uno o varios documentos a través de un enlace.
+
+Cada referencia que guardamos en el archivo =.bib= comienza con la información del tipo de documento que es esa referencia, seguido del identificador único para esa referencia en ese archivo =bib= y una serie de atributos. Cada tipo de documento tiene un nombre, unos atributos o campos obligatorios y otros opcionales.
+
+Veamos un ejemplo, imaginemos que tenemos un libro de *Gonzalo Abril* titulado /Teoría General de la información. Datos, relatos y ritos/, publicado por la /Editorial Cátedra/ en Madrid en 1997. En /BibTeX/, estos datos se mostrarían así:
+
+#+BEGIN_SRC 
+@book{abril1997teoria,
+  title={Teor{\'\i}a general de la informaci{\'o}n: datos, relatos y ritos},
+  author={Abril, Gonzalo},
+  year={1997},
+  publisher={C{\'\a}tedra},
+  address={Madrid}
+  }
+#+END_SRC
+
+Destripemos cada línea de esta referencia bibliográfica que compone nuestra bibliografía:
+1. La referencia empieza por el carácter =@= seguido del tipo de documento, en este caso =book= por tratarse de un libro.
+2. A continuación se abre la llave que guarda la información de ese elemento, que se cerrará al final del mismo.
+3. Dentro de la llave del elemento, cada atributo o campo se separa por comas.
+4. El primer elemento se trata del identificador único ~abril1997teoria~, y esta es la referencia que luego vamos a utilizar desde el documento en /LaTeX/ para citar.
+5. Los siguientes campos se declaran siguiendo la estructura  /nombre_de_campo/, símbolo de igual =\== y /propiedad del campo/ entre comillas dobles =\"\"= o llaves ={}=. Aunque puede dar igual poner comillas dobles o llaves, con las llaves nos aseguramos de que el texto que ponemos se traduzca -en la exportación a /PDF/- tal cual.
+6. El último campo no hace falta que lleve coma al final.
+7. Nótese que para los carácteres /non-ASCII/, como por ejemplo las tildes, escribimos algo más que el propio carácter. Por ejemplo, en el caso de la =í= de /Teoría/, escribimos =Teor{\'\i}a=. De esta forma nos aseguramos el correcto trato y visualización de ese carácter.
+
+En este caso:
+
+- =@book=, indica que se trata de un libro.
+- =abril1997teoria=, es el identificador único de este libro en nuestro archivo bibliográfico, compuesto por tres nombres escrito todo seguido. Puede llamarse de otras formas en otros archivos pero el nombre responde a unas convenciones que nos resultarán útiles seguir:
+ - =abril=, se corresponde con el apellido del autor/a.
+ - =1997=, se corresponde con el año de publicación, en este caso, del libro.
+ - =teoria=, responde a la primera palabra del título, sin tildes ni caracteres que no sean /us-ASCII/ para facilitar su interoperabilidad. Esto permite diferenciarlo de otros libros del autor escritos el mismo año o incluso de autores distintos con el mismo apellido, por ejemplo.
+- Los otros campos obvio comentarlos.
+
+** Cómo citamos una URL con /BibTeX/
+
+Exacto, este era el título del artículo. Como señala [[http://nschloe.blogspot.de/2009/06/bibtex-how-to-cite-website_21.html][nschloe]], cuando se creó /BibTeX/ no se introdujo un tipo de contenido para sitio web o /url/, por lo que se puede hacer de varias maneras. Ésta es sin duda la única pega que se le puede poner a /BibTeX/ y se espera que se resuelva en la versión 1.0, que no tiene visos de llegar en breve.
+
+#+CAPTION: Ejemplo de citas de Wikipedia creadas con BibTeX
+#+LABEL: wikipedia
+#+ATTR_HTML: alt="Ejemplo de citas de Wikipedia creadas con BibTeX"
+http://i.stack.imgur.com/lHzR3.png
+
+Por lo que he leído navegando por webs, foros y listas de correo, tenemos tenemos varias opciones para hacerlo, aquí muestro algunas:
+
+*** Tipo =Misc= y atributos
+
+La [[http://www.tex.ac.uk/cgi-bin/texfaq2html?label%3DciteURL][lista de correo de LaTeX de Reino Unido]] propone utilizar el tipo de documento =@misc= con el atributo =howpublished= para incluir la /url/ y =urldate= para indicar la fecha de acceso a esa /url/, donde quedaría así:
+
+#+BEGIN_SRC
+@misc{ASH:2013:Online,
+author = {Varios Autores},
+title = {Archivo Situacionista Hispano},
+year = {1999},
+howpublished = "\url{http://sindominio.net/ash}",
+urldate = {01-10-2013}
+}
+#+END_SRC
+
+No debemos olvidar, en este caso utilizar el paquete =url= de LaTeX en nuestro documento =tex=:
+
+#+BEGIN_SRC 
+\usepackage{url}
+#+END_SRC
+
+En [[http://tex.stackexchange.com/questions/3587/how-can-i-use-bibtex-to-cite-a-web-page][StackExchange]] sugieren utilizar el atributo =note= para indicar la fecha de acceso a la /url/, quedando algo así:
+
+#+BEGIN_SRC 
+@misc{ASH:2013:Online,
+author = {Varios Autores},
+title = {Archivo Situacionista Hispano},
+year = {1999},
+howpublished = {\url{http://sindominio.net/ash}},
+note = {Accedido 01-10-2013}
+}
+#+END_SRC
+
+Y en [[http://www.citeulike.org/groupforum/1272][CiteULike]] sugieren indicar la fecha en el mismo atributo =howpublished=, con lo cual entiendo que el atributo =note= queda libre para otro tipo de notas:
+#+BEGIN_SRC 
+@misc{ASH:2013:Online,
+author = {Varios Autores},
+title = {Archivo Situacionista Hispano},
+year = {1999},
+howpublished = {Accedido en 01-10-2013 a \url{http://sindominio.net/ash}},
+}
+#+END_SRC
+
+Por su parte, la [[https://en.wikipedia.org/w/index.php?title%3DSpecial%253aCite&page%3DLaTeX&id%3D413720397][Wikipedia]] recomienda el tipo de entrada =@Misc= y el campo =url=:
+
+#+BEGIN_SRC
+@misc{ASH:2013:vvaa,
+   author = {VVAA},
+   title = {Archivo Situacionista Hispano},
+   year = {1996},
+   url = {\URL{http://www.sindominio.net/ash}},
+   note = "[Web; accedido el 06-11-2013]"
+ }
+#+END_SRC
+
+*** Usar el paquete /natbib/ y el atributo =url=
+
+/Natbib/ extiende la funcionalidad de /Bibtex/, ampliando las posibilidades del comando =cite=. Aunque tampoco hay un tipo de entrada específico para recursos /online/, se pueden emplear los tipos de documento =@MISC=, =@OTHER=, y =@BOOKLET= con el atributo =url=.
+En el siguiente ejemplo, donde pone =BOOKLET= podemos poner cualquiera de los otros tipos de documentos.
+
+#+BEGIN_SRC
+
+@BOOKLET{ASH:2013:Booklet,
+title = {Archivo Situacionista Hispano, {@BOOKLET}},
+author = {VVAA},
+year = {2013},
+url = {http://www.sindominio.net/ash}
+}
+#+END_SRC
+
+Nótese que incorporamos /Booklet/ como identificador para saber que se trata de una /url/
+
+En el archivo =tex= habría que añadir el paquete /natbib/ y el /url/
+
+#+BEGIN_SRC
+\documentclass{article}
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+\usepackage{url}
+\title{Citar sitios web con BibTeX y el paquete \texttt{natbib}}
+\date{}
+\begin{document}
+\maketitle
+\nocite{ASH:2013:Booklet,
+ASH:2013:Misc,
+ASH:2013:Other}
+\bibliography{test}
+\end{document}
+#+END_SRC
+
+*** Con el paquete =babelbib=
+El uso del paquete =babelbib=, que tal como cuentan en la [[http://www.tex.ac.uk/cgi-bin/texfaq2html?label%3DciteURL][lista de correo de LaTeX del Reino Unido]] es otra posibilidad para citar sitios web. Además, nos permite utilizar elementos de la bibliografía de /BibTeX/ en el idioma del documento, cuando es distinto del inglés con el comando =selectbiblanguage=. También lo explican en el blog [[http://utilidad-publica.blogspot.com.es/2012/02/bibtex-en-espanol.html][Servicio de Utilidad Pública]].
+
+#+BEGIN_SRC 
+\usepackage[fixlanguage]{babelbib}
+\selectbiblanguage{spanish}
+#+END_SRC
+
+Esto nos permite utilizar las palabras en castellano en la referencia bibliográfica, es decir, =y= en vez de =and=, =editores= en vez de =editors=, =páginas= en vez de =pages= o =en= en lugar de =in=.
+
+Para utilizarlo correctamente, debemos utilizar un /estilo de bibliografía/ que soporte =babelbib=, como son: =babplain=, =babplai3=, =babalpha=, =babunsrt=, =bababbrv= o =bababbr3=. En el caso del español, deberemos utilizar el estilo =spain=. La lista de estilos la podemos encontrar [[http://www.tex.ac.uk/cgi-bin/texfaq2html?label%3Di18nbib][aquí]].
+
+#+BEGIN_SRC 
+\bibliographystyle{babplain}
+\bibliography{sample}
+#+END_SRC
+
+También podemos utilizar en cada entrada bibliográfica el idioma que queramos usar. Para ello, declararemos el paquete =babelbib= sin opciones y luego declaramos el idioma en la entrada:
+
+#+BEGIN_SRC 
+\usepackage{babelbib}
+#+END_SRC
+
+#+BEGIN_SRC 
+@article{mueller08,
+  % ...
+  language = {german}
+}
+#+END_SRC
+
+*** /Biblatex/ con el tipo =ONLINE=
+
+Según [[http://nschloe.blogspot.de/2009/06/bibtex-how-to-cite-website_21.html][nschloe]], otra posibilidad es utilizar el tipo de documento =ONLINE= que existe en /Biblatex/, una alternativa a /BibTeX/.
+
+Para ello, tendremos que utilizar el paquete =biblatex=:
+
+#+BEGIN_SRC 
+\usepackage{biblatex}
+#+END_SRC
+
+Y en el archivo =bib=:
+
+#+BEGIN_SRC
+@ONLINE{ASH:2013:Online,
+author = {Varios Autores},
+title = {Archivo Situacionista Hispano, tipo {@ONLINE}},
+year = {1999},
+url = {http://sindominio.net/ash},
+urldate = {2013-10-01}
+}
+#+END_SRC
+
+/Biblatex/ contempla también otros tipos de contenidos como por ejemplo =@AUDIO= y =@VIDEO=.

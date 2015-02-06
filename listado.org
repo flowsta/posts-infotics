@@ -1,0 +1,46 @@
+#+CATEGORY: 
+#+TAGS: 
+#+DESCRIPTION: 
+#+TITLE: Listado de artículos de infotics con enlace corto
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+* Calendario de Periodismo de Datos
+- Fecha: 2014/03/27
+- URL: http://infotics.es/2014/03/27/calendario-de-periodismo-de-datos/
+- URL corta: http://s.coop/1v0jc
+
+* Taller Follow the Public Money
+ http://s.coop/1uyvw 
+ 
+* Decimonovena sesión, dataviz para no programadores
+http://s.coop/1v0is+
+
+* Encuesta Grupo Periodismo Datos Medialab-Prado
+http://s.coop/1v0nw+
+
+* Cronología gt medialab-prado
+http://s.coop/1v0tc
+
+* Storymap homenajes Brigadas Internacionales
+http://s.coop/1v0rq
+
+* Callejero fascista del barrio de las águilas
+http://s.coop/1v0xc
+
+* Storymap callejero fascista las águilas Madrid
+http://s.coop/1v0rr
+
+* Boletín de Periodismo Datos
+Noticia de infotics: http://s.coop/1v0xb
+
+
+* Hackaton Urban Global Datafest
+http://s.coop/1v1cc
+* #tallerdatos
+- Convocatoria colaboradores http://s.coop/1v128
+- Andy Lehren: http://s.coop/1v21b
+- Nicolas Kayser-Bril http://s.coop/1v21c
+- Proyectos de la Comunidad, http://s.coop/1v12s
+- Agenda segunda sesión diciembre: http://s.coop/1v37b 
+* Vigésima sesión gtpd
+http://s.coop/1v3ds

@@ -1,0 +1,136 @@
+#+TITLE: III Jornadas esDBpedia
+#+DESCRIPTION: 
+#+CATEGORY: 
+#+TAGS: 
+#+DATE: [2015-01-20 mar 12:00]
+#+AUTHOR:
+#+EMAIL:
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+* Fichas
+http://mappings.dbpedia.org/server/statistics/es/
+
+Cuando la gente de Wikipedia detecta que hay muchas cosas de algo, hacen una ficha, y hay un infobox/plantilla para crearla.
+
+Cómo se mapea de infobox a dbpedia, pero también de una clase de dbpedia cómo se mapea al infobox de wikipedia.
+
+Por ejemplo, la [[http://mappings.dbpedia.org/server/templatestatistics/es/?template=Ficha_de_futbolista][ficha de futbolista]] tiene 25323 ocurrencias y se han mapeado el 62,5% de las propiedades.
+
+Cada propiedad tiene también también puesto cuántas ocurrencias tiene.
+
+Por ejemplo la  
+
+Las estadísticas de uso salen de las propiedades encontradas en los infoboxes-instancia reales
+
+Se pueden poner comentarios, con los típicos de HTML:
+#+BEGIN_SRC 
+<!-- blah
+blah -->
+
+#+END_SRC
+
+* Propiedades y clases sin label en @es
+
+- Query:
+#+BEGIN_SRC 
+    
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+    PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+    SELECT DISTINCT ?c  WHERE  
+    {
+             {      SELECT ?c {         ?c a owl:ObjectProperty .      }    } UNION {      SELECT ?c {         ?c a owl:Class .      }    }    
+             ?c rdfs:label ?label .    
+             FILTER NOT EXISTS    
+            {       
+                ?c rdfs:label ?label .      
+                FILTER (LANGMATCHES(LANG(?label), "es"))    
+            } 
+    } order by asc(UCASE(str(?c))) LIMIT 10000
+
+
+#+END_SRC
+
+http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0D%0ASELECT+DISTINCT+%3Fc+%0D%0AWHERE+%0D%0A%7B+%0D%0A+++%7B%0D%0A+++++SELECT+%3Fc+%7B%0D%0A++++++++%3Fc+a+owl%3AObjectProperty+.%0D%0A+++++%7D%0D%0A+++%7D+UNION+%7B%0D%0A+++++SELECT+%3Fc+%7B%0D%0A++++++++%3Fc+a+owl%3AClass+.%0D%0A+++++%7D%0D%0A+++%7D%0D%0A+++%3Fc+rdfs%3Alabel+%3Flabel+.%0D%0A+++FILTER+NOT+EXISTS+%0D%0A+++%7B+%0D%0A+++++%3Fc+rdfs%3Alabel+%3Flabel+.%0D%0A+++++FILTER+%28LANGMATCHES%28LANG%28%3Flabel%29%2C+%22es%22%29%29+%0D%0A+++%7D%0D%0A%7D+order+by+asc%28UCASE%28str%28%3Fc%29%29%29+LIMIT+10000&format=text%2Fhtml&timeout=300000&debug=on
+
+* Modelos
+** Modelo de clases
+#+BEGIN_SRC 
+{{Class
+| labels              =
+{{label|en|...}}
+{{label|..|...}}
+| comments            =
+{{comment|en|...}}
+{{comment|..|...}}
+| rdfs:subClassOf     =
+| owl:equivalentClass =
+| owl:disjointWith    =
+| specificProperties  =
+}}
+#+END_SRC
+
+** Modelo de ObjectProperty
+#+BEGIN_SRC 
+{{ObjectProperty 
+| labels = 
+{{label|en|...}} 
+{{label|..|...}} 
+| comments = 
+{{comment|en|...}} 
+{{comment|..|...}} 
+| rdfs:domain = 
+| rdfs:range = 
+| rdf:type = 
+  [ owl:FunctionalProperty 
+  | owl:InverseFunctionalProperty 
+  | owl:TransitiveProperty
+  | owl:SymmetricProperty 
+  | owl:ReflexiveObjectProperty 
+  | owl:IrreflexiveObjectProperty ]
+| rdfs:subPropertyOf =  
+| owl:equivalentProperty = 
+| owl:propertyDisjointWith = 
+}} 
+
+#+END_SRC
+** Modelo de DatatypeProperty
+#+BEGIN_SRC 
+{{DatatypeProperty 
+| labels =
+{{label|en|...}}
+{{label|..|...}}
+| comments  =
+{{comment|en|...}}
+{{comment|..|...}}
+| rdfs:domain  =
+| rdfs:range   =
+| rdf:type     =
+| rdfs:subPropertyOf     =
+| owl:equivalentProperty =
+}}
+
+
+#+END_SRC
+* Tareas propuestas
+** Sencillas
+*** Labels de clases/propiedades DBpedia
+*** Mapeo Infobox -> DB class
+ sólo clases, no props
+
+** Avanzadas
+
+* Emacs
+http://www.emacswiki.org/emacs/SPARQLMode
+https://github.com/ljos/sparql-mode
+http://stackoverflow.com/questions/23086995/setting-correct-endpoints-for-dbpedia-in-emacs-sparql
+
+http://mappings.dbpedia.org/index.php/OntologyClass:Beach
+
+* nUESTRO TRABAJO
+Ficha de playa
+- http://mappings.dbpedia.org/index.php/Mapping_es:Ficha_de_playa
+- http://mappings.dbpedia.org/index.php/OntologyClass:Beach
+Estadísticas de mapeo http://mappings.dbpedia.org/server/statistics/es/?show=100000
+Estadísticas de mapeo de ficha de playa, http://mappings.dbpedia.org/server/templatestatistics/es/?template=Ficha_de_playa
+OntologyClass:Beach, http://mappings.dbpedia.org/index.php/OntologyClass:Beach
+

@@ -1,0 +1,16 @@
+#+DATE: [2014-04-28 lun 11:58]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: coop, economía, copyleft, cultura, publicidad, data, big data, Linked Data, Linked Open Data, Open Data, Open Data Gov, Open Gov, R, Wikileaks, debian, ecología, energía, solar, evento, org2blog, orgmode, emacs
+#+TAGS:
+#+DESCRIPTION:
+#+TITLE: Notas de #jpd14
+
+Durante la semana pasada -en mi mundo laico, las semanas acaban los domingos y empiezan los lunes- tuve oportunidad de disfrutar de las [[http://periodismodatos.okfn.es][II Jornadas de Periodismo de Datos y Open Data]] que se celebraron en Madrid, Barcelona y Almería.
+
+Como miembro de [[http://www.okfn.es][OKFN_es]], participo desde el año pasado como diseñador web -en el sentido amplio-, y este año además como coordinador de las actividades de Madrid, de la mano de una de las dos principales coordinadoras, Mar Cabra. La otra es Karma Peiró, quien desde Barcelona cuenta con un equipo formado por Carla Pedret, que ayuda en todo lo relacionado con comunicación, y Eduard Martín Borregón, como coordinador de las actividades de Barcelona. También está en el equipo Alberto Labarga, quien participa online en todo lo relacionado con la web.
+
+Además, hemos contado con un grupo de voluntarios, que en el caso de Madrid 
+El año pasado no pude disfrutar de las jornadas presencialmente. La diferencia ha sido abisal.
+
+Feliz LibRo day! http://www.dropbox.com/sh/e1644bh2bishl94/CjXPXaY9ST … http://rparatodos.wordpress.com/2011/11/22/libros-de-r-gratuitos/ … http://www.r-statistics.com/2009/10/free-statistics-e-books-for-download/ … http://www.statmethods.net/about/books.html … @R_Hisp pic.twitter.com/cKVQQfpPEm
+

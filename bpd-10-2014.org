@@ -1,0 +1,83 @@
+#+BLOG: infotics
+#+CATEGORY: calendario, evento, periodismodatos 
+#+TAGS: boletín, periodismodatos, tinyletter, 
+#+DESCRIPTION: Presentación del boletín de Periodismo de Datos para estar al tanto sobre todo de eventos relacionados de periodismo de datos, pero también de presentaciones, enlaces, webs, ponencias, libros o cualquier otra producción cultural relacionada
+#+TITLE: Boletín de Periodismo de Datos Octubre 2014
+#+DATE: [2014-10-15 mié 14:00]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+En la pasada primavera creé un calendario en Google Calendar titulado [[pouq3na86cqhjq7dsurteupqm0@group.calendar.google.com][PeriodismoDatos]] para apuntarme todos los eventos interesantes relacionados con el Periodismo de Datos, y lo publiqué en [[http://s.coop/1v0jc][Infotics]].
+
+Podéis incrustar el calendario copiando este código:
+#+BEGIN_SRC HTML
+<iframe src="https://www.google.com/calendar/embed?src=pouq3na86cqhjq7dsurteupqm0%40group.calendar.google.com&ctz=Europe/Madrid" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+#+END_SRC 
+
+En otoño ha llegado el momento de publicar un listado de los eventos del mes en curso o del mes que viene, periódicamente en Infotics.es también, y lanzar un boletín de noticias de Periodismo de Datos en [[https://tinyletter.com/adolflow][tinyletter.com]]
+
+Os podéis apuntar aquí mismo, en [[https://tinyletter.com/adolflow][tinyletter.com/adolflow]] o bien en el formulario colocado en el blog.
+#+BEGIN_HTML
+ <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/adolflow" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/adolflow', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a></p></form><br /><br /> 
+#+END_HTML
+
+
+A continuación os dejo el texto del segundo boletín correspondiente al mes de octubre:
+
+* Boletín de #PeriodismoDatos Octubre 2014
+#+CAPTION: Momento del taller de producción periodismo de datos de 2013 con Aron Pilhofer. Medialab-Prado 
+#+ATTR_HTML: alt="Momento del taller de producción periodismo de datos de 2013 con Aron Pilhofer. Medialab-Prado"
+https://farm6.staticflickr.com/5546/11403568355_1551a212d8_b.jpg
+** Ofertas de Trabajo
+*** Desarrollador Web en Civio
+http://www.civio.es/2014/10/buscamos-un-programador-web-junior-para-civio/
+**** Requerimientos
+
+- Python o Ruby.
+- Experiencia en frameworks web en Python o Ruby (Django o Ruby on Rails).
+- Motivación, iniciativa, organización.
+- Git
+- Metodologías ágiles y usar TDD/BDD
+- Conoces Open Data y Creative Commons.
+**** Requerimientos extras
+- Te comunicas bien en inglés.
+- Has contribuido a proyectos de código abierto.
+- Posees conocimientos de tecnologías front: JavaScript, HTML, CSS.
+- Tienes interés o experiencia en visualización de datos, sobre todo con D3.js.
+- También te interesan las bases de datos de grafos (Neo4J).
+- Sabes desplegar una aplicación web en Heroku o en un servidor propio.
+- Has creado una aplicación con datos abiertos.
+
+**** Ofrecen
+
+Trabajo a jornada completa y una remuneración negociable de acuerdo a la experiencia que tengas y tus habilidades. Estamos en Madrid, cerca de la estación de Atocha, y aquí encontrarás un buen ambiente de trabajo, un equipo muy joven y una cantidad estimulante de retos que debemos resolver juntos.
+
+Trabajarás directamente con David Cabo, que es director de Civio y también el responsable técnico de nuestros proyectos. David ha sido hasta ahora el único programador del equipo, así que alguien que hable en su ‘idioma’ será muy bienvenido.
+
+Jugarás un papel fundamental en el desarrollo de nuestras últimas iniciativas. Principalmente en [[http://quienmanda.es/][Quién Manda]], que queremos llevar a una segunda fase, y [[http://www.dondevanmisimpuestos.es/][Dónde van mis impuestos]]. También participarás en la creación de nuevos proyectos tecnológicos y periodísticos. Se trata de un reto ambicioso y serás clave para llevarlo a buen puerto.
+
+Si te ilusiona, escríbenos a contacto@civio.es con tu CV, ejemplos de lo que has hecho y una breve carta explicando por qué te gustaría trabajar con nosotros. Tus motivos son importantes y queremos conocerlos.
+
+*** Nieman Fellowship
+http://nieman.harvard.edu/fellowships/apply/
+
+
+* Proyectos
+
+** Gastos del Senado 2013, La Nación (Argentina)
+Terminado, en etapa de revisión.
+Con más de 3000 documentos sobre los gastos del Senado argentino de 2013, este segundo proyecto de VozData invita a clasificar las rendiciones de cuentas de senadores y de las distintas dependencias de la Cámara alta. 
+Proyecto de [[http://vozdata.lanacion.com.ar][VozData de La Nación]] (Argentina) y [[http://www.opennews.org][Open News]]
+http://vozdata.lanacion.com.ar/cd/gastos-del-senado-2013
+
+* Publicaciones
+** Where are the Women? Nieman Reports
+- Web: http://niemanreports.org/articles/sharing-their-stories/
+- PDF: http://nieman.niemanfoundation.netdna-cdn.com/wp-content/uploads/2014/09/NiemanReports-Summer2014.pdf
+
+* Enlaces
+
+** Debate sobre educación en Periodismo de Datos
+La lista de correo del grupo de trabajo de periodismo de datos de Madrid fue escenario de un debate sobre educación en periodismo de datos, a propósito de las últimas plazas disponibles para el [[http://www.escuelaunidadeditorial.es/master-periodismo-de-investigacion/masinvestigacion.html][Máster de Periodismo de Investigación, Datos y Visualización de El Mundo]]:
+http://listas.medialab-prado.es/pipermail/grupoperiodismodatos/2014-October/001350.html
+
+

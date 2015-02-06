@@ -1,0 +1,12 @@
+#+DATE: [2014-06-01 dom 12:44]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil
+#+CATEGORY: coop, economía, copyleft, cultura, publicidad, data, big data, Linked Data, Linked Open Data, Open Data, Open Data Gov, Open Gov, R, Wikileaks, debian, ecología, energía, solar, evento, org2blog, orgmode, emacs
+#+TAGS:
+#+DESCRIPTION: 
+#+TITLE: Sesión de Perl Mongers en Granada
+El 27 de junio el grupo de /Perl Mongers/ Granada celebra un taller de /Perl/ en Granada, con la ayuda de los /Perl Mongers/ de Madrid y Barcelona, con Diego Kuperman y Alex Muntada respectivamente. Habra charlas de hora y media que completarán un programa que todavía está por determinar en la /Escuela Técnica Superior de Ingenierías Informática y Telecomunicación/, en Granada.
+
+Se trata de un grupo activo que acaba de presentar el [[http://osl.ugr.es/2014/05/20/mirrors-de-la-osl/][mirror oficial de CPAN]] en la [[http://osl.ugr.es/][Oficina de Software Libre de la Universidad de Granada]] (/OSL-GR/). Ya son cuatro los /mirrors/ que tiene la /OSL-GR/: dos distribuciones /GNU/\/ /Linux/ ([[http://osl.ugr.es/debian/][Debian]] y [[http://osl.ugr.es/archlinux/][Archilinux]]), el repositorio de /TeX/ [[http://osl.ugr.es/CTAN/][CTAN]] y ahora [[http://osl.ugr.es/CPAN/][CPAN]].
+
+
+

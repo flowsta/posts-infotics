@@ -1,0 +1,46 @@
+#+DATE: [2013-10-21 lun 20:57]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: genero, web
+#+TAGS: género, tecnología, web semántica, ontologías, corinna bath, slavoj zizek, dana haraway, discurso, karen barad, lucy suchman, cyborg, antropología, cibernética, interacción, interacción humano-máquina, HMI, mediaciones
+#+DESCRIPTION: Razones políticas detrás de Emacs
+#+TITLE: Corinna Bath: Toda tecnología se conforma social y culturalmente
+#+LATEX_HEADER: \renewcommand{\rmdefault}{phv} % Freesans
+
+\bibliographystyle{plain}
+\bibliography{Master}
+\end{document}
+
+
+Entrevista realizada por [[http://www.semantic-web.at/users/tassilo-pellegrini][Tassilo Pellegrini]] a Corinna Bath el 28 de agosto de 2009, y publicada en [[http://www.semantic-web.at/news/corinna-bath-x22-every-technology-is-socially-and-culturally-shaped-x22][Semantic-Web.at]]
+
+
+
+** Eres experta en género y tecnología. ¿Tiene género la Web Semántica? ¿Qué temas surgen cuando se tratan en la Web Semántica aspectos específicos de género?
+   
+Los estudios de ciencia y tecnología indican que toda tecnología se conforma social y culturalmente, y dado que el género es una catagoría fundamental en la mayoría de las sociedades, podemos decir que la tecnología está mediada  necesariamente por el género, pero resultará más interesante, sin embargo, saber de qué modo algunas tecnologías "se enredan" con el género. En el caso de la Web Semántica, en mi opinión es el conocimiento representado el que puede reflejar y perpetuar estructuras de inequidad. Por lo tanto, nos tenemos que preguntar qué conocimientos describen, por ejemplo, las ontologías; de quién es ese conocimiento y cómo está clasificado, ordenado y vinculado.
+
+No me refiero solo a la producción de significado, como por ejemplo códigos o afirmaciones de género del tipo "las mujeres son..." y "los hombres hacen...", sino también determinadas relaciones estructuradas de datos como por ejemplo -en los países anglosajones, nota del traductor- la clasificación de los números de teléfono según el apellido del marido en una agenda telefónica, corren el riesgo de consolidar estereotipos de género y estructuras de desigualdad. Y también es importante tener en cuenta el tipo de conocimiento que no puede representarse o que no se representa.
+
+En la investigación con enfoque de género resulta a menudo más productivo analizar lo que falta. ¿Qué hay del conocimiento consagrado o tácito que representa procesos sociales o contradictorios? La cuestión es si desde un enfoque tradicional, basado fundamentalmente en una epistemología objetiva,  la Web Semántica representa el único y verdadero punto de vista de la cultura dominante, es decir, del conocimiento hegemónico del mundo, que es fundamentalmente occidental, de clase alta, masculino, blanco, etc.
+
+** ¿Qué expectativas tiene de una futura web como la web 3.0 desde una perspectiva de género?
+
+Desde la perspectiva de la teoría feminista deseo una web que ofrezca una mejor representación de "los/as no privilegiados/as", "diversa" y "controvertida". Esto significaría que el conocimiento, que hasta ahora ha estado más bien marginado, se codifique y puedan "encontrarlo" fácilmente usuarixs, (agentes de) software o buscadores. Además, debería incluirse más conocimiento producido por culturas no dominantes, en dos sentidos. Primero, que personas "no privilegiadas" de sociedades occidentales así como la población de los países "no privilegiados" del mundo puedan hablar. Y segundo, que puedan hablar por "si mismos" en lugar de ser presentados como "lxs otrxs", para que "nosotrxs" podamos mirarles a "ellxs" sin nuestra visión "hegemónica".
+
+Estas propuestas implican que los buscadores muestren no sólo lo que se busca más a menudo, que muestren también contenido nuevo que ahora se considera marginal, pero que sin embargo es pertinente/relevante desde una perspectiva política y global. Otra idea sería que si el contenido pudiera ser identificado como sexista, racista, etc., habría comentarios y enlaces a otras páginas de contrainformación o de contenido altenativo. Por lo general, un buen punto de partida para una futura Web podría ser complementar y cuestionar discursos hegemónicos. Debería permitir para una pluralidad de posicionamientos, particularmente en aquellos temas/tópicos que implícitamente asumen un patrón blanco, heterosexual, etc., que están basados en determinadas bases economicas. Por otra parte, deberían representarse debates y controversias sobre cuestiones o conceptos que desafían la visión dominante.
+
+La Web futura además, representaría el conocimiento como *situado* (/en negrita por el traductor/), lo que significa que el conocimiento representado se puede identificar como resultado de un proceso político de negociación entre posicionamientos opuestos ubicados en ciertas relaciones de poder, es decir, cuando algunos posicionamientos son privilegiados sobre otros. Debería evidenciar quién habla, con qué bagaje cultural, social y político, y con qué intenciones e intereses. Particularmente, en el caso de conocimiento especializado o científico, debería también revelarse qué dispositivos (técnicos, económicos, epistemológicos...) contribuyeron al proceso de producción de conocimiento.
+
+En la Web futura, simultaneamente, habría también intentos de socavar categorías supuestamente bien definidas, como la clasificación "hombres vs mujeres", "blancx vs de color", "sanx vs enfermx"... para no depender de ellas (por ejemplo, en consultas o formularios), deconstruyéndolas explicitamente o jugando con ellas y subvirtiéndolas.
+
+Muchas de estas propuestas requieren nuevas formas de participación, acceso y técnicas de representación que deben ser desarrolladas. Un diseño feminista de la Web futura es un cambio en los niveles de producción de conocimiento, de diseño tecnológico y de uso.
+
+** Creo que fue Slavoj Zizek el que acuñó la expresión "tecnología es discurso", ¿sería válida para la Web Semántica?
+
+Puedo estar de acuerdo con la idea que la Web Semántica es discurso. Sin embrago, prefiero trabajar con teóricas feministas de la tecnociencia como *Donna Haraway*, *Karen Barad* y *Lucy Suchman*, que hablan de materialismo discursivo o de acuerdos sociomateriales, con el fin de hacer hincapié en que la tecnología tiene implicaciones políticas, donde la producción de significado, la producción de tecnología material y la producción de estructuras sociales globales están produndamente relacionadas y, por tanto, hacen un llamamiento por la responsabilidad. Al final de su último libro  /Human-Machine Interaction/ (\cite{suchman2007human}) explica:
+
+  Las mediaciones -y sus consecuencias- no residen en nosotxs ni en nuestrxs artefactos sino en nuestras intra-acciones. La cuestión es, siguiendo a Barad, cómo configurar los ensamblajes de tal manera que podamos interactuar de forma responsable y generativa con y a través de ellos [...] La perspectiva que aquí se sugiere toma a las personas y a las cosas de forma contingentemente estabilizada a través de acuerdos particulares, más o menos duraderos, cuya reiteración y/o reconfiguración es el proyecto de diseño cultural y político en el que todxs estamxs implicadxs continuamente.
+ Desde este punto de vista, la responsabilidad no se alcanza ni con el control ni con la renuncia, sino con la puesta en marcha de actos comprometidos, prácticos, críticos y generativos
+
+** Quién es Corinna Bath
+Corinna Bath es investigadora en cuestiones de género y tecnología. desde 2012 es profesora de "Género, tecnología y movilidad" en la [[https://www.tu-braunschweig.de/gtm/mitarbeiter/bath][Universidad Técnica de Braunschweig]] y en la Universidad de Ciencias aplicadas de Ostfalia.

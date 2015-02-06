@@ -1,0 +1,14 @@
+#+DATE: [2014-05-30 vie 23:53]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: web
+#+TAGS: web, js, html, angularjs, google
+#+DESCRIPTION: ng-europe es la primera conferencia europea sobre AngularJS, el sotware desarrollado por Google. Tendrá lugar en París los días 22 y 23 de octubre de 2014.
+#+TITLE: ngEurope, primera conferencia europea sobre AngularJS
+
+París será el escenario para la [[http://ngeurope.org][primera conferencia europea sobre AngularJS]] con el título de [[https://twitter.com/ngEurope][ng-europe]], los próximos 22 y 23 de octubre. El equipo de /Angular/ de /Google/ y algunxs de lxs miembrxs más destacadxs de su prominente comunidad [[http://ngeurope.org/#speakers][participarán]] en sendas [[http://ngeurope.org/#schedule][sesiones]] sobre /AngularJS/. El precio de la entrada es de [[http://tickets.ngeurope.org/][499 €]].
+
+#+CAPTION: La Torre Eiffel, de París
+#+ATTR_HTML: alt="La Torre Eiffel, de París"
+http://ngeurope.org/images/paris/eiffel.jpg
+
+Como adelanto, el 21 de octubre [[http://egghead.io][egghead.io]] realiza un taller que solo te costará [[http://tickets.ngeurope.org/][360 €]] más.

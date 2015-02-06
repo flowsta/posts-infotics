@@ -1,0 +1,11 @@
+#+DATE: [2014-XX-XX mié XX:XX]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY:  
+#+TAGS: 
+#+DESCRIPTION: 
+#+TITLE: 
+#+LATEX_HEADER: \renewcommand{\rmdefault}{phv} % Freesans
+
+\bibliographystyle{plain}
+\bibliography{Master}
+\end{document}
